@@ -1,0 +1,780 @@
+1
+00:00:00,160 --> 00:00:02,240
+joining me now with the latest is NBC News
+
+2
+00:00:02,240 --> 00:00:03,440
+business and data correspondent
+
+3
+00:00:03,440 --> 00:00:05,260
+Brian Chung so Brian
+
+4
+00:00:05,320 --> 00:00:06,120
+the markets
+
+5
+00:00:06,120 --> 00:00:08,680
+don't seem to totally be sold on Trump's posts
+
+6
+00:00:08,680 --> 00:00:11,680
+becoming a reality take us inside the numbers
+
+7
+00:00:11,680 --> 00:00:13,000
+what happened out there
+
+8
+00:00:13,000 --> 00:00:16,300
+are they taking him seriously or literally or at all
+
+9
+00:00:16,560 --> 00:00:17,120
+yeah well look
+
+10
+00:00:17,120 --> 00:00:18,480
+when you talk about the closing numbers
+
+11
+00:00:18,480 --> 00:00:19,960
+you can see them on the board ahead of you
+
+12
+00:00:19,960 --> 00:00:21,720
+the Dow Jones down six tens of percent
+
+13
+00:00:21,720 --> 00:00:22,640
+the s and P 500
+
+14
+00:00:22,640 --> 00:00:25,160
+the more broad base index down seven tens of percent
+
+15
+00:00:25,160 --> 00:00:26,680
+and those tech heavy stocks were
+
+16
+00:00:26,680 --> 00:00:28,120
+that would certainly include a heavier
+
+17
+00:00:28,120 --> 00:00:29,440
+waiting on companies like apple
+
+18
+00:00:29,440 --> 00:00:31,280
+down a little bit more by 1%
+
+19
+00:00:31,280 --> 00:00:33,200
+but this isn't necessarily a
+
+20
+00:00:33,200 --> 00:00:34,800
+you know Black Monday type of day
+
+21
+00:00:34,800 --> 00:00:37,040
+it's just simply a day where stocks ended
+
+22
+00:00:37,040 --> 00:00:38,080
+marginally red so
+
+23
+00:00:38,080 --> 00:00:39,240
+I don't think that it's the markets
+
+24
+00:00:39,240 --> 00:00:40,560
+necessarily freaking out
+
+25
+00:00:40,560 --> 00:00:42,360
+over what's going on with these announcements
+
+26
+00:00:42,360 --> 00:00:44,080
+but I do think broadly speaking
+
+27
+00:00:44,080 --> 00:00:46,120
+there was this concern that uh
+
+28
+00:00:46,120 --> 00:00:46,600
+you know look
+
+29
+00:00:46,600 --> 00:00:50,360
+we had gotten over most of the crazy tear of headlines
+
+30
+00:00:50,360 --> 00:00:52,840
+about a month ago and after the 90 day pause
+
+31
+00:00:52,840 --> 00:00:54,280
+and especially the escalation
+
+32
+00:00:54,280 --> 00:00:55,560
+especially with China uh
+
+33
+00:00:55,560 --> 00:00:57,440
+there was maybe some thought within Wall Street
+
+34
+00:00:57,440 --> 00:00:59,080
+that maybe this is going to be a quieter summer
+
+35
+00:00:59,080 --> 00:00:59,480
+and then here
+
+36
+00:00:59,480 --> 00:01:01,600
+you have the Friday before Memorial Day weekend
+
+37
+00:01:01,600 --> 00:01:02,400
+the president
+
+38
+00:01:02,400 --> 00:01:04,320
+kicking back up some of these tariff headlines
+
+39
+00:01:04,320 --> 00:01:06,040
+I do think that has the volatility
+
+40
+00:01:06,040 --> 00:01:07,920
+perhaps coming back marginally
+
+41
+00:01:07,920 --> 00:01:09,200
+to Wall Street but again
+
+42
+00:01:09,200 --> 00:01:11,960
+the question here is what he's saying on true social
+
+43
+00:01:11,960 --> 00:01:14,520
+be to be taken literally or figuratively
+
+44
+00:01:14,520 --> 00:01:15,160
+that is kind of
+
+45
+00:01:15,160 --> 00:01:17,160
+the ongoing story with this administration
+
+46
+00:01:17,160 --> 00:01:18,000
+and that's something that Wall Streets
+
+47
+00:01:18,000 --> 00:01:19,000
+gonna have to grap with
+
+48
+00:01:19,000 --> 00:01:20,800
+as we continue to see these tariff threats
+
+49
+00:01:20,800 --> 00:01:21,680
+going forward right
+
+50
+00:01:21,680 --> 00:01:24,360
+and then another confusing call by the president uh
+
+51
+00:01:24,360 --> 00:01:27,280
+he's called on apple to make iPhones in the US
+
+52
+00:01:27,280 --> 00:01:28,460
+or face it tariff
+
+53
+00:01:28,760 --> 00:01:31,160
+is what he's calling for actually realistic
+
+54
+00:01:31,160 --> 00:01:33,140
+what exactly is he threatening here
+
+55
+00:01:33,160 --> 00:01:34,520
+well originally in the morning
+
+56
+00:01:34,520 --> 00:01:36,200
+when he posted on Truth Social
+
+57
+00:01:36,200 --> 00:01:37,960
+suggesting that he was not only looking at
+
+58
+00:01:37,960 --> 00:01:39,600
+specifically Terrafing Apple
+
+59
+00:01:39,600 --> 00:01:41,760
+but terrafing a specific product line
+
+60
+00:01:41,760 --> 00:01:42,700
+the iPhone
+
+61
+00:01:42,760 --> 00:01:44,800
+there were a lot of questions swirling around over
+
+62
+00:01:44,800 --> 00:01:46,280
+how could the president do that
+
+63
+00:01:46,280 --> 00:01:48,920
+yes they could use the emergency authorities
+
+64
+00:01:48,920 --> 00:01:50,640
+and claim under national security interest
+
+65
+00:01:50,640 --> 00:01:53,120
+that you need to tear off an entire industry
+
+66
+00:01:53,120 --> 00:01:54,480
+but to take one specific company
+
+67
+00:01:54,480 --> 00:01:57,280
+then one specific product remained legally ambiguous
+
+68
+00:01:57,280 --> 00:01:57,480
+although
+
+69
+00:01:57,480 --> 00:01:59,680
+we did hear from the president in the Oval Office
+
+70
+00:01:59,680 --> 00:02:02,800
+just a few minutes ago where he did clarify that he
+
+71
+00:02:02,800 --> 00:02:05,080
+quote he didn't want to be unfair to apple
+
+72
+00:02:05,080 --> 00:02:06,200
+even though apple in the iPhone
+
+73
+00:02:06,200 --> 00:02:07,160
+were very clearly
+
+74
+00:02:07,160 --> 00:02:09,480
+the specific target of his true social
+
+75
+00:02:09,480 --> 00:02:10,660
+but he said that he would
+
+76
+00:02:10,920 --> 00:02:12,880
+expand the scope of this particular tariff
+
+77
+00:02:12,880 --> 00:02:13,840
+to cover essentially
+
+78
+00:02:13,840 --> 00:02:16,280
+all smartphones that are coming into the United States
+
+79
+00:02:16,280 --> 00:02:18,240
+which would include and he name check the company
+
+80
+00:02:18,240 --> 00:02:20,400
+Samsung a Korean phone that makes a lot of
+
+81
+00:02:20,400 --> 00:02:22,440
+a Korean phone maker that makes a lot of popular
+
+82
+00:02:22,440 --> 00:02:24,040
+Android based products so
+
+83
+00:02:24,040 --> 00:02:24,880
+it does sound like
+
+84
+00:02:24,880 --> 00:02:26,960
+if he does wanna follow through on this 25% tariff
+
+85
+00:02:26,960 --> 00:02:28,400
+it wouldn't just cover the iPhone Ryan
+
+86
+00:02:28,400 --> 00:02:29,120
+it would cover
+
+87
+00:02:29,120 --> 00:02:30,800
+all the smartphones that come into this country
+
+88
+00:02:30,800 --> 00:02:32,780
+which they're very few of them made entirely
+
+89
+00:02:32,840 --> 00:02:33,920
+basically here in the United States
+
+90
+00:02:33,920 --> 00:02:34,600
+yeah of course the
+
+91
+00:02:34,600 --> 00:02:36,160
+the key there will he follow through
+
+92
+00:02:36,160 --> 00:02:37,760
+because he's threatened a lot of terrorists
+
+93
+00:02:37,760 --> 00:02:38,840
+and not necessarily
+
+94
+00:02:38,840 --> 00:02:41,040
+many of them actually manifest themselves
+
+95
+00:02:41,040 --> 00:02:42,320
+uh what else did we hear though
+
+96
+00:02:42,320 --> 00:02:44,480
+the president say about terrorists today
+
+97
+00:02:44,480 --> 00:02:45,480
+it seemed to say
+
+98
+00:02:45,480 --> 00:02:48,260
+indicate that these companies love to eat the tariffs
+
+99
+00:02:48,760 --> 00:02:49,520
+yeah well look
+
+100
+00:02:49,520 --> 00:02:52,660
+there was the conversation of whether or not the
+
+101
+00:02:52,840 --> 00:02:55,080
+you know president was actually
+
+102
+00:02:55,080 --> 00:02:56,160
+adamant on
+
+103
+00:02:56,160 --> 00:02:58,480
+whether or not these companies should take these costs
+
+104
+00:02:58,480 --> 00:03:00,720
+there was a conversation that was reported that he had
+
+105
+00:03:00,720 --> 00:03:03,800
+had with Walmart suggesting that they should take uh
+
+106
+00:03:03,800 --> 00:03:05,240
+the price increases themselves
+
+107
+00:03:05,240 --> 00:03:07,120
+as we know when it comes to the tariffs
+
+108
+00:03:07,120 --> 00:03:08,200
+any importing company
+
+109
+00:03:08,200 --> 00:03:09,960
+which in many cases are the American companies
+
+110
+00:03:09,960 --> 00:03:11,400
+they're the ones that would have to pay for it
+
+111
+00:03:11,400 --> 00:03:12,480
+take a listen to this exchange
+
+112
+00:03:12,480 --> 00:03:14,040
+with regards to his clarification
+
+113
+00:03:14,040 --> 00:03:16,140
+over where he thinks the tariffs should be paid for
+
+114
+00:03:17,880 --> 00:03:19,520
+sometimes the country will eat it
+
+115
+00:03:19,520 --> 00:03:21,840
+sometimes Walmart will eat it
+
+116
+00:03:21,840 --> 00:03:24,640
+and sometimes there'll be something to pay
+
+117
+00:03:24,640 --> 00:03:27,200
+something extra I don't like it when a department suit
+
+118
+00:03:27,200 --> 00:03:28,680
+cause they'll do a lot of business
+
+119
+00:03:28,680 --> 00:03:29,440
+but you know
+
+120
+00:03:29,440 --> 00:03:31,400
+they announced record profits and everything else
+
+121
+00:03:31,400 --> 00:03:32,960
+have to take out some of their profits
+
+122
+00:03:32,960 --> 00:03:34,580
+so make a little bit less money
+
+123
+00:03:34,720 --> 00:03:36,840
+but I don't want I don't want the consumer
+
+124
+00:03:36,840 --> 00:03:38,660
+I don't want the consumer to pay
+
+125
+00:03:39,680 --> 00:03:41,320
+I don't want the consumer to pay
+
+126
+00:03:41,320 --> 00:03:41,600
+but again
+
+127
+00:03:41,600 --> 00:03:43,880
+if we're kind of taking it to the timely story of today
+
+128
+00:03:43,880 --> 00:03:45,000
+which is about these smartphones
+
+129
+00:03:45,000 --> 00:03:46,760
+you have Dan Ives a webbush security
+
+130
+00:03:46,760 --> 00:03:50,320
+saying that an entirely US made iPhone would cost 30
+
+131
+00:03:50,320 --> 00:03:51,240
+five hundred dollars
+
+132
+00:03:51,240 --> 00:03:52,840
+that's a lot more expensive than the 12
+
+133
+00:03:52,840 --> 00:03:55,020
+hundred and thirteen hundred dollars it cost today
+
+134
+00:03:55,160 --> 00:03:56,960
+how would the consumer not be able to pay for that
+
+135
+00:03:56,960 --> 00:03:57,920
+it would have to be apple
+
+136
+00:03:57,920 --> 00:03:58,960
+that's a big question whether
+
+137
+00:03:58,960 --> 00:04:00,580
+whether or not apple wants to do that right
+
+138
+00:04:00,880 --> 00:04:01,840
+someone's gonna have to pay
+
+139
+00:04:01,840 --> 00:04:02,520
+right Brian
+
+140
+00:04:02,520 --> 00:04:03,360
+that's right I guess they
+
+141
+00:04:03,360 --> 00:04:05,040
+we won't know no free lunches
+
+142
+00:04:05,040 --> 00:04:07,440
+exactly until it actually is implemented
+
+143
+00:04:07,440 --> 00:04:09,240
+Brian Chung thank you as always
+
+144
+00:04:09,240 --> 00:04:11,080
+turning now to breaking news
+
+145
+00:04:11,080 --> 00:04:12,500
+the Trump administrations
+
+146
+00:04:12,560 --> 00:04:14,840
+ongoing battle with Harvard University
+
+147
+00:04:14,840 --> 00:04:17,560
+as the president continues to attempt to use the power
+
+148
+00:04:17,560 --> 00:04:20,620
+of the presidency to target his perceived critics
+
+149
+00:04:20,680 --> 00:04:22,480
+in a legal blow to the Trump administration
+
+150
+00:04:22,480 --> 00:04:23,920
+a federal judge in Boston
+
+151
+00:04:23,920 --> 00:04:25,480
+is blocking the White House
+
+152
+00:04:25,480 --> 00:04:27,360
+from revoking Harvard's ability to
+
+153
+00:04:27,360 --> 00:04:28,840
+enroll international students
+
+154
+00:04:28,840 --> 00:04:30,520
+at least for now yesterday
+
+155
+00:04:30,520 --> 00:04:33,440
+the White House terminated Harvard's Student Exchange
+
+156
+00:04:33,440 --> 00:04:35,380
+and Exchange Visitor Program
+
+157
+00:04:35,520 --> 00:04:37,720
+aiming to bar the Ivy League university
+
+158
+00:04:37,720 --> 00:04:39,360
+from admitting international students
+
+159
+00:04:39,360 --> 00:04:42,000
+and also forcing current international students
+
+160
+00:04:42,000 --> 00:04:45,980
+to transfer schools or lose their legal status
+
+161
+00:04:46,200 --> 00:04:47,000
+the judges ruling
+
+162
+00:04:47,000 --> 00:04:49,800
+came just hours after Harvard filed a lawsuit
+
+163
+00:04:49,800 --> 00:04:51,320
+accusing the administration of quote
+
+164
+00:04:51,320 --> 00:04:53,740
+unconstitutional retaliation
+
+165
+00:04:53,800 --> 00:04:55,800
+after the school refused to comply with demands
+
+166
+00:04:55,800 --> 00:04:57,680
+from the White House's Task Force
+
+167
+00:04:57,680 --> 00:04:59,540
+to Combat Anti Semitism
+
+168
+00:04:59,760 --> 00:05:01,000
+The Department of Homeland Security
+
+169
+00:05:01,000 --> 00:05:03,960
+is demanding that Harvard turn over disciplinary
+
+170
+00:05:03,960 --> 00:05:06,900
+criminal and protest records for all students
+
+171
+00:05:07,120 --> 00:05:08,900
+over the last five years
+
+172
+00:05:09,080 --> 00:05:11,360
+Harvard's legal complaint states quote
+
+173
+00:05:11,360 --> 00:05:13,560
+with the stroke of a pen the government is
+
+174
+00:05:13,560 --> 00:05:16,800
+sought to erase a quarter of Harvard student body
+
+175
+00:05:16,800 --> 00:05:18,340
+international students
+
+176
+00:05:18,440 --> 00:05:21,080
+who contribute significantly to the university
+
+177
+00:05:21,080 --> 00:05:22,140
+and its mission
+
+178
+00:05:22,320 --> 00:05:24,680
+Harvard is also suing the Trump administration
+
+179
+00:05:24,680 --> 00:05:27,560
+for halting more than $2 billion in federal research
+
+180
+00:05:27,560 --> 00:05:28,780
+funding last month
+
+181
+00:05:28,800 --> 00:05:30,960
+after the school refused to comply
+
+182
+00:05:30,960 --> 00:05:33,320
+with White House demands to change its hiring
+
+183
+00:05:33,320 --> 00:05:35,300
+and admissions processes
+
+184
+00:05:35,680 --> 00:05:37,920
+NBC News senior digital White House reporter
+
+185
+00:05:37,920 --> 00:05:39,800
+Shannon Pettypeace joins me now
+
+186
+00:05:39,800 --> 00:05:42,960
+also joining me from Harvard is NBC News correspondent
+
+187
+00:05:42,960 --> 00:05:44,320
+Antonia Hilton uh
+
+188
+00:05:44,320 --> 00:05:45,700
+Shannon let's start with you
+
+189
+00:05:45,760 --> 00:05:47,560
+is there any response from the White House right now
+
+190
+00:05:47,560 --> 00:05:49,580
+to this Boston judges ruling
+
+191
+00:05:50,040 --> 00:05:52,360
+well definitely no signs of the White House
+
+192
+00:05:52,360 --> 00:05:54,360
+of the president backing down on this
+
+193
+00:05:54,360 --> 00:05:56,720
+the president was asked a couple hours ago
+
+194
+00:05:56,720 --> 00:05:57,600
+in the Oval Office
+
+195
+00:05:57,600 --> 00:06:00,003
+by reporter about this action taking
+
