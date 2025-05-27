@@ -1,780 +1,767 @@
 1
 00:00:00,160 --> 00:00:02,240
-joining me now with the latest is NBC News
+现在请NBC新闻为您带来最新报道
 
 2
 00:00:02,240 --> 00:00:03,440
-business and data correspondent
+商业及数据记者
 
 3
 00:00:03,440 --> 00:00:05,260
-Brian Chung so Brian
+布莱恩·钟 所以 布莱恩
 
 4
 00:00:05,320 --> 00:00:06,120
-the markets
+市场方面
 
 5
 00:00:06,120 --> 00:00:08,680
-don't seem to totally be sold on Trump's posts
+似乎并未完全相信特朗普的帖子
 
 6
 00:00:08,680 --> 00:00:11,680
-becoming a reality take us inside the numbers
+能否成为现实 请为我们解读这些数据
 
 7
 00:00:11,680 --> 00:00:13,000
-what happened out there
+外面发生了什么
 
 8
 00:00:13,000 --> 00:00:16,300
-are they taking him seriously or literally or at all
+他们是认真对待他，还是只从字面理解，或者根本不屑一顾
 
 9
 00:00:16,560 --> 00:00:17,120
-yeah well look
+是的，你看
 
 10
 00:00:17,120 --> 00:00:18,480
-when you talk about the closing numbers
+当你谈论收盘数据时
 
 11
 00:00:18,480 --> 00:00:19,960
-you can see them on the board ahead of you
+你可以在前面的看板上看到它们
 
 12
 00:00:19,960 --> 00:00:21,720
-the Dow Jones down six tens of percent
+道琼斯指数下跌了0.6%
 
 13
 00:00:21,720 --> 00:00:22,640
-the s and P 500
+标准普尔500指数
 
 14
 00:00:22,640 --> 00:00:25,160
-the more broad base index down seven tens of percent
+更广泛的基础指数下跌了0.7%
 
 15
 00:00:25,160 --> 00:00:26,680
-and those tech heavy stocks were
+那些科技股的情况是
 
 16
 00:00:26,680 --> 00:00:28,120
-that would certainly include a heavier
+那当然会包括更重的
 
 17
 00:00:28,120 --> 00:00:29,440
-waiting on companies like apple
+像苹果公司这样的公司的权重
 
 18
 00:00:29,440 --> 00:00:31,280
-down a little bit more by 1%
+下跌了大约1%多一点
 
 19
 00:00:31,280 --> 00:00:33,200
-but this isn't necessarily a
+但这并不一定是
 
 20
 00:00:33,200 --> 00:00:34,800
-you know Black Monday type of day
+你知道的“黑色星期一”那种日子
 
 21
 00:00:34,800 --> 00:00:37,040
-it's just simply a day where stocks ended
+这仅仅是股市收盘时
 
 22
 00:00:37,040 --> 00:00:38,080
-marginally red so
+略微下跌的一天 所以
 
 23
 00:00:38,080 --> 00:00:39,240
-I don't think that it's the markets
+我不认为这是市场
 
 24
 00:00:39,240 --> 00:00:40,560
-necessarily freaking out
+对这些公告感到恐慌
 
 25
 00:00:40,560 --> 00:00:42,360
-over what's going on with these announcements
+过度反应这些公告的动态
 
 26
 00:00:42,360 --> 00:00:44,080
-but I do think broadly speaking
+但我确实认为，总的来说
 
 27
 00:00:44,080 --> 00:00:46,120
-there was this concern that uh
+存在这样一种担忧，呃
 
 28
 00:00:46,120 --> 00:00:46,600
-you know look
+你知道的
 
 29
 00:00:46,600 --> 00:00:50,360
-we had gotten over most of the crazy tear of headlines
+我们大约在一个月前已经度过了大多数疯狂的头条新闻浪潮
 
 30
 00:00:50,360 --> 00:00:52,840
-about a month ago and after the 90 day pause
+在90天暂停期之后
 
 31
 00:00:52,840 --> 00:00:54,280
-and especially the escalation
+特别是紧张局势的升级
 
 32
 00:00:54,280 --> 00:00:55,560
-especially with China uh
+尤其是与中国之间，呃
 
 33
 00:00:55,560 --> 00:00:57,440
-there was maybe some thought within Wall Street
+华尔街内部可能有些想法
 
 34
 00:00:57,440 --> 00:00:59,080
-that maybe this is going to be a quieter summer
+也许这个夏天会比较平静
 
 35
 00:00:59,080 --> 00:00:59,480
-and then here
+然而现在
 
 36
 00:00:59,480 --> 00:01:01,600
-you have the Friday before Memorial Day weekend
+在阵亡将士纪念日周末前的星期五
 
 37
 00:01:01,600 --> 00:01:02,400
-the president
+总统
 
 38
 00:01:02,400 --> 00:01:04,320
-kicking back up some of these tariff headlines
+又重新提起了一些关于关税的头条新闻
 
 39
 00:01:04,320 --> 00:01:06,040
-I do think that has the volatility
+我确实认为这导致了波动性
 
 40
 00:01:06,040 --> 00:01:07,920
-perhaps coming back marginally
+可能略微回到了华尔街
 
 41
 00:01:07,920 --> 00:01:09,200
-to Wall Street but again
+但问题依旧是
 
 42
 00:01:09,200 --> 00:01:11,960
-the question here is what he's saying on true social
+他真正在真实社交上说的话
 
 43
 00:01:11,960 --> 00:01:14,520
-be to be taken literally or figuratively
+是应该按字面意思理解还是象征性地理解
 
 44
 00:01:14,520 --> 00:01:15,160
-that is kind of
+这有点像是
 
 45
 00:01:15,160 --> 00:01:17,160
-the ongoing story with this administration
+本届政府一直在上演的剧情
 
 46
 00:01:17,160 --> 00:01:18,000
-and that's something that Wall Streets
+这也是华尔街
 
 47
 00:01:18,000 --> 00:01:19,000
-gonna have to grap with
+将不得不努力解决的问题
 
 48
 00:01:19,000 --> 00:01:20,800
-as we continue to see these tariff threats
+随着我们继续看到这些关税威胁
 
 49
 00:01:20,800 --> 00:01:21,680
-going forward right
+未来会如何发展，对吧
 
 50
 00:01:21,680 --> 00:01:24,360
-and then another confusing call by the president uh
+然后总统又发出了一个令人困惑的呼吁，呃
 
 51
 00:01:24,360 --> 00:01:27,280
-he's called on apple to make iPhones in the US
+他呼吁苹果公司在美国生产苹果手机
 
 52
 00:01:27,280 --> 00:01:28,460
-or face it tariff
+否则将面临关税
 
 53
 00:01:28,760 --> 00:01:31,160
-is what he's calling for actually realistic
+他所呼吁的真的现实吗
 
 54
 00:01:31,160 --> 00:01:33,140
-what exactly is he threatening here
+他到底在这里威胁什么
 
 55
 00:01:33,160 --> 00:01:34,520
-well originally in the morning
+最初在早上的时候
 
 56
 00:01:34,520 --> 00:01:36,200
-when he posted on Truth Social
+当他在真实社交上发帖时
 
 57
 00:01:36,200 --> 00:01:37,960
-suggesting that he was not only looking at
+暗示他不仅在考虑
 
 58
 00:01:37,960 --> 00:01:39,600
-specifically Terrafing Apple
+专门针对苹果公司征收关税
 
 59
 00:01:39,600 --> 00:01:41,760
-but terrafing a specific product line
+而且是针对特定的产品线征收关税
 
 60
 00:01:41,760 --> 00:01:42,700
-the iPhone
+苹果手机
 
 61
 00:01:42,760 --> 00:01:44,800
-there were a lot of questions swirling around over
+当时有很多疑问围绕着
 
 62
 00:01:44,800 --> 00:01:46,280
-how could the president do that
+总统怎么能那么做
 
 63
 00:01:46,280 --> 00:01:48,920
-yes they could use the emergency authorities
+是的，他们可以使用紧急授权
 
 64
 00:01:48,920 --> 00:01:50,640
-and claim under national security interest
+并以国家安全利益为由声称
 
 65
 00:01:50,640 --> 00:01:53,120
-that you need to tear off an entire industry
+你需要对整个行业征收关税
 
 66
 00:01:53,120 --> 00:01:54,480
-but to take one specific company
+但是针对一家特定的公司
 
 67
 00:01:54,480 --> 00:01:57,280
-then one specific product remained legally ambiguous
+然后针对一个特定的产品，在法律上仍然模棱两可
 
 68
 00:01:57,280 --> 00:01:57,480
-although
+虽然
 
 69
 00:01:57,480 --> 00:01:59,680
-we did hear from the president in the Oval Office
+我们确实在椭圆形办公室听到了总统的讲话
 
 70
 00:01:59,680 --> 00:02:02,800
-just a few minutes ago where he did clarify that he
+就在几分钟前，他确实澄清了他
 
 71
 00:02:02,800 --> 00:02:05,080
-quote he didn't want to be unfair to apple
+引用他的话说，他不想对苹果公司不公平
 
 72
 00:02:05,080 --> 00:02:06,200
-even though apple in the iPhone
+尽管苹果公司和苹果手机
 
 73
 00:02:06,200 --> 00:02:07,160
-were very clearly
+非常清楚地
 
 74
 00:02:07,160 --> 00:02:09,480
-the specific target of his true social
+是他真实社交帖子的特定目标
 
 75
 00:02:09,480 --> 00:02:10,660
-but he said that he would
+但他表示他会
 
 76
 00:02:10,920 --> 00:02:12,880
-expand the scope of this particular tariff
+扩大这项特定关税的范围
 
 77
 00:02:12,880 --> 00:02:13,840
-to cover essentially
+以基本上覆盖
 
 78
 00:02:13,840 --> 00:02:16,280
-all smartphones that are coming into the United States
+所有进入美国的智能手机
 
 79
 00:02:16,280 --> 00:02:18,240
-which would include and he name check the company
+这将包括，他还点名了这家公司
 
 80
 00:02:18,240 --> 00:02:20,400
-Samsung a Korean phone that makes a lot of
+三星，一家生产很多
 
 81
 00:02:20,400 --> 00:02:22,440
-a Korean phone maker that makes a lot of popular
+一家韩国手机制造商，生产许多受欢迎的
 
 82
 00:02:22,440 --> 00:02:24,040
-Android based products so
+基于安卓的产品 所以
 
 83
 00:02:24,040 --> 00:02:24,880
-it does sound like
+听起来确实像是
 
 84
 00:02:24,880 --> 00:02:26,960
-if he does wanna follow through on this 25% tariff
+如果他真的想实施这25%的关税
 
 85
 00:02:26,960 --> 00:02:28,400
-it wouldn't just cover the iPhone Ryan
+它不会只针对苹果手机，瑞安
 
 86
 00:02:28,400 --> 00:02:29,120
-it would cover
+它会覆盖
 
 87
 00:02:29,120 --> 00:02:30,800
-all the smartphones that come into this country
+所有进入这个国家的智能手机
 
 88
 00:02:30,800 --> 00:02:32,780
-which they're very few of them made entirely
+其中很少完全是
 
 89
 00:02:32,840 --> 00:02:33,920
-basically here in the United States
+基本在美国本土制造的
 
 90
 00:02:33,920 --> 00:02:34,600
-yeah of course the
+是的，当然
 
 91
 00:02:34,600 --> 00:02:36,160
-the key there will he follow through
+关键在于他是否会贯彻到底
 
 92
 00:02:36,160 --> 00:02:37,760
-because he's threatened a lot of terrorists
+因为他已经威胁要征收很多关税
 
 93
 00:02:37,760 --> 00:02:38,840
-and not necessarily
+但未必
 
 94
 00:02:38,840 --> 00:02:41,040
-many of them actually manifest themselves
+其中很多真正得以实施
 
 95
 00:02:41,040 --> 00:02:42,320
-uh what else did we hear though
+呃，我们还听到了什么
 
 96
 00:02:42,320 --> 00:02:44,480
-the president say about terrorists today
+总统今天关于恐怖分子的言论
 
 97
 00:02:44,480 --> 00:02:45,480
-it seemed to say
+他似乎在说
 
 98
 00:02:45,480 --> 00:02:48,260
-indicate that these companies love to eat the tariffs
+暗示这些公司乐于承担关税成本
 
 99
 00:02:48,760 --> 00:02:49,520
-yeah well look
+是的，你看
 
 100
-00:02:49,520 --> 00:02:52,660
-there was the conversation of whether or not the
+00:02:49,520 --> 00:03:00,720
+当时有关于总统是否
+你知道的，总统是否真的
+坚持认为
+这些公司应该承担这些成本的讨论
+据报道，他曾与沃尔玛进行过对话
 
 101
-00:02:52,840 --> 00:02:55,080
-you know president was actually
+00:03:00,720 --> 00:03:03,800
+曾与沃尔玛商谈，暗示他们应该承担，呃
 
 102
-00:02:55,080 --> 00:02:56,160
-adamant on
+00:03:03,800 --> 00:03:05,240
+价格上涨的部分由他们自己承担
 
 103
-00:02:56,160 --> 00:02:58,480
-whether or not these companies should take these costs
+00:03:05,240 --> 00:03:07,120
+正如我们所知，关于关税
 
 104
-00:02:58,480 --> 00:03:00,720
-there was a conversation that was reported that he had
+00:03:07,120 --> 00:03:08,200
+任何进口公司
 
 105
-00:03:00,720 --> 00:03:03,800
-had with Walmart suggesting that they should take uh
+00:03:08,200 --> 00:03:09,960
+在很多情况下是美国公司
 
 106
-00:03:03,800 --> 00:03:05,240
-the price increases themselves
+00:03:09,960 --> 00:03:11,400
+它们才是需要支付关税的一方
 
 107
-00:03:05,240 --> 00:03:07,120
-as we know when it comes to the tariffs
+00:03:11,400 --> 00:03:12,480
+听听这段关于
 
 108
-00:03:07,120 --> 00:03:08,200
-any importing company
+00:03:12,480 --> 00:03:14,040
+他澄清他认为关税应该由谁支付的
 
 109
-00:03:08,200 --> 00:03:09,960
-which in many cases are the American companies
+00:03:14,040 --> 00:03:16,140
+阐述他认为关税应由何方承担的说明
 
 110
-00:03:09,960 --> 00:03:11,400
-they're the ones that would have to pay for it
+00:03:17,880 --> 00:03:19,520
+有时国家会承担
 
 111
-00:03:11,400 --> 00:03:12,480
-take a listen to this exchange
+00:03:19,520 --> 00:03:21,840
+有时沃尔玛会承担
 
 112
-00:03:12,480 --> 00:03:14,040
-with regards to his clarification
+00:03:21,840 --> 00:03:24,640
+有时则需要支付一些费用
 
 113
-00:03:14,040 --> 00:03:16,140
-over where he thinks the tariffs should be paid for
+00:03:24,640 --> 00:03:27,200
+一些额外的费用 我不喜欢百货公司那样做
 
 114
-00:03:17,880 --> 00:03:19,520
-sometimes the country will eat it
+00:03:27,200 --> 00:03:28,680
+因为他们会做很多生意
 
 115
-00:03:19,520 --> 00:03:21,840
-sometimes Walmart will eat it
+00:03:28,680 --> 00:03:29,440
+但是你知道
 
 116
-00:03:21,840 --> 00:03:24,640
-and sometimes there'll be something to pay
+00:03:29,440 --> 00:03:31,400
+他们宣布了创纪录的利润和其他一切
 
 117
-00:03:24,640 --> 00:03:27,200
-something extra I don't like it when a department suit
+00:03:31,400 --> 00:03:32,960
+必须从他们的利润中拿出一部分
 
 118
-00:03:27,200 --> 00:03:28,680
-cause they'll do a lot of business
+00:03:32,960 --> 00:03:34,580
+所以少赚一点钱
 
 119
-00:03:28,680 --> 00:03:29,440
-but you know
+00:03:34,720 --> 00:03:36,840
+但我不想 我不希望消费者
 
 120
-00:03:29,440 --> 00:03:31,400
-they announced record profits and everything else
+00:03:36,840 --> 00:03:38,660
+我不希望消费者来买单
 
 121
-00:03:31,400 --> 00:03:32,960
-have to take out some of their profits
+00:03:39,680 --> 00:03:41,320
+我不希望消费者承担这个费用
 
 122
-00:03:32,960 --> 00:03:34,580
-so make a little bit less money
+00:03:41,320 --> 00:03:41,600
+但是再说一次
 
 123
-00:03:34,720 --> 00:03:36,840
-but I don't want I don't want the consumer
+00:03:41,600 --> 00:03:43,880
+如果我们把它和今天的热点新闻联系起来
 
 124
-00:03:36,840 --> 00:03:38,660
-I don't want the consumer to pay
+00:03:43,880 --> 00:03:45,000
+也就是关于这些智能手机的
 
 125
-00:03:39,680 --> 00:03:41,320
-I don't want the consumer to pay
+00:03:45,000 --> 00:03:46,760
+你让Wedbush证券的丹·艾夫斯
 
 126
-00:03:41,320 --> 00:03:41,600
-but again
+00:03:46,760 --> 00:03:50,320
+说一部完全在美国制造的苹果手机将花费30
 
 127
-00:03:41,600 --> 00:03:43,880
-if we're kind of taking it to the timely story of today
+00:03:50,320 --> 00:03:51,240
+五百美元
 
 128
-00:03:43,880 --> 00:03:45,000
-which is about these smartphones
+00:03:51,240 --> 00:03:52,840
+这比现在的1200美元
 
 129
-00:03:45,000 --> 00:03:46,760
-you have Dan Ives a webbush security
+00:03:52,840 --> 00:03:55,020
+和1300美元贵多了
 
 130
-00:03:46,760 --> 00:03:50,320
-saying that an entirely US made iPhone would cost 30
+00:03:55,160 --> 00:03:56,960
+消费者怎么可能不为此买单呢
 
 131
-00:03:50,320 --> 00:03:51,240
-five hundred dollars
+00:03:56,960 --> 00:03:57,920
+那将不得不由苹果公司承担
 
 132
-00:03:51,240 --> 00:03:52,840
-that's a lot more expensive than the 12
+00:03:57,920 --> 00:03:58,960
+这是一个大问题，是否
 
 133
-00:03:52,840 --> 00:03:55,020
-hundred and thirteen hundred dollars it cost today
+00:03:58,960 --> 00:04:00,580
+苹果公司是否愿意这样做，对吧
 
 134
-00:03:55,160 --> 00:03:56,960
-how would the consumer not be able to pay for that
+00:04:00,880 --> 00:04:01,840
+总得有人付钱
 
 135
-00:03:56,960 --> 00:03:57,920
-it would have to be apple
+00:04:01,840 --> 00:04:02,520
+对吧 布莱恩
 
 136
-00:03:57,920 --> 00:03:58,960
-that's a big question whether
+00:04:02,520 --> 00:04:03,360
+没错，我想他们
 
 137
-00:03:58,960 --> 00:04:00,580
-whether or not apple wants to do that right
+00:04:03,360 --> 00:04:05,040
+我们不会知道，天下没有免费的午餐
 
 138
-00:04:00,880 --> 00:04:01,840
-someone's gonna have to pay
+00:04:05,040 --> 00:04:07,440
+直到它真正实施为止
 
 139
-00:04:01,840 --> 00:04:02,520
-right Brian
+00:04:07,440 --> 00:04:09,240
+布莱恩·钟 一如既往地感谢你
 
 140
-00:04:02,520 --> 00:04:03,360
-that's right I guess they
+00:04:09,240 --> 00:04:11,080
+现在来看突发新闻
 
 141
-00:04:03,360 --> 00:04:05,040
-we won't know no free lunches
+00:04:11,080 --> 00:04:12,500
+特朗普政府
 
 142
-00:04:05,040 --> 00:04:07,440
-exactly until it actually is implemented
+00:04:12,560 --> 00:04:14,840
+与哈佛大学之间持续的争斗
 
 143
-00:04:07,440 --> 00:04:09,240
-Brian Chung thank you as always
+00:04:14,840 --> 00:04:17,560
+总统继续试图利用总统权力
 
 144
-00:04:09,240 --> 00:04:11,080
-turning now to breaking news
+00:04:17,560 --> 00:04:20,620
+针对他所认为的批评者
 
 145
-00:04:11,080 --> 00:04:12,500
-the Trump administrations
+00:04:20,680 --> 00:04:22,480
+这对特朗普政府来说是一次法律上的打击
 
 146
-00:04:12,560 --> 00:04:14,840
-ongoing battle with Harvard University
+00:04:22,480 --> 00:04:23,920
+波士顿的一名联邦法官
 
 147
-00:04:14,840 --> 00:04:17,560
-as the president continues to attempt to use the power
+00:04:23,920 --> 00:04:25,480
+正在阻止白宫
 
 148
-00:04:17,560 --> 00:04:20,620
-of the presidency to target his perceived critics
+00:04:25,480 --> 00:04:27,360
+撤销哈佛大学招收
 
 149
-00:04:20,680 --> 00:04:22,480
-in a legal blow to the Trump administration
+00:04:27,360 --> 00:04:28,840
+国际学生的能力
 
 150
-00:04:22,480 --> 00:04:23,920
-a federal judge in Boston
+00:04:28,840 --> 00:04:30,520
+至少目前是这样 昨天
 
 151
-00:04:23,920 --> 00:04:25,480
-is blocking the White House
+00:04:30,520 --> 00:04:33,440
+白宫终止了哈佛大学的学生交换项目
 
 152
-00:04:25,480 --> 00:04:27,360
-from revoking Harvard's ability to
+00:04:33,440 --> 00:04:35,380
+和交流访问学者项目
 
 153
-00:04:27,360 --> 00:04:28,840
-enroll international students
+00:04:35,520 --> 00:04:37,720
+旨在禁止这所常春藤盟校
 
 154
-00:04:28,840 --> 00:04:30,520
-at least for now yesterday
+00:04:37,720 --> 00:04:39,360
+招收国际学生
 
 155
-00:04:30,520 --> 00:04:33,440
-the White House terminated Harvard's Student Exchange
+00:04:39,360 --> 00:04:42,000
+并且还迫使当前的国际学生
 
 156
-00:04:33,440 --> 00:04:35,380
-and Exchange Visitor Program
+00:04:42,000 --> 00:04:45,980
+转学或失去其合法身份
 
 157
-00:04:35,520 --> 00:04:37,720
-aiming to bar the Ivy League university
+00:04:46,200 --> 00:04:47,000
+法官的裁决
 
 158
-00:04:37,720 --> 00:04:39,360
-from admitting international students
+00:04:47,000 --> 00:04:49,800
+在哈佛大学提起诉讼几小时后作出
 
 159
-00:04:39,360 --> 00:04:42,000
-and also forcing current international students
+00:04:49,800 --> 00:04:51,320
+指控政府部门进行所谓的
 
 160
-00:04:42,000 --> 00:04:45,980
-to transfer schools or lose their legal status
+00:04:51,320 --> 00:04:53,740
+“违宪报复”
 
 161
-00:04:46,200 --> 00:04:47,000
-the judges ruling
+00:04:53,800 --> 00:04:55,800
+在该校拒绝遵守白宫的要求后
 
 162
-00:04:47,000 --> 00:04:49,800
-came just hours after Harvard filed a lawsuit
+00:04:55,800 --> 00:04:57,680
+来自白宫特别工作组的
 
 163
-00:04:49,800 --> 00:04:51,320
-accusing the administration of quote
+00:04:57,680 --> 00:04:59,540
+打击反犹太主义的
 
 164
-00:04:51,320 --> 00:04:53,740
-unconstitutional retaliation
+00:04:59,760 --> 00:05:01,000
+国土安全部
 
 165
-00:04:53,800 --> 00:04:55,800
-after the school refused to comply with demands
+00:05:01,000 --> 00:05:03,960
+正要求哈佛大学交出纪律处分记录
 
 166
-00:04:55,800 --> 00:04:57,680
-from the White House's Task Force
+00:05:03,960 --> 00:05:06,900
+所有学生的犯罪和抗议记录
 
 167
-00:04:57,680 --> 00:04:59,540
-to Combat Anti Semitism
+00:05:07,120 --> 00:05:08,900
+过去五年内的
 
 168
-00:04:59,760 --> 00:05:01,000
-The Department of Homeland Security
+00:05:09,080 --> 00:05:11,360
+哈佛大学的法律诉状称：
 
 169
-00:05:01,000 --> 00:05:03,960
-is demanding that Harvard turn over disciplinary
+00:05:11,360 --> 00:05:13,560
+政府大笔一挥
 
 170
-00:05:03,960 --> 00:05:06,900
-criminal and protest records for all students
+00:05:13,560 --> 00:05:16,800
+试图抹去哈佛大学四分之一的学生群体
 
 171
-00:05:07,120 --> 00:05:08,900
-over the last five years
+00:05:16,800 --> 00:05:18,340
+国际学生
 
 172
-00:05:09,080 --> 00:05:11,360
-Harvard's legal complaint states quote
+00:05:18,440 --> 00:05:21,080
+他们为大学及其使命
 
 173
-00:05:11,360 --> 00:05:13,560
-with the stroke of a pen the government is
+00:05:21,080 --> 00:05:22,140
+做出了重大贡献
 
 174
-00:05:13,560 --> 00:05:16,800
-sought to erase a quarter of Harvard student body
+00:05:22,320 --> 00:05:24,680
+哈佛大学也正在起诉特朗普政府
 
 175
-00:05:16,800 --> 00:05:18,340
-international students
+00:05:24,680 --> 00:05:27,560
+因其上个月暂停了超过20亿美元的联邦研究
 
 176
-00:05:18,440 --> 00:05:21,080
-who contribute significantly to the university
+00:05:27,560 --> 00:05:28,780
+资金拨款
 
 177
-00:05:21,080 --> 00:05:22,140
-and its mission
+00:05:28,800 --> 00:05:30,960
+在该校拒绝遵守
 
 178
-00:05:22,320 --> 00:05:24,680
-Harvard is also suing the Trump administration
+00:05:30,960 --> 00:05:33,320
+白宫要求其改变招聘
 
 179
-00:05:24,680 --> 00:05:27,560
-for halting more than $2 billion in federal research
+00:05:33,320 --> 00:05:35,300
+和招生流程的要求之后
 
 180
-00:05:27,560 --> 00:05:28,780
-funding last month
+00:05:35,680 --> 00:05:37,920
+NBC新闻高级数字白宫记者
 
 181
-00:05:28,800 --> 00:05:30,960
-after the school refused to comply
+00:05:37,920 --> 00:05:39,800
+珊农·佩蒂皮斯 现在加入我的行列
 
 182
-00:05:30,960 --> 00:05:33,320
-with White House demands to change its hiring
+00:05:39,800 --> 00:05:42,960
+同样从哈佛大学加入我的是NBC新闻记者
 
 183
-00:05:33,320 --> 00:05:35,300
-and admissions processes
+00:05:42,960 --> 00:05:44,320
+安东尼娅·希尔顿 呃
 
 184
-00:05:35,680 --> 00:05:37,920
-NBC News senior digital White House reporter
+00:05:44,320 --> 00:05:45,700
+珊农 我们从你开始
 
 185
-00:05:37,920 --> 00:05:39,800
-Shannon Pettypeace joins me now
+00:05:45,760 --> 00:05:47,560
+白宫现在对此有任何回应吗
 
 186
-00:05:39,800 --> 00:05:42,960
-also joining me from Harvard is NBC News correspondent
+00:05:47,560 --> 00:05:49,580
+对这位波士顿法官的裁决
 
 187
-00:05:42,960 --> 00:05:44,320
-Antonia Hilton uh
+00:05:50,040 --> 00:05:52,360
+嗯，白宫方面绝对没有任何迹象表明
 
 188
-00:05:44,320 --> 00:05:45,700
-Shannon let's start with you
+00:05:52,360 --> 00:05:54,360
+总统会在此事上让步
 
 189
-00:05:45,760 --> 00:05:47,560
-is there any response from the White House right now
+00:05:54,360 --> 00:05:56,720
+几个小时前，总统被问及此事
 
 190
-00:05:47,560 --> 00:05:49,580
-to this Boston judges ruling
+00:05:56,720 --> 00:05:57,600
+在椭圆形办公室
 
 191
-00:05:50,040 --> 00:05:52,360
-well definitely no signs of the White House
-
-192
-00:05:52,360 --> 00:05:54,360
-of the president backing down on this
-
-193
-00:05:54,360 --> 00:05:56,720
-the president was asked a couple hours ago
-
-194
-00:05:56,720 --> 00:05:57,600
-in the Oval Office
-
-195
 00:05:57,600 --> 00:06:00,003
-by reporter about this action taking
-
+记者就此行动提问
