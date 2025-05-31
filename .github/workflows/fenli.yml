@@ -48,7 +48,7 @@ on:
         type: choice
         options:
           - none
-          - 'yes'
+          - yes
       separate_input_file:
         description: '需要被分离的双语SRT文件路径'
         required: false
@@ -64,7 +64,7 @@ jobs:
       # ...（前面分割、合并代码略，保持不变）...
 
       - name: 分离双语SRT为两个单语言SRT
-        if: ${{ inputs.separate_bilingual == "yes" }}
+        if: ${{ inputs.separate_bilingual == yes }}
         run: |
           set -e
           input_file="${{ github.event.inputs.separate_input_file }}"
@@ -148,7 +148,7 @@ jobs:
         run: ls -la
 
       - name: 上传分离后单语言SRT
-        if: ${{ inputs.separate_bilingual == 'yes' }}
+        if: ${{ inputs.separate_bilingual == yes }}
         uses: actions/upload-artifact@v4
         with:
           name: separated-single-lang-srt
