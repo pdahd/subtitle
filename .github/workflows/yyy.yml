@@ -63,6 +63,10 @@ jobs:
           echo "output_a=$output_a" >> $GITHUB_OUTPUT
           echo "output_b=$output_b" >> $GITHUB_OUTPUT
 
+      - name: 调试：列出工作目录中的文件列表
+        if: ${{ inputs.separate_bilingual }}
+        run: ls -al
+
       - name: 上传分离后的字幕文件
         if: ${{ inputs.separate_bilingual }}
         uses: actions/upload-artifact@v4
