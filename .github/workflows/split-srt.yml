@@ -1,1 +1,55 @@
-腹股沟很好
+name: Split HUAWEI.srt into Two Parts
+
+on:
+  workflow_dispatch:
+    inputs:
+      srt_file:
+        description: 'Path to the SRT file'
+        required: false
+        default: 'HUAWEI.srt'
+      split_block:
+        description: 'Subtitle block number to split at (no renumbering)'
+        required: false
+        default: '150'
+
+jobs:
+  split-srt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Split SRT file at block ${{ github.event.inputs.split_block || 150 }} (no renumbering)
+        run: |
+          import re
+
+          srt_file = "${{ github.event.inputs.srt_file || 'HUAWEI.srt' }}"
+          split_block = int("${{ github.event.inputs.split_block || 150 }}")
+          part1_file = srt_file.replace('.srt', '_part1.srt')
+          part2_file = srt_file.replace('.srt', '_part2.srt')
+
+          with open(srt_file, 'r', encoding='utf-8') as f:
+              content = f.read()
+
+          # Split on double newlines, then join blocks
+          blocks = re.split(r'\n{2,}', content.strip())
+          part1 = '\n\n'.join(blocks[:split_block])
+          part2 = '\n\n'.join(blocks[split_block:])
+
+          with open(part1_file, 'w', encoding='utf-8') as f:
+              f.write(part1.strip() + '\n')
+          with open(part2_file, 'w', encoding='utf-8') as f:
+              f.write(part2.strip() + '\n')
+
+      - name: Upload split SRT files as artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: split-srt-files
+          path: |
+            HUAWEI_part1.srt
+            HUAWEI_part2.srt
