@@ -1,0 +1,73 @@
+name: Separate Bilingual SRT
+
+on:
+  workflow_dispatch:
+    inputs:
+      separate_bilingual:
+        description: '是否将双语SRT分离为两个单语SRT'
+        required: true
+        default: 'no'
+        type: choice
+        options:
+          - no
+          - yes
+      separate_input_file:
+        description: '需要被分离的双语SRT文件路径'
+        required: false
+        default: ''
+
+jobs:
+  separate-bilingual-srt:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: 分离双语SRT为两个单语言SRT
+        if: ${{ inputs.separate_bilingual == 'yes' }}
+        run: |
+          set -e
+          input_file="${{ github.event.inputs.separate_input_file }}"
+          if [ -z "$input_file" ]; then
+            echo "请提供需要被分离的双语SRT文件路径"
+            exit 1
+          fi
+          output_a="${input_file%.srt}_A.srt"
+          output_b="${input_file%.srt}_B.srt"
+          awk -v a="$output_a" -v b="$output_b" '
+            function trim(s) { sub(/^[ \t\r\n]+/, "", s); sub(/[ \t\r\n]+$/, "", s); return s }
+            function flushblock() {
+              if (blocknum != "" && timestr != "") {
+                split(text, arr, "\n")
+                print blocknum > a
+                print timestr > a
+                print trim(arr[1]) > a
+                print "" > a
+
+                print blocknum > b
+                print timestr > b
+                if (length(arr) >= 2) {
+                  print trim(arr[2]) > b
+                } else {
+                  print trim(arr[1]) > b
+                }
+                print "" > b
+              }
+              blocknum = ""; timestr = ""; text = ""
+            }
+            /^[0-9]+$/ { flushblock(); blocknum = $0; next }
+            /^[0-9]+:[0-9]+:[0-9]+,[0-9]+ --> [0-9]+:[0-9]+:[0-9]+,[0-9]+/ { timestr = $0; next }
+            /^$/ { flushblock(); next }
+            { if (text != "") text = text "\n"; text = text $0 }
+            END { flushblock() }
+          ' "$input_file"
+          echo "分离完成，输出文件：$output_a 和 $output_b"
+
+      - name: 上传分离后单语言SRT
+        if: ${{ inputs.separate_bilingual == 'yes' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: separated-single-lang-srt
+          path: |
+            ${{ github.event.inputs.separate_input_file }}_A.srt
+            ${{ github.event.inputs.separate_input_file }}_B.srt
