@@ -19,34 +19,32 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Split SRT file at block ${{ github.event.inputs.split_block || 150 }}
+      - name: Split SRT file at block
+        id: split_srt
         run: |
-          #!/bin/bash
           set -e
           srt_file="${{ github.event.inputs.srt_file || 'HUAWEI.srt' }}"
           split_block="${{ github.event.inputs.split_block || 150 }}"
           part1_file="${srt_file%.srt}_part1.srt"
           part2_file="${srt_file%.srt}_part2.srt"
 
-          # 统计实际块数，避免越界
           total=$(awk '/^[0-9]+$/{n++} END{print n}' "$srt_file")
           if [ "$split_block" -gt "$total" ]; then
             echo "split_block 大于字幕总块数 $total，自动调整为 $total"
             split_block="$total"
           fi
 
-          # 查找分割行号（每块编号在新行出现）
           sep=$(awk -v k="$split_block" 'BEGIN{c=0} /^[0-9]+$/ {c++} c==k{print NR; exit}' "$srt_file")
 
-          # 分割
           awk -v sep="$sep" 'NR<sep{print > "'"$part1_file"'"} NR>=sep{print > "'"$part2_file"'"}' "$srt_file"
 
-          echo "分割完成：$part1_file 和 $part2_file"
+          echo "part1_file=$part1_file" >> $GITHUB_ENV
+          echo "part2_file=$part2_file" >> $GITHUB_ENV
 
       - name: Upload split SRT files as artifacts
         uses: actions/upload-artifact@v4
         with:
           name: split-srt-files
           path: |
-            ${{ github.event.inputs.srt_file || 'HUAWEI.srt' | replace('.srt', '_part1.srt') }}
-            ${{ github.event.inputs.srt_file || 'HUAWEI.srt' | replace('.srt', '_part2.srt') }}
+            ${{ env.part1_file }}
+            ${{ env.part2_file }}
