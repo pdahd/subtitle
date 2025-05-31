@@ -1,4 +1,4 @@
-name: SRT分割，分离，合并，拼接
+name: SRT分割，合并，分离
 
 on:
   workflow_dispatch:
