@@ -109,6 +109,14 @@ jobs:
             done
           fi
 
+      - name: 上传分割后产物
+        if: ${{ inputs.split_mode != 'none' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: srt-split-output
+          path: |
+            *_part*.srt
+
       - name: SRT 双语合并
         if: ${{ inputs.merge_mode != 'none' }}
         run: |
