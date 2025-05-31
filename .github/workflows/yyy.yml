@@ -61,7 +61,7 @@ jobs:
           echo "分离完成，输出文件：$output_a 和 $output_b"
 
       - name: 上传分离后单语言SRT
-        if: ${{ inputs.separate_bilingual == 'yes' }}
+        if: ${{ inputs.separate_bilingual }}
         uses: actions/upload-artifact@v4
         with:
           name: separated-single-lang-srt
