@@ -627,7 +627,3 @@ I don't want the consumer to pay
 00:03:41,320 --> 00:03:41,600  
 but again  
 但话说回来  
-
-127  
-00:03:41,600 --> 00:03:43,880  
-if we're kind of taking it to the
