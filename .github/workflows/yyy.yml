@@ -1,4 +1,4 @@
-name: 分离和上传双语字幕文件
+name: 分离和拼接字幕
 
 on:
   workflow_dispatch:
@@ -12,6 +12,18 @@ on:
         description: "输入的双语 SRT 文件路径（例如 deepseek.srt）"
         required: true
         default: "deepseek.srt"
+      concat_mode:
+        description: '是否进行字幕拼接，none为不拼接，join为拼接'
+        required: true
+        default: 'none'
+        type: choice
+        options:
+          - 'none'
+          - 'join'
+      concat_input_files:
+        description: '用于拼接的SRT文件路径，多个文件用英文逗号分隔'
+        required: false
+        default: ''
 
 jobs:
   split_upload:
@@ -100,4 +112,35 @@ jobs:
           path: |
             ${{ steps.split.outputs.fileA }}
             ${{ steps.split.outputs.fileB }}
+
+      - name: 字幕拼接
+        if: ${{ inputs.concat_mode == 'join' }}
+        run: |
+          set -e
+          concat_files="${{ github.event.inputs.concat_input_files }}"
+          if [ -z "$concat_files" ]; then
+            echo "请提供用于拼接的SRT文件路径，多个用英文逗号分隔"
+            exit 1
+          fi
+          output_concat="concatenated.srt"
+          rm -f "$output_concat"
+          IFS=',' read -ra files <<< "$concat_files"
+          for f in "${files[@]}"; do
+            f=$(echo "$f" | xargs)
+            if [ ! -f "$f" ]; then
+              echo "文件 $f 不存在"
+              exit 1
+            fi
+            # 此处使用 awk 将每个文件的字幕块（由空行分隔）重新格式化，确保每个块后有一个空行
+            awk 'BEGIN { RS=""; ORS="\n\n" } { print }' "$f" >> "$output_concat"
+          done
+          echo "拼接完成，输出文件：$output_concat"
+          ls -lh "$output_concat"
+
+      - name: 上传拼接结果字幕文件
+        if: ${{ inputs.concat_mode == 'join' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: concatenated-srt
+          path: concatenated.srt
             
