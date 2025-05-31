@@ -1,0 +1,633 @@
+1  
+00:00:00,160 --> 00:00:02,240  
+joining me now with the latest is NBC News  
+现在与我连线的是NBC新闻的  
+
+2  
+00:00:02,240 --> 00:00:03,440  
+business and data correspondent  
+商业与数据记者  
+
+3  
+00:00:03,440 --> 00:00:05,260  
+Brian Chung so Brian  
+布莱恩·钟。那么布莱恩，  
+
+4  
+00:00:05,320 --> 00:00:06,120  
+the markets  
+股市  
+
+5  
+00:00:06,120 --> 00:00:08,680  
+don't seem to totally be sold on Trump's posts  
+似乎并不完全认可特朗普的发文  
+
+6  
+00:00:08,680 --> 00:00:11,680  
+becoming a reality take us inside the numbers  
+会成真。带我们深入看看数据  
+
+7  
+00:00:11,680 --> 00:00:13,000  
+what happened out there  
+今天市场发生了什么？  
+
+8  
+00:00:13,000 --> 00:00:16,300  
+are they taking him seriously or literally or at all  
+他们是在认真对待、照字面理解，还是完全无视？  
+
+9  
+00:00:16,560 --> 00:00:17,120  
+yeah well look  
+嗯，是这样的  
+
+10  
+00:00:17,120 --> 00:00:18,480  
+when you talk about the closing numbers  
+谈到收盘数据  
+
+11  
+00:00:18,480 --> 00:00:19,960  
+you can see them on the board ahead of you  
+你可以在前面的屏幕上看到  
+
+12  
+00:00:19,960 --> 00:00:21,720  
+the Dow Jones down six tens of percent  
+道琼斯指数下跌0.6%  
+
+13  
+00:00:21,720 --> 00:00:22,640  
+the s and P 500  
+标普500  
+
+14  
+00:00:22,640 --> 00:00:25,160  
+the more broad base index down seven tens of percent  
+这个覆盖范围更广的指数下跌0.7%  
+
+15  
+00:00:25,160 --> 00:00:26,680  
+and those tech heavy stocks were  
+而科技权重股  
+
+16  
+00:00:26,680 --> 00:00:28,120  
+that would certainly include a heavier  
+其中当然包括权重更高的  
+
+17  
+00:00:28,120 --> 00:00:29,440  
+waiting on companies like apple  
+像苹果这样的公司  
+
+18  
+00:00:29,440 --> 00:00:31,280  
+down a little bit more by 1%  
+跌幅稍大，达到1%  
+
+19  
+00:00:31,280 --> 00:00:33,200  
+but this isn't necessarily a  
+但这算不上是  
+
+20  
+00:00:33,200 --> 00:00:34,800  
+you know Black Monday type of day  
+像"黑色星期一"那种暴跌  
+
+21  
+00:00:34,800 --> 00:00:37,040  
+it's just simply a day where stocks ended  
+只是股市最终  
+
+22  
+00:00:37,040 --> 00:00:38,080  
+marginally red so  
+小幅收跌的一天  
+
+23  
+00:00:38,080 --> 00:00:39,240  
+I don't think that it's the markets  
+我不认为这是市场  
+
+24  
+00:00:39,240 --> 00:00:40,560  
+necessarily freaking out  
+在恐慌性反应  
+
+25  
+00:00:40,560 --> 00:00:42,360  
+over what's going on with these announcements  
+对这些声明的反应  
+
+26  
+00:00:42,360 --> 00:00:44,080  
+but I do think broadly speaking  
+但我认为总体而言  
+
+27  
+00:00:44,080 --> 00:00:46,120  
+there was this concern that uh  
+存在一种担忧...  
+
+28  
+00:00:46,120 --> 00:00:46,600  
+you know look  
+你知道的  
+
+29  
+00:00:46,600 --> 00:00:50,360  
+we had gotten over most of the crazy tear of headlines  
+我们刚熬过密集的新闻轰炸期  
+
+30  
+00:00:50,360 --> 00:00:52,840  
+about a month ago and after the 90 day pause  
+大约一个月前，经过90天暂停期  
+
+31  
+00:00:52,840 --> 00:00:54,280  
+and especially the escalation  
+特别是随着局势升级  
+
+32  
+00:00:54,280 --> 00:00:55,560  
+especially with China uh  
+尤其是与中国的关系  
+
+33  
+00:00:55,560 --> 00:00:57,440  
+there was maybe some thought within Wall Street  
+华尔街可能有人认为  
+
+34  
+00:00:57,440 --> 00:00:59,080  
+that maybe this is going to be a quieter summer  
+今年夏天会比较平静  
+
+35  
+00:00:59,080 --> 00:00:59,480  
+and then here  
+结果现在  
+
+36  
+00:00:59,480 --> 00:01:01,600  
+you have the Friday before Memorial Day weekend  
+阵亡将士纪念日前的周五  
+
+37  
+00:01:01,600 --> 00:01:02,400  
+the president  
+总统  
+
+38  
+00:01:02,400 --> 00:01:04,320  
+kicking back up some of these tariff headlines  
+又重提关税议题  
+
+39  
+00:01:04,320 --> 00:01:06,040  
+I do think that has the volatility  
+我认为这确实会导致  
+
+40  
+00:01:06,040 --> 00:01:07,920  
+perhaps coming back marginally  
+波动性小幅回升  
+
+41  
+00:01:07,920 --> 00:01:09,200  
+to Wall Street but again  
+但问题还是在于  
+
+42  
+00:01:09,200 --> 00:01:11,960  
+the question here is what he's saying on true social  
+他在Truth Social上的发言  
+
+43  
+00:01:11,960 --> 00:01:14,520  
+be to be taken literally or figuratively  
+该按字面理解还是象征性解读  
+
+44  
+00:01:14,520 --> 00:01:15,160  
+that is kind of  
+这其实是  
+
+45  
+00:01:15,160 --> 00:01:17,160  
+the ongoing story with this administration  
+这届政府的一贯作风  
+
+46  
+00:01:17,160 --> 00:01:18,000  
+and that's something that Wall Streets  
+这也是华尔街  
+
+47  
+00:01:18,000 --> 00:01:19,000  
+gonna have to grap with  
+必须应对的  
+
+48  
+00:01:19,000 --> 00:01:20,800  
+as we continue to see these tariff threats  
+随着关税威胁持续  
+
+49  
+00:01:20,800 --> 00:01:21,680  
+going forward right  
+对吧  
+
+50  
+00:01:21,680 --> 00:01:24,360  
+and then another confusing call by the president uh  
+总统另一个令人困惑的呼吁  
+
+51  
+00:01:24,360 --> 00:01:27,280  
+he's called on apple to make iPhones in the US  
+他要求苹果在美国生产iPhone  
+
+52  
+00:01:27,280 --> 00:01:28,460  
+or face it tariff  
+否则将面临关税  
+
+53  
+00:01:28,760 --> 00:01:31,160  
+is what he's calling for actually realistic  
+这个要求现实吗？  
+
+54  
+00:01:31,160 --> 00:01:33,140  
+what exactly is he threatening here  
+他具体在威胁什么？  
+
+55  
+00:01:33,160 --> 00:01:34,520  
+well originally in the morning  
+今天早上他最初  
+
+56  
+00:01:34,520 --> 00:01:36,200  
+when he posted on Truth Social  
+在Truth Social发文时  
+
+57  
+00:01:36,200 --> 00:01:37,960  
+suggesting that he was not only looking at  
+暗示不仅要针对  
+
+58  
+00:01:37,960 --> 00:01:39,600  
+specifically Terrafing Apple  
+苹果公司加征关税  
+
+59  
+00:01:39,600 --> 00:01:41,760  
+but terrafing a specific product line  
+还要针对特定产品线  
+
+60  
+00:01:41,760 --> 00:01:42,700  
+the iPhone  
+iPhone  
+
+61  
+00:01:42,760 --> 00:01:44,800  
+there were a lot of questions swirling around over  
+引发了许多疑问  
+
+62  
+00:01:44,800 --> 00:01:46,280  
+how could the president do that  
+总统如何能做到？  
+
+63  
+00:01:46,280 --> 00:01:48,920  
+yes they could use the emergency authorities  
+是的，可以动用紧急权力  
+
+64  
+00:01:48,920 --> 00:01:50,640  
+and claim under national security interest  
+以国家安全为由  
+
+65  
+00:01:50,640 --> 00:01:53,120  
+that you need to tear off an entire industry  
+对整个行业加税  
+
+66  
+00:01:53,120 --> 00:01:54,480  
+but to take one specific company  
+但针对特定公司  
+
+67  
+00:01:54,480 --> 00:01:57,280  
+then one specific product remained legally ambiguous  
+再指定某个产品，法律上仍存疑  
+
+68  
+00:01:57,280 --> 00:01:57,480  
+although  
+不过  
+
+69  
+00:01:57,480 --> 00:01:59,680  
+we did hear from the president in the Oval Office  
+我们确实听到总统在椭圆形办公室  
+
+70  
+00:01:59,680 --> 00:02:02,800  
+just a few minutes ago where he did clarify that he  
+几分钟前澄清说，他  
+
+71  
+00:02:02,800 --> 00:02:05,080  
+quote he didn't want to be unfair to apple  
+"不想对苹果不公平"  
+
+72  
+00:02:05,080 --> 00:02:06,200  
+even though apple in the iPhone  
+尽管苹果和iPhone  
+
+73  
+00:02:06,200 --> 00:02:07,160  
+were very clearly  
+显然就是  
+
+74  
+00:02:07,160 --> 00:02:09,480  
+the specific target of his true social  
+他在Truth Social的明确目标  
+
+75  
+00:02:09,480 --> 00:02:10,660  
+but he said that he would  
+但他说会  
+
+76  
+00:02:10,920 --> 00:02:12,880  
+expand the scope of this particular tariff  
+扩大这项关税的范围  
+
+77  
+00:02:12,880 --> 00:02:13,840  
+to cover essentially  
+涵盖所有  
+
+78  
+00:02:13,840 --> 00:02:16,280  
+all smartphones that are coming into the United States  
+进入美国的智能手机  
+
+79  
+00:02:16,280 --> 00:02:18,240  
+which would include and he name check the company  
+包括他点名的公司  
+
+80  
+00:02:18,240 --> 00:02:20,400  
+Samsung a Korean phone that makes a lot of  
+三星，这家韩国手机制造商  
+
+81  
+00:02:20,400 --> 00:02:22,440  
+a Korean phone maker that makes a lot of popular  
+生产多款流行的  
+
+82  
+00:02:22,440 --> 00:02:24,040  
+Android based products so  
+安卓设备的公司  
+
+83  
+00:02:24,040 --> 00:02:24,880  
+it does sound like  
+看来如果  
+
+84  
+00:02:24,880 --> 00:02:26,960  
+if he does wanna follow through on this 25% tariff  
+真要实施这25%关税  
+
+85  
+00:02:26,960 --> 00:02:28,400  
+it wouldn't just cover the iPhone Ryan  
+就不只是iPhone了，瑞恩  
+
+86  
+00:02:28,400 --> 00:02:29,120  
+it would cover  
+会涵盖  
+
+87  
+00:02:29,120 --> 00:02:30,800  
+all the smartphones that come into this country  
+所有进入美国的智能手机  
+
+88  
+00:02:30,800 --> 00:02:32,780  
+which they're very few of them made entirely  
+而这些手机几乎都不是  
+
+89  
+00:02:32,840 --> 00:02:33,920  
+basically here in the United States  
+完全在美国生产的  
+
+90  
+00:02:33,920 --> 00:02:34,600  
+yeah of course the  
+当然，关键问题是  
+
+91  
+00:02:34,600 --> 00:02:36,160  
+the key there will he follow through  
+他是否会落实  
+
+92  
+00:02:36,160 --> 00:02:37,760  
+because he's threatened a lot of terrorists  
+因为他曾多次威胁加税  
+
+93  
+00:02:37,760 --> 00:02:38,840  
+and not necessarily  
+但实际落实的  
+
+94  
+00:02:38,840 --> 00:02:41,040  
+many of them actually manifest themselves  
+并不多  
+
+95  
+00:02:41,040 --> 00:02:42,320  
+uh what else did we hear though  
+我们还听到  
+
+96  
+00:02:42,320 --> 00:02:44,480  
+the president say about terrorists today  
+总统今天还说了什么？  
+
+97  
+00:02:44,480 --> 00:02:45,480  
+it seemed to say  
+他似乎表示  
+
+98  
+00:02:45,480 --> 00:02:48,260  
+indicate that these companies love to eat the tariffs  
+这些公司乐于承担关税  
+
+99  
+00:02:48,760 --> 00:02:49,520  
+yeah well look  
+是的  
+
+100  
+00:02:49,520 --> 00:02:52,660  
+there was the conversation of whether or not the  
+关于总统是否真的  
+
+101  
+00:02:52,840 --> 00:02:55,080  
+you know president was actually  
+坚持要求  
+
+102  
+00:02:55,080 --> 00:02:56,160  
+adamant on  
+这些公司承担成本  
+
+103  
+00:02:56,160 --> 00:02:58,480  
+whether or not these companies should take these costs  
+存在讨论  
+
+104  
+00:02:58,480 --> 00:03:00,720  
+there was a conversation that was reported that he had  
+据报道他曾与  
+
+105  
+00:03:00,720 --> 00:03:03,800  
+had with Walmart suggesting that they should take uh  
+沃尔玛沟通，建议他们自行  
+
+106  
+00:03:03,800 --> 00:03:05,240  
+the price increases themselves  
+消化涨价  
+
+107  
+00:03:05,240 --> 00:03:07,120  
+as we know when it comes to the tariffs  
+我们都知道，关税  
+
+108  
+00:03:07,120 --> 00:03:08,200  
+any importing company  
+任何进口公司  
+
+109  
+00:03:08,200 --> 00:03:09,960  
+which in many cases are the American companies  
+很多情况下是美国公司  
+
+110  
+00:03:09,960 --> 00:03:11,400  
+they're the ones that would have to pay for it  
+才是需要支付关税的  
+
+111  
+00:03:11,400 --> 00:03:12,480  
+take a listen to this exchange  
+听听这段对话  
+
+112  
+00:03:12,480 --> 00:03:14,040  
+with regards to his clarification  
+关于他的澄清  
+
+113  
+00:03:14,040 --> 00:03:16,140  
+over where he thinks the tariffs should be paid for  
+关于他认为关税该由谁承担  
+
+114  
+00:03:17,880 --> 00:03:19,520  
+sometimes the country will eat it  
+有时国家会承担  
+
+115  
+00:03:19,520 --> 00:03:21,840  
+sometimes Walmart will eat it  
+有时沃尔玛会承担  
+
+116  
+00:03:21,840 --> 00:03:24,640  
+and sometimes there'll be something to pay  
+有时需要额外支付  
+
+117  
+00:03:24,640 --> 00:03:27,200  
+something extra I don't like it when a department suit  
+我不喜欢百货公司这样做  
+
+118  
+00:03:27,200 --> 00:03:28,680  
+cause they'll do a lot of business  
+因为他们生意做得很大  
+
+119  
+00:03:28,680 --> 00:03:29,440  
+but you know  
+但你知道  
+
+120  
+00:03:29,440 --> 00:03:31,400  
+they announced record profits and everything else  
+他们公布了创纪录的利润  
+
+121  
+00:03:31,400 --> 00:03:32,960  
+have to take out some of their profits  
+应该从利润里拿点钱出来  
+
+122  
+00:03:32,960 --> 00:03:34,580  
+so make a little bit less money  
+少赚一点  
+
+123  
+00:03:34,720 --> 00:03:36,840  
+but I don't want I don't want the consumer  
+但我不希望消费者  
+
+124  
+00:03:36,840 --> 00:03:38,660  
+I don't want the consumer to pay  
+不希望消费者买单  
+
+125  
+00:03:39,680 --> 00:03:41,320  
+I don't want the consumer to pay  
+不希望消费者买单  
+
+126  
+00:03:41,320 --> 00:03:41,600  
+but again  
+但话说回来  
+
+127  
+00:03:41,600 --> 00:03:43,880  
+if we're kind of taking it to the
