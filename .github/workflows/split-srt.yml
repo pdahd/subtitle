@@ -19,39 +19,34 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Set up Python
-        uses: actions/setup-python@v5
-        with:
-          python-version: '3.x'
-
-      - name: Split SRT file at block ${{ github.event.inputs.split_block || 150 }} (no renumbering)
+      - name: Split SRT file at block ${{ github.event.inputs.split_block || 150 }}
         run: |
-          python - <<EOF
-          import re
+          #!/bin/bash
+          set -e
+          srt_file="${{ github.event.inputs.srt_file || 'HUAWEI.srt' }}"
+          split_block="${{ github.event.inputs.split_block || 150 }}"
+          part1_file="${srt_file%.srt}_part1.srt"
+          part2_file="${srt_file%.srt}_part2.srt"
 
-          srt_file = "${{ github.event.inputs.srt_file || 'HUAWEI.srt' }}"
-          split_block = int("${{ github.event.inputs.split_block || 150 }}")
-          part1_file = srt_file.replace('.srt', '_part1.srt')
-          part2_file = srt_file.replace('.srt', '_part2.srt')
+          # 统计实际块数，避免越界
+          total=$(awk '/^[0-9]+$/{n++} END{print n}' "$srt_file")
+          if [ "$split_block" -gt "$total" ]; then
+            echo "split_block 大于字幕总块数 $total，自动调整为 $total"
+            split_block="$total"
+          fi
 
-          with open(srt_file, 'r', encoding='utf-8') as f:
-              content = f.read()
+          # 查找分割行号（每块编号在新行出现）
+          sep=$(awk -v k="$split_block" 'BEGIN{c=0} /^[0-9]+$/ {c++} c==k{print NR; exit}' "$srt_file")
 
-          # Split on double newlines, then join blocks
-          blocks = re.split(r'\n{2,}', content.strip())
-          part1 = '\n\n'.join(blocks[:split_block])
-          part2 = '\n\n'.join(blocks[split_block:])
+          # 分割
+          awk -v sep="$sep" 'NR<sep{print > "'"$part1_file"'"} NR>=sep{print > "'"$part2_file"'"}' "$srt_file"
 
-          with open(part1_file, 'w', encoding='utf-8') as f:
-              f.write(part1.strip() + '\n')
-          with open(part2_file, 'w', encoding='utf-8') as f:
-              f.write(part2.strip() + '\n')
-EOF
+          echo "分割完成：$part1_file 和 $part2_file"
 
       - name: Upload split SRT files as artifacts
         uses: actions/upload-artifact@v4
         with:
           name: split-srt-files
           path: |
-            HUAWEI_part1.srt
-            HUAWEI_part2.srt
+            ${{ github.event.inputs.srt_file || 'HUAWEI.srt' | replace('.srt', '_part1.srt') }}
+            ${{ github.event.inputs.srt_file || 'HUAWEI.srt' | replace('.srt', '_part2.srt') }}
