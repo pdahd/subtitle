@@ -59,6 +59,9 @@ jobs:
             END { flushblock() }
           ' "$input_file"
           echo "分离完成，输出文件：$output_a 和 $output_b"
+          # 将输出文件的路径写入输出变量
+          echo "output_a=$output_a" >> $GITHUB_OUTPUT
+          echo "output_b=$output_b" >> $GITHUB_OUTPUT
 
       - name: 上传分离后的字幕文件
         if: ${{ inputs.separate_bilingual }}
@@ -66,7 +69,6 @@ jobs:
         with:
           name: separated-srt-files
           path: |
-            ${{ format('{0}_A.srt', substring(github.event.inputs.separate_input_file, 0, length(github.event.inputs.separate_input_file) - 4)) }}
-            ${{ format('{0}_B.srt', substring(github.event.inputs.separate_input_file, 0, length(github.event.inputs.separate_input_file) - 4)) }}
-
+            ${{ steps.split.outputs.output_a }}
+            ${{ steps.split.outputs.output_b }}
           
