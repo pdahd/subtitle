@@ -1,92 +1,103 @@
-name: 分离和上传双语字幕
+name: 分离和上传双语字幕文件
 
 on:
   workflow_dispatch:
     inputs:
-      run_split:
-        description: "是否执行双语字幕分离？"
+      runSplit:
+        description: "是否执行字幕分离任务 (true/false)"
         required: true
         default: "false"
         type: boolean
-      srt_path:
+      srtFile:
         description: "输入的双语 SRT 文件路径（例如 deepseek.srt）"
         required: true
         default: "deepseek.srt"
 
 jobs:
-  split_and_upload:
+  split_upload:
     runs-on: ubuntu-latest
-    if: ${{ github.event.inputs.run_split == 'true' }}
+    if: ${{ github.event.inputs.runSplit == 'true' }}
     steps:
-      - name: 检出仓库代码
+      - name: Checkout Repository
         uses: actions/checkout@v4
-
-      - name: 分离 SRT 字幕文件
+        
+      - name: 分离 SRT 文件
         id: split
         run: |
           set -e
-          # 从输入参数获取 SRT 文件路径，并检查文件是否存在
-          FILE_PATH="${{ github.event.inputs.srt_path }}"
+          FILE_PATH="${{ github.event.inputs.srtFile }}"
           if [ ! -f "$FILE_PATH" ]; then
-            echo "文件 $FILE_PATH 不存在，请确认文件路径正确。"
+            echo "错误：文件 $FILE_PATH 不存在！"
             exit 1
           fi
-          # 以 .srt 为后缀生成输出文件名前缀
+          # 生成输出文件名
           BASE_NAME="${FILE_PATH%.srt}"
-          OUT_A="${BASE_NAME}_A.srt"
-          OUT_B="${BASE_NAME}_B.srt"
+          FILE_A="${BASE_NAME}_A.srt"
+          FILE_B="${BASE_NAME}_B.srt"
           
           echo "处理文件：$FILE_PATH"
-          echo "生成文件：$OUT_A 和 $OUT_B"
+          echo "输出文件：$FILE_A 和 $FILE_B"
           
-          # 使用 AWK 脚本处理
-          awk -v fileA="$OUT_A" -v fileB="$OUT_B" '
-          function trim(s) { gsub(/^[ \t\r\n]+|[ \t\r\n]+$/, "", s); return s }
-          function flushBlock() {
-            if (block != "" && times != "") {
-              split(text, lines, "\n")
-              # 文件A写入第一行文本（通常为英文）
-              print block > fileA
-              print times > fileA
-              print trim(lines[1]) > fileA
-              print "" > fileA
-              # 文件B写入第二行文本（通常为中文），如果没有则复制第一行
-              print block > fileB
-              print times > fileB
-              if (length(lines) >= 2)
-                print trim(lines[2]) > fileB
-              else
-                print trim(lines[1]) > fileB
-              print "" > fileB
+          # 使用 AWK 逐行处理，按字幕块分离语言
+          awk -v fileA="$FILE_A" -v fileB="$FILE_B" '
+            function trim(str) { sub(/^[ \t\r\n]+/, "", str); sub(/[ \t\r\n]+$/, "", str); return str }
+            function flushBlock() {
+              if (block != "" && times != "") {
+                split(text, lines, "\n")
+                # 写入文件 A：字幕块编号、时间戳及第一行文本（通常为英文）
+                print block > fileA
+                print times > fileA
+                print trim(lines[1]) > fileA
+                print "" > fileA
+                # 写入文件 B：字幕块编号、时间戳及第二行文本（通常为中文），如没有则复制第一行
+                print block > fileB
+                print times > fileB
+                if (length(lines) >= 2)
+                  print trim(lines[2]) > fileB
+                else
+                  print trim(lines[1]) > fileB
+                print "" > fileB
+              }
+              block=""; times=""; text=""
             }
-            block=""; times=""; text=""
-          }
-          /^[0-9]+$/ { flushBlock(); block=$0; next }
-          /^[0-9]+:[0-9]+:[0-9]+,[0-9]+/ { times=$0; next }
-          /^$/ { flushBlock(); next }
-          { 
-            if (text != "") { text = text "\n" $0 } else { text = $0 }
-          }
-          END { flushBlock() }
+            # 若行只包含数字（可能带空白），则认为是块编号
+            /^[0-9]+[[:space:]]*$/ { flushBlock(); block = trim($0); next }
+            # 匹配时间戳行（例如 "00:00:00,160 --> 00:00:02,240"）
+            /^[0-9]+:[0-9]+:[0-9]+,[0-9]+/ { times = trim($0); next }
+            # 空行表示字幕块结束
+            /^$/ { flushBlock(); next }
+            # 其他行归入字幕文本
+            {
+              if (text != "")
+                text = text "\n" $0
+              else
+                text = $0
+            }
+            END { flushBlock() }
           ' "$FILE_PATH"
           
-          # 若生成文件不存在，则创建空文件（以确保 artifact 上传时不报找不到文件）
-          [ -f "$OUT_A" ] || (echo "$OUT_A 没有生成，创建空文件" && touch "$OUT_A")
-          [ -f "$OUT_B" ] || (echo "$OUT_B 没有生成，创建空文件" && touch "$OUT_B")
+          # 如生成的输出文件不存在，则创建空文件，确保后续 artifact 上传不会报错
+          if [ ! -f "$FILE_A" ]; then
+            echo "$FILE_A 未生成，创建空文件"
+            touch "$FILE_A"
+          fi
+          if [ ! -f "$FILE_B" ]; then
+            echo "$FILE_B 未生成，创建空文件"
+            touch "$FILE_B"
+          fi
           
-          echo "字幕分离完成。"
-          # 使用 GitHub Actions 新的输出变量写法
-          echo "output_a=${OUT_A}" >> $GITHUB_OUTPUT
-          echo "output_b=${OUT_B}" >> $GITHUB_OUTPUT
+          echo "字幕分离完成."
+          echo "fileA=${FILE_A}" >> $GITHUB_OUTPUT
+          echo "fileB=${FILE_B}" >> $GITHUB_OUTPUT
 
-      - name: 查看当前目录文件列表（调试用）
+      - name: 显示当前目录文件列表（调试）
         run: ls -la
-
+        
       - name: 上传分离后的字幕文件
         uses: actions/upload-artifact@v4
         with:
           name: separated-srt-files
           path: |
-            ${{ steps.split.outputs.output_a }}
-            ${{ steps.split.outputs.output_b }}
+            ${{ steps.split.outputs.fileA }}
+            ${{ steps.split.outputs.fileB }}
             
