@@ -1,4 +1,4 @@
-name: Split SRT into Multiple Parts
+name: Split SRT File (Support Block Number or Even Parts)
 
 on:
   workflow_dispatch:
@@ -7,8 +7,20 @@ on:
         description: 'Path to the SRT file'
         required: false
         default: 'HUAWEI.srt'
+      split_mode:
+        description: 'Split mode: by_block 或 by_parts'
+        required: true
+        default: 'by_block'
+        type: choice
+        options:
+          - by_block
+          - by_parts
+      split_block:
+        description: '分割点（按字幕块编号），仅 by_block 模式有效'
+        required: false
+        default: '150'
       parts:
-        description: 'How many parts to split into'
+        description: '分成几份，仅 by_parts 模式有效'
         required: false
         default: '2'
 
@@ -19,58 +31,80 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Split SRT file into parts
+      - name: Split SRT file
         run: |
           set -e
           srt_file="${{ github.event.inputs.srt_file || 'HUAWEI.srt' }}"
+          split_mode="${{ github.event.inputs.split_mode }}"
+          split_block="${{ github.event.inputs.split_block || 150 }}"
           parts="${{ github.event.inputs.parts || 2 }}"
 
-          # 统计总字幕块数
+          # 获取字幕块数
           total_blocks=$(awk '/^[0-9]+$/{n++} END{print n}' "$srt_file")
-          if [ "$parts" -lt 1 ]; then
-            echo "分割份数最少为1"
+          echo "字幕总块数: $total_blocks"
+
+          if [ "$split_mode" = "by_block" ]; then
+            # 分割点超限修正
+            if [ "$split_block" -gt "$total_blocks" ]; then
+              echo "分割块编号 $split_block 超过字幕总块数 $total_blocks，自动调整为 $total_blocks"
+              split_block="$total_blocks"
+            fi
+            # 找到第 split_block 块的起始行号
+            sep=$(awk -v k="$split_block" 'BEGIN{c=0} /^[0-9]+$/ {c++} c==k{print NR; exit}' "$srt_file")
+
+            part1_file="${srt_file%.srt}_part1.srt"
+            part2_file="${srt_file%.srt}_part2.srt"
+
+            awk -v sep="$sep" 'NR<sep{print > "'"$part1_file"'"} NR>=sep{print > "'"$part2_file"'"}' "$srt_file"
+
+            echo "分割完成：$part1_file （1~$split_block） $part2_file （$(($split_block+1))~$total_blocks）"
+          elif [ "$split_mode" = "by_parts" ]; then
+            if [ "$parts" -lt 1 ]; then
+              echo "分割份数最少为1"
+              exit 1
+            fi
+            if [ "$parts" -gt "$total_blocks" ]; then
+              echo "分割份数大于总字幕块数，自动调整为 $total_blocks 份"
+              parts=$total_blocks
+            fi
+
+            # 计算每份大致块数
+            blocks_per_part=$((total_blocks / parts))
+            remainder=$((total_blocks % parts))
+            declare -a start_blocks
+            declare -a end_blocks
+            current=1
+            for ((i=0;i<parts;i++)); do
+              start_blocks[i]=$current
+              extra=$(( i < remainder ? 1 : 0 ))
+              count=$((blocks_per_part + extra))
+              end_blocks[i]=$((current+count-1))
+              current=$((current+count))
+            done
+
+            # 获取每个分割点的行号
+            awk '/^[0-9]+$/{n++; idx[n]=NR} END{for(i=1;i<=n;i++) print idx[i]}' "$srt_file" > block_lines.txt
+            mapfile -t block_lines < block_lines.txt
+            total_lines=$(wc -l < "$srt_file")
+
+            for ((i=0;i<parts;i++)); do
+              part_file="${srt_file%.srt}_part$((i+1)).srt"
+              start_idx=$((start_blocks[i]-1))
+              end_idx=$((end_blocks[i]-1))
+              start_line=${block_lines[$start_idx]}
+              if [ "$i" -eq $((parts-1)) ]; then
+                # 最后一份，包含到文件结尾
+                tail -n +"$start_line" "$srt_file" > "$part_file"
+              else
+                end_line=$((block_lines[end_idx+1]-1))
+                sed -n "${start_line},${end_line}p" "$srt_file" > "$part_file"
+              fi
+              echo "生成：$part_file （块号：${start_blocks[i]} ~ ${end_blocks[i]}）"
+            done
+          else
+            echo "分割模式 split_mode 仅支持 by_block/by_parts，请检查输入！"
             exit 1
           fi
-          if [ "$parts" -gt "$total_blocks" ]; then
-            echo "分割份数大于总字幕块数，自动调整为$((total_blocks))份"
-            parts=$total_blocks
-          fi
-
-          # 计算每份大致块数
-          blocks_per_part=$((total_blocks / parts))
-          remainder=$((total_blocks % parts))
-
-          # 计算每份的起止块号
-          declare -a start_blocks
-          declare -a end_blocks
-          current=1
-          for ((i=0;i<parts;i++)); do
-            start_blocks[i]=$current
-            extra=$(( i < remainder ? 1 : 0 ))
-            count=$((blocks_per_part + extra))
-            end_blocks[i]=$((current+count-1))
-            current=$((current+count))
-          done
-
-          # 获取每个分割点的行号
-          awk '/^[0-9]+$/{n++; idx[n]=NR} END{for(i=1;i<=n;i++) print idx[i]}' "$srt_file" > block_lines.txt
-          mapfile -t block_lines < block_lines.txt
-          total_lines=$(wc -l < "$srt_file")
-
-          for ((i=0;i<parts;i++)); do
-            part_file="${srt_file%.srt}_part$((i+1)).srt"
-            start_idx=$((start_blocks[i]-1))
-            end_idx=$((end_blocks[i]-1))
-            start_line=${block_lines[$start_idx]}
-            if [ "$i" -eq $((parts-1)) ]; then
-              # 最后一份，包含到文件结尾
-              tail -n +"$start_line" "$srt_file" > "$part_file"
-            else
-              end_line=$((block_lines[end_idx+1]-1))
-              sed -n "${start_line},${end_line}p" "$srt_file" > "$part_file"
-            fi
-            echo "生成：$part_file （块号：${start_blocks[i]} ~ ${end_blocks[i]}）"
-          done
 
       - name: Upload split SRT files as artifacts
         uses: actions/upload-artifact@v4
