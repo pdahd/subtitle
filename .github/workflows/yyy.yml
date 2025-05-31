@@ -66,5 +66,5 @@ jobs:
         with:
           name: separated-single-lang-srt
           path: |
-            ${{ github.event.inputs.separate_input_file }}_A.srt
-            ${{ github.event.inputs.separate_input_file }}_B.srt
+            deepseek_A.srt
+            deepseek_B.srt
