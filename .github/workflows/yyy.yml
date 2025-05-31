@@ -6,11 +6,8 @@ on:
       separate_bilingual:
         description: '是否将双语SRT分离为两个单语SRT'
         required: true
-        default: 'no'
-        type: choice
-        options:
-          - no
-          - yes
+        default: false
+        type: boolean
       separate_input_file:
         description: '需要被分离的双语SRT文件路径'
         required: false
@@ -24,7 +21,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: 分离双语SRT为两个单语言SRT
-        if: ${{ inputs.separate_bilingual == 'yes' }}
+        if: ${{ inputs.separate_bilingual }}
         run: |
           set -e
           input_file="${{ github.event.inputs.separate_input_file }}"
