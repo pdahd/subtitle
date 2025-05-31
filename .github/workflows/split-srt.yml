@@ -20,7 +20,6 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Split SRT file into parts
-        id: split_srt
         run: |
           set -e
           srt_file="${{ github.event.inputs.srt_file || 'HUAWEI.srt' }}"
@@ -58,13 +57,10 @@ jobs:
           mapfile -t block_lines < block_lines.txt
           total_lines=$(wc -l < "$srt_file")
 
-          part_files=()
           for ((i=0;i<parts;i++)); do
             part_file="${srt_file%.srt}_part$((i+1)).srt"
-            part_files+=("$part_file")
             start_idx=$((start_blocks[i]-1))
             end_idx=$((end_blocks[i]-1))
-
             start_line=${block_lines[$start_idx]}
             if [ "$i" -eq $((parts-1)) ]; then
               # 最后一份，包含到文件结尾
@@ -73,15 +69,12 @@ jobs:
               end_line=$((block_lines[end_idx+1]-1))
               sed -n "${start_line},${end_line}p" "$srt_file" > "$part_file"
             fi
-
             echo "生成：$part_file （块号：${start_blocks[i]} ~ ${end_blocks[i]}）"
           done
-
-          # 导出所有 part 文件名用于 artifact
-          echo "PART_FILES=${part_files[*]}" >> $GITHUB_ENV
 
       - name: Upload split SRT files as artifacts
         uses: actions/upload-artifact@v4
         with:
           name: split-srt-files
-          path: ${{ env.PART_FILES }}
+          path: |
+            *_part*.srt
