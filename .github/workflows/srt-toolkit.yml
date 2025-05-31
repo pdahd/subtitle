@@ -41,6 +41,7 @@ on:
         description: '双语合并时用于在下方的SRT文件路径'
         required: false
         default: ''
+
 jobs:
   srt-toolkit:
     runs-on: ubuntu-latest
@@ -112,7 +113,6 @@ jobs:
         if: ${{ inputs.merge_mode != 'none' }}
         run: |
           set -e
-          # 用户选择的两个字幕文件
           top_file="${{ github.event.inputs.srt_file_a }}"
           bottom_file="${{ github.event.inputs.srt_file_b }}"
           merge_mode="${{ github.event.inputs.merge_mode }}"
@@ -121,21 +121,8 @@ jobs:
             echo "请提供用于合并的两个SRT文件"
             exit 1
           fi
-          # 合并脚本
           awk -v top="$top_file" -v bottom="$bottom_file" -v mode="$merge_mode" -v merged="$merged_file" '
             function trim(s) { sub(/^[ \t\r\n]+/, "", s); sub(/[ \t\r\n]+$/, "", s); return s }
-            function flushblock() {
-              if (topblocknum == "" || bottombblocknum == "") return
-              print topblocknum > merged
-              print toptimestr > merged
-              if (mode == "en_top" || mode == "zh_top") {
-                print trim(toptext) > merged
-                print trim(bottomtext) > merged
-              }
-              print "" > merged
-              topblocknum=""; toptimestr=""; toptext=""
-              bottombblocknum=""; bottomtimestr=""; bottomtext=""
-            }
             BEGIN {
               # 读取 top 文件
               while (getline line < top) {
@@ -208,10 +195,9 @@ jobs:
           '
           echo "合并完成，输出文件：$merged_file"
 
-      - name: 上传所有分割和合并产物
+      - name: 仅上传合并后双语文件
+        if: ${{ inputs.merge_mode != 'none' }}
         uses: actions/upload-artifact@v4
         with:
-          name: srt-output
-          path: |
-            *_part*.srt
-            merged_bilingual.srt
+          name: merged-bilingual-srt
+          path: merged_bilingual.srt
