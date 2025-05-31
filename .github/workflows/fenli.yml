@@ -53,14 +53,6 @@ on:
         description: '需要被分离的双语SRT文件路径'
         required: false
         default: ''
-      separate_order:
-        description: '原文件每块文本顺序: top_bottom（上为A下为B）或 bottom_top（上为B下为A）'
-        required: true
-        default: 'top_bottom'
-        type: choice
-        options:
-          - top_bottom
-          - bottom_top
 
 jobs:
   srt-toolkit:
@@ -235,52 +227,31 @@ jobs:
         run: |
           set -e
           input_file="${{ github.event.inputs.separate_input_file }}"
-          order="${{ github.event.inputs.separate_order }}"
           if [ -z "$input_file" ]; then
             echo "请提供需要被分离的双语SRT文件路径"
             exit 1
           fi
           output_a="${input_file%.srt}_A.srt"
           output_b="${input_file%.srt}_B.srt"
-          awk -v order="$order" -v a="$output_a" -v b="$output_b" '
+          awk -v a="$output_a" -v b="$output_b" '
             function trim(s) { sub(/^[ \t\r\n]+/, "", s); sub(/[ \t\r\n]+$/, "", s); return s }
             function flushblock() {
               if (blocknum != "" && timestr != "") {
                 split(text, arr, "\n")
-                if (length(arr) == 2) {
-                  if (order == "top_bottom") {
-                    print blocknum > a
-                    print timestr > a
-                    print trim(arr[1]) > a
-                    print "" > a
+                # 第一行→A，第二行→B，如只有一行则A和B都写同样内容
+                print blocknum > a
+                print timestr > a
+                print trim(arr[1]) > a
+                print "" > a
 
-                    print blocknum > b
-                    print timestr > b
-                    print trim(arr[2]) > b
-                    print "" > b
-                  } else {
-                    print blocknum > a
-                    print timestr > a
-                    print trim(arr[2]) > a
-                    print "" > a
-
-                    print blocknum > b
-                    print timestr > b
-                    print trim(arr[1]) > b
-                    print "" > b
-                  }
-                } else if (length(arr) == 1) {
-                  # 只有一行的特殊情况
-                  print blocknum > a
-                  print timestr > a
-                  print trim(arr[1]) > a
-                  print "" > a
-
-                  print blocknum > b
-                  print timestr > b
+                print blocknum > b
+                print timestr > b
+                if (length(arr) >= 2) {
+                  print trim(arr[2]) > b
+                } else {
                   print trim(arr[1]) > b
-                  print "" > b
                 }
+                print "" > b
               }
               blocknum = ""; timestr = ""; text = ""
             }
