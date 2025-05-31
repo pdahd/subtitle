@@ -47,8 +47,8 @@ on:
         default: 'no'
         type: choice
         options:
-          - no
-          - yes
+          - "no"
+          - "yes"
       separate_input_file:
         description: '需要被分离的双语SRT文件路径'
         required: false
