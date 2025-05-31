@@ -26,6 +26,7 @@ jobs:
 
       - name: Split SRT file at block ${{ github.event.inputs.split_block || 150 }} (no renumbering)
         run: |
+          python - <<EOF
           import re
 
           srt_file = "${{ github.event.inputs.srt_file || 'HUAWEI.srt' }}"
@@ -45,6 +46,7 @@ jobs:
               f.write(part1.strip() + '\n')
           with open(part2_file, 'w', encoding='utf-8') as f:
               f.write(part2.strip() + '\n')
+          EOF    
 
       - name: Upload split SRT files as artifacts
         uses: actions/upload-artifact@v4
