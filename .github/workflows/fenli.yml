@@ -64,7 +64,7 @@ jobs:
       # ...（前面分割、合并代码略，保持不变）...
 
       - name: 分离双语SRT为两个单语言SRT
-        if: ${{ inputs.separate_bilingual == 'yes' }}
+        if: ${{ inputs.separate_bilingual == "yes" }}
         run: |
           set -e
           input_file="${{ github.event.inputs.separate_input_file }}"
@@ -75,41 +75,75 @@ jobs:
           output_a="${input_file}_A.srt"
           output_b="${input_file}_B.srt"
           rm -f "$output_a" "$output_b"
-          awk -v a="$output_a" -v b="$output_b" '
-            function trim(s) {sub(/^[ \t\r\n]+/, "", s); sub(/[ \t\r\n]+$/, "", s); return s}
+          awk '
+            function trim(s) {
+              sub(/^[ \t\r\n]+/, "", s);
+              sub(/[ \t\r\n]+$/, "", s);
+              return s
+            }
             function flushblock() {
               if (blocknum && timestr) {
                 split(text, arr, "\n")
+                # Write to file A: block number, time, first line (if exists)
                 print blocknum > a
                 print timestr > a
-                if (length(arr) >= 1) print trim(arr[1]) > a
+                if (length(arr) >= 1) {
+                  print trim(arr[1]) > a
+                }
                 print "" > a
-
+                # Write to file B: block number, time, second line (if exists; else empty)
                 print blocknum > b
                 print timestr > b
-                if (length(arr) >= 2) print trim(arr[2]) > b
-                else if (length(arr) >= 1) print "" > b
+                if (length(arr) >= 2) {
+                  print trim(arr[2]) > b
+                } else if (length(arr) >= 1) {
+                  print "" > b
+                }
                 print "" > b
               }
-              blocknum = ""; timestr = ""; text = ""
+              blocknum=""; timestr=""; text=""
             }
-            /^[0-9]+$/ { flushblock(); blocknum=$0; next }
-            /^[0-9]+:[0-9]+:[0-9]+,[0-9]+ -->/ { timestr=$0; next }
-            /^$/ { flushblock(); next }
-            { if (text != "") text = text "\n"; text = text $0 }
+            BEGIN {
+              a = "'$output_a'";
+              b = "'$output_b'";
+            }
+            {
+              line = trim($0)
+              # If the line is a number then flush the previous block and start a new one.
+              if (line ~ /^[0-9]+$/) {
+                flushblock();
+                blocknum = line;
+                next
+              }
+              # Match the time string explicitly; e.g., "00:00:00,160 --> 00:00:02,240"
+              if (line ~ /^[0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3} --> [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3}$/) {
+                timestr = line;
+                next
+              }
+              # Blank lines trigger a flush
+              if (line == "") {
+                flushblock();
+                next
+              }
+              # Otherwise, accumulate into text (with newline if text already exists)
+              if (text != "")
+                text = text "\n" line;
+              else
+                text = line;
+            }
             END { flushblock() }
           ' "$input_file"
-
-          echo "=== 分离后文件清单 ==="
-          ls -lh "$output_a" "$output_b" || true
-
+  
           # 检查分离结果
           if [[ ! -s "$output_a" || ! -s "$output_b" ]]; then
             echo "分离失败：未生成新文件或文件为空"
+            ls -lh
             exit 1
           else
             echo "分离完成，输出文件：$output_a 和 $output_b"
+            ls -lh "$output_a" "$output_b"
           fi
+      
       - name: 显示当前目录文件列表（调试）
         run: ls -la
 
