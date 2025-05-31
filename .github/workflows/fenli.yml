@@ -42,7 +42,7 @@ on:
         required: false
         default: ''
       separate_bilingual:
-        description: '是否将双语SRT分离为两个单语SRT（yes/no）'
+        description: '是否将双语SRT分离为两个单语SRT'
         required: true
         default: 'no'
         type: choice
