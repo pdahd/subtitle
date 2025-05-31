@@ -72,22 +72,23 @@ jobs:
             echo "请提供需要被分离的双语SRT文件路径"
             exit 1
           fi
-          output_a="${input_file%.srt}_A.srt"
-          output_b="${input_file%.srt}_B.srt"
+          output_a="${input_file}_A.srt"
+          output_b="${input_file}_B.srt"
+          rm -f "$output_a" "$output_b"
           awk '
-            function trim(s) { sub(/^[ \t\r\n]+/, "", s); sub(/[ \t\r\n]+$/, "", s); return s }
+            function trim(s) {sub(/^[ \t\r\n]+/, "", s); sub(/[ \t\r\n]+$/, "", s); return s}
             function flushblock() {
-              if (blocknum != "" && timestr != "") {
+              if (blocknum != "" && timestr != "" && text != "") {
                 split(text, arr, "\n")
                 # 第一行进A，第二行进B
                 print blocknum > a_file
                 print timestr > a_file
-                if (length(arr) >= 1) print trim(arr[1]) > a_file
+                if (length(arr) >= 1 && trim(arr[1]) != "") print trim(arr[1]) > a_file
                 print "" > a_file
 
                 print blocknum > b_file
                 print timestr > b_file
-                if (length(arr) >= 2) print trim(arr[2]) > b_file
+                if (length(arr) >= 2 && trim(arr[2]) != "") print trim(arr[2]) > b_file
                 print "" > b_file
               }
               blocknum = ""; timestr = ""; text = ""
@@ -102,7 +103,16 @@ jobs:
             { if (text != "") text = text "\n"; text = text $0 }
             END { flushblock() }
           ' "$input_file"
-          echo "分离完成，输出文件：$output_a 和 $output_b"
+
+          # 检查分离结果
+          if [[ ! -s "$output_a" || ! -s "$output_b" ]]; then
+            echo "分离失败：未生成新文件或文件为空"
+            ls -lh
+            exit 1
+          else
+            echo "分离完成，输出文件：$output_a 和 $output_b"
+            ls -lh "$output_a" "$output_b"
+          fi
 
       - name: 显示当前目录文件列表（调试）
         run: ls -la
