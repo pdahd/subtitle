@@ -1,0 +1,327 @@
+name: SRT Toolkit (Split, Merge, Separate & Concatenate)
+
+on:
+  workflow_dispatch:
+    inputs:
+      srt_file:
+        description: '主操作的SRT文件路径'
+        required: false
+        default: 'HUAWEI.srt'
+      split_mode:
+        description: '分割模式：by_block/by_parts/none'
+        required: true
+        default: 'none'
+        type: choice
+        options:
+          - "none"
+          - "by_block"
+          - "by_parts"
+      split_block:
+        description: '分割点（块编号，仅by_block有效）'
+        required: false
+        default: '150'
+      parts:
+        description: '分成几份，仅by_parts有效'
+        required: false
+        default: '2'
+      merge_mode:
+        description: '是否进行双语合并，none为不合并，en_top为英文在上，zh_top为中文在上'
+        required: true
+        default: 'none'
+        type: choice
+        options:
+          - "none"
+          - "en_top"
+          - "zh_top"
+      srt_file_a:
+        description: '双语合并时用于在上方的SRT文件路径'
+        required: false
+        default: ''
+      srt_file_b:
+        description: '双语合并时用于在下方的SRT文件路径'
+        required: false
+        default: ''
+      separate_bilingual:
+        description: '是否将双语SRT分离为两个单语SRT（none/yes）'
+        required: true
+        default: "none"
+        type: choice
+        options:
+          - "none"
+          - "yes"
+      separate_input_file:
+        description: '需要被分离的双语SRT文件路径'
+        required: false
+        default: ''
+      concat_mode:
+        description: '是否进行字幕拼接，none为不拼接，join为拼接'
+        required: true
+        default: "none"
+        type: choice
+        options:
+          - "none"
+          - "join"
+      concat_input_files:
+        description: '用于拼接的SRT文件路径，多个文件用英文逗号分隔'
+        required: false
+        default: ''
+
+jobs:
+  srt-toolkit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: SRT 分割
+        if: ${{ inputs.split_mode != 'none' }}
+        run: |
+          set -e
+          srt_file="${{ github.event.inputs.srt_file || 'HUAWEI.srt' }}"
+          split_mode="${{ github.event.inputs.split_mode }}"
+          split_block="${{ github.event.inputs.split_block || 150 }}"
+          parts="${{ github.event.inputs.parts || 2 }}"
+
+          total_blocks=$(awk '/^[0-9]+$/{n++} END{print n}' "$srt_file")
+          echo "字幕总块数: $total_blocks"
+
+          if [ "$split_mode" = "by_block" ]; then
+            if [ "$split_block" -gt "$total_blocks" ]; then
+              echo "分割块编号 $split_block 超过字幕总块数 $total_blocks，自动调整为 $total_blocks"
+              split_block="$total_blocks"
+            fi
+            sep=$(awk -v k="$split_block" 'BEGIN{c=0} /^[0-9]+$/ {c++} c==k{print NR; exit}' "$srt_file")
+            part1_file="${srt_file%.srt}_part1.srt"
+            part2_file="${srt_file%.srt}_part2.srt"
+            awk -v sep="$sep" 'NR<sep{print > "'"$part1_file"'"} NR>=sep{print > "'"$part2_file"'"}' "$srt_file"
+            echo "分割完成：$part1_file （1~$split_block） $part2_file （$(($split_block+1))~$total_blocks）"
+          elif [ "$split_mode" = "by_parts" ]; then
+            if [ "$parts" -lt 1 ]; then
+              echo "分割份数最少为1"
+              exit 1
+            fi
+            if [ "$parts" -gt "$total_blocks" ]; then
+              echo "分割份数大于总字幕块数，自动调整为 $total_blocks 份"
+              parts=$total_blocks
+            fi
+            blocks_per_part=$((total_blocks / parts))
+            remainder=$((total_blocks % parts))
+            declare -a start_blocks
+            declare -a end_blocks
+            current=1
+            for ((i=0;i<parts;i++)); do
+              start_blocks[i]=$current
+              extra=$(( i < remainder ? 1 : 0 ))
+              count=$((blocks_per_part + extra))
+              end_blocks[i]=$((current+count-1))
+              current=$((current+count))
+            done
+            awk '/^[0-9]+$/{n++; idx[n]=NR} END{for(i=1;i<=n;i++) print idx[i]}' "$srt_file" > block_lines.txt
+            mapfile -t block_lines < block_lines.txt
+            for ((i=0;i<parts;i++)); do
+              part_file="${srt_file%.srt}_part$((i+1)).srt"
+              start_idx=$((start_blocks[i]-1))
+              end_idx=$((end_blocks[i]-1))
+              start_line=${block_lines[$start_idx]}
+              if [ "$i" -eq $((parts-1)) ]; then
+                tail -n +"$start_line" "$srt_file" > "$part_file"
+              else
+                end_line=$((block_lines[end_idx+1]-1))
+                sed -n "${start_line},${end_line}p" "$srt_file" > "$part_file"
+              fi
+              echo "生成：$part_file （块号：${start_blocks[i]} ~ ${end_blocks[i]}）"
+            done
+          fi
+
+      - name: 上传分割后产物
+        if: ${{ inputs.split_mode != 'none' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: srt-split-output
+          path: |
+            *_part*.srt
+
+      - name: SRT 双语合并
+        if: ${{ inputs.merge_mode != 'none' }}
+        run: |
+          set -e
+          top_file="${{ github.event.inputs.srt_file_a }}"
+          bottom_file="${{ github.event.inputs.srt_file_b }}"
+          merge_mode="${{ github.event.inputs.merge_mode }}"
+          merged_file="merged_bilingual.srt"
+          if [ -z "$top_file" ] || [ -z "$bottom_file" ]; then
+            echo "请提供用于合并的两个SRT文件"
+            exit 1
+          fi
+          awk -v top="$top_file" -v bottom="$bottom_file" -v mode="$merge_mode" -v merged="$merged_file" '
+            function trim(s) { sub(/^[ \t\r\n]+/, "", s); sub(/[ \t\r\n]+$/, "", s); return s }
+            BEGIN {
+              # 读取 top 文件
+              while (getline line < top) {
+                if (line ~ /^[0-9]+$/ && topblocknum == "") {
+                  topblocknum = line
+                } else if (line ~ /^[0-9]+:[0-9]+:[0-9]+,[0-9]+ --> [0-9]+:[0-9]+:[0-9]+,[0-9]+/) {
+                  toptimestr = line
+                  toptext = ""
+                } else if (trim(line) == "") {
+                  topblocks[++topidx,"num"] = topblocknum
+                  topblocks[topidx,"time"] = toptimestr
+                  topblocks[topidx,"text"] = toptext
+                  topblocknum = ""; toptimestr = ""; toptext = ""
+                } else {
+                  if (toptext != "") toptext = toptext "\n"
+                  toptext = toptext line
+                }
+              }
+              if (topblocknum != "") {
+                topblocks[++topidx,"num"] = topblocknum
+                topblocks[topidx,"time"] = toptimestr
+                topblocks[topidx,"text"] = toptext
+              }
+              close(top)
+              # 读取 bottom 文件
+              while (getline line < bottom) {
+                if (line ~ /^[0-9]+$/ && bottombblocknum == "") {
+                  bottombblocknum = line
+                } else if (line ~ /^[0-9]+:[0-9]+:[0-9]+,[0-9]+ --> [0-9]+:[0-9]+:[0-9]+,[0-9]+/) {
+                  bottomtimestr = line
+                  bottomtext = ""
+                } else if (trim(line) == "") {
+                  bottombblocks[++bottomidx,"num"] = bottombblocknum
+                  bottombblocks[bottomidx,"time"] = bottomtimestr
+                  bottombblocks[bottomidx,"text"] = bottomtext
+                  bottombblocknum = ""; bottomtimestr = ""; bottomtext = ""
+                } else {
+                  if (bottomtext != "") bottomtext = bottomtext "\n"
+                  bottomtext = bottomtext line
+                }
+              }
+              if (bottombblocknum != "") {
+                bottombblocks[++bottomidx,"num"] = bottombblocknum
+                bottombblocks[bottomidx,"time"] = bottomtimestr
+                bottombblocks[bottomidx,"text"] = bottomtext
+              }
+              close(bottom)
+              # 检查块数和时间轴完全一致
+              if (topidx != bottomidx) {
+                print "两个字幕文件块数不同，无法合并"
+                exit 1
+              }
+              for (i=1; i<=topidx; i++) {
+                if (topblocks[i,"time"] != bottombblocks[i,"time"]) {
+                  print "第" i "块时间轴不同，无法合并"
+                  exit 1
+                }
+              }
+              # 合并
+              for (i=1; i<=topidx; i++) {
+                print topblocks[i,"num"] > merged
+                print topblocks[i,"time"] > merged
+                if (mode == "en_top" || mode == "zh_top") {
+                  print trim(topblocks[i,"text"]) > merged
+                  print trim(bottombblocks[i,"text"]) > merged
+                }
+                print "" > merged
+              }
+            }
+          '
+          echo "合并完成，输出文件：$merged_file"
+
+      - name: 仅上传合并后双语文件
+        if: ${{ inputs.merge_mode != 'none' }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: merged-bilingual-srt
+          path: merged_bilingual.srt
+
+      - name: 分离双语SRT为两个单语言SRT
+        if: ${{ inputs.separate_bilingual == "yes" }}
+        run: |
+          set -e
+          input_file="${{ github.event.inputs.separate_input_file }}"
+          if [ -z "$input_file" ]; then
+            echo "请提供需要被分离的双语SRT文件路径"
+            exit 1
+          fi
+          output_a="${input_file}_A.srt"
+          output_b="${input_file}_B.srt"
+          rm -f "$output_a" "$output_b"
+          awk '
+            function trim(s) { sub(/^[ \t\r\n]+/, "", s); sub(/[ \t\r\n]+$/, "", s); return s }
+            function flushblock() {
+              if (blocknum && timestr) {
+                split(text, arr, "\n")
+                print blocknum > a
+                print timestr > a
+                if (length(arr) >= 1) { print trim(arr[1]) > a }
+                print "" > a
+                print blocknum > b
+                print timestr > b
+                if (length(arr) >= 2) { print trim(arr[2]) > b }
+                else if (length(arr) >= 1) { print "" > b }
+                print "" > b
+              }
+              blocknum=""; timestr=""; text=""
+            }
+            BEGIN { a="'$output_a'"; b="'$output_b'" }
+            {
+              line = trim($0)
+              if (line ~ /^[0-9]+$/) { flushblock(); blocknum = line; next }
+              if (line ~ /^[0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3} --> [0-9]{2}:[0-9]{2}:[0-9]{2},[0-9]{3}$/) { timestr = line; next }
+              if (line == "") { flushblock(); next }
+              if (text != "") text = text "\n" line; else text = line
+            }
+            END { flushblock() }
+          ' "$input_file"
+          if [[ ! -s "$output_a" || ! -s "$output_b" ]]; then
+            echo "分离失败：未生成新文件或文件为空"
+            ls -lh
+            exit 1
+          else
+            echo "分离完成，输出文件：$output_a 和 $output_b"
+            ls -lh "$output_a" "$output_b"
+          fi
+
+      - name: 上传分离后单语言SRT
+        if: ${{ inputs.separate_bilingual == "yes" }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: separated-single-lang-srt
+          path: |
+            ${{ github.event.inputs.separate_input_file }}_A.srt
+            ${{ github.event.inputs.separate_input_file }}_B.srt
+
+      - name: 字幕拼接
+        if: ${{ inputs.concat_mode == "join" }}
+        run: |
+          set -e
+          concat_files="${{ github.event.inputs.concat_input_files }}"
+          if [ -z "$concat_files" ]; then
+            echo "请提供用于拼接的SRT文件路径，多个用英文逗号分隔"
+            exit 1
+          fi
+          output_concat="concatenated.srt"
+          rm -f "$output_concat"
+          IFS=',' read -ra files <<< "$concat_files"
+          for f in "${files[@]}"; do
+            f=$(echo "$f" | xargs)
+            if [ ! -f "$f" ]; then
+              echo "文件 $f 不存在"
+              exit 1
+            fi
+            cat "$f" >> "$output_concat"
+            # 确保文件结尾有一个空行
+            last_line=$(tail -n 1 "$f")
+            if [ -n "$last_line" ]; then
+              echo "" >> "$output_concat"
+            fi
+          done
+          echo "拼接完成，输出文件：$output_concat"
+          ls -lh "$output_concat"
+
+      - name: 上传拼接结果字幕文件
+        if: ${{ inputs.concat_mode == "join" }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: concatenated-srt
+          path: concatenated.srt
