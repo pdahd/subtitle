@@ -75,7 +75,7 @@ jobs:
           output_a="${input_file}_A.srt"
           output_b="${input_file}_B.srt"
           rm -f "$output_a" "$output_b"
-          awk '
+          awk -v a="$output_a" -v b="$output_b" '
             function trim(s) {sub(/^[ \t\r\n]+/, "", s); sub(/[ \t\r\n]+$/, "", s); return s}
             function flushblock() {
               if (blocknum && timestr) {
@@ -93,7 +93,6 @@ jobs:
               }
               blocknum = ""; timestr = ""; text = ""
             }
-            BEGIN { a="'$output_a'"; b="'$output_b'" }
             /^[0-9]+$/ { flushblock(); blocknum=$0; next }
             /^[0-9]+:[0-9]+:[0-9]+,[0-9]+ -->/ { timestr=$0; next }
             /^$/ { flushblock(); next }
@@ -101,16 +100,16 @@ jobs:
             END { flushblock() }
           ' "$input_file"
 
+          echo "=== 分离后文件清单 ==="
+          ls -lh "$output_a" "$output_b" || true
+
           # 检查分离结果
           if [[ ! -s "$output_a" || ! -s "$output_b" ]]; then
             echo "分离失败：未生成新文件或文件为空"
-            ls -lh
             exit 1
           else
             echo "分离完成，输出文件：$output_a 和 $output_b"
-            ls -lh "$output_a" "$output_b"
           fi
-
       - name: 显示当前目录文件列表（调试）
         run: ls -la
 
