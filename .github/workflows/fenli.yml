@@ -47,8 +47,8 @@ on:
         default: 'no'
         type: choice
         options:
-          - "no"
-          - "yes"
+          - 'no'
+          - 'yes'
       separate_input_file:
         description: '需要被分离的双语SRT文件路径'
         required: false
@@ -262,6 +262,9 @@ jobs:
             END { flushblock() }
           ' "$input_file"
           echo "分离完成，输出文件：$output_a 和 $output_b"
+
+      - name: 显示当前目录文件列表（调试）
+        run: ls -la
 
       - name: 上传分离后单语言SRT
         if: ${{ inputs.separate_bilingual == 'yes' }}
