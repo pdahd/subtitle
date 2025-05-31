@@ -307,8 +307,11 @@ jobs:
               echo "文件 $f 不存在"
               exit 1
             fi
-            # 此处使用 awk 将每个文件的字幕块（由空行分隔）重新格式化，确保每个块后有一个空行
-            awk 'BEGIN { RS=""; ORS="\n\n" } { print }' "$f" >> "$output_concat"
+            cat "$f" >> "$output_concat"
+            last_line=$(tail -n 1 "$f")
+            if [ -n "$last_line" ]; then
+              echo "" >> "$output_concat"
+            fi
           done
           echo "拼接完成，输出文件：$output_concat"
           ls -lh "$output_concat"
