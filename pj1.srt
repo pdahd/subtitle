@@ -1,0 +1,15 @@
+1
+00:00:00,160 --> 00:00:02,240
+joining me now with the latest is NBC News
+
+2
+00:00:02,240 --> 00:00:03,440
+business and data correspondent
+
+3
+00:00:03,440 --> 00:00:05,260
+Brian Chung so Brian
+
+4
+00:00:05,320 --> 00:00:06,120
+the markets
