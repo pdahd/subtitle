@@ -13,9 +13,9 @@ on:
         default: 'none'
         type: choice
         options:
-          - "none"
-          - "by_block"
-          - "by_parts"
+          - none
+          - by_block
+          - by_parts
       split_block:
         description: '分割点（块编号，仅by_block有效）'
         required: false
@@ -30,9 +30,9 @@ on:
         default: 'none'
         type: choice
         options:
-          - "none"
-          - "en_top"
-          - "zh_top"
+          - none
+          - en_top
+          - zh_top
       merge_files:
         description: '用于双语合并的SRT文件路径（必须正好两个，用英文逗号分隔，例如 "fileA.srt, fileB.srt"）'
         required: false
@@ -43,8 +43,8 @@ on:
         default: "none"
         type: choice
         options:
-          - "none"
-          - "yes"
+          - none
+          - 'yes'
       separate_input_file:
         description: '需要被分离的双语SRT文件路径'
         required: false
@@ -55,8 +55,8 @@ on:
         default: "none"
         type: choice
         options:
-          - "none"
-          - "join"
+          - none
+          - join
       concat_input_files:
         description: '用于拼接的SRT文件路径，多个文件用英文逗号分隔'
         required: false
@@ -233,7 +233,7 @@ jobs:
           path: merged_bilingual.srt
 
       - name: 分离双语SRT为两个单语言SRT
-        if: ${{ inputs.separate_bilingual == "yes" }}
+        if: ${{ inputs.separate_bilingual == 'yes' }}
         run: |
           set -e
           input_file="${{ github.event.inputs.separate_input_file }}"
@@ -281,7 +281,7 @@ jobs:
           fi
 
       - name: 上传分离后单语言SRT
-        if: ${{ inputs.separate_bilingual == "yes" }}
+        if: ${{ inputs.separate_bilingual == 'yes' }}
         uses: actions/upload-artifact@v4
         with:
           name: separated-single-lang-srt
@@ -290,7 +290,7 @@ jobs:
             ${{ github.event.inputs.separate_input_file }}_B.srt
 
       - name: 字幕拼接
-        if: ${{ inputs.concat_mode == "join" }}
+        if: ${{ inputs.concat_mode == 'join' }}
         run: |
           set -e
           concat_files="${{ github.event.inputs.concat_input_files }}"
@@ -317,7 +317,7 @@ jobs:
           ls -lh "$output_concat"
 
       - name: 上传拼接结果字幕文件
-        if: ${{ inputs.concat_mode == "join" }}
+        if: ${{ inputs.concat_mode == 'join' }}
         uses: actions/upload-artifact@v4
         with:
           name: concatenated-srt
