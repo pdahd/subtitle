@@ -1,4 +1,4 @@
-name: Process SRT with Advanced Options
+name: 自定义字幕占位符
 
 on:
   workflow_dispatch:
