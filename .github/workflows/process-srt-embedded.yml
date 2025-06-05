@@ -1,0 +1,113 @@
+name: Process SRT with Embedded Script
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_srt_path:
+        description: 'Path to the input SRT file (e.g., HUAWEI.srt)'
+        required: true
+        type: string
+      output_srt_filename:
+        description: 'Desired name for the processed output SRT file (e.g., processed_embedded_HUAWEI.srt)'
+        required: true
+        type: string
+
+jobs:
+  process_and_upload_embedded:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run SRT processing (Embedded Python Script)
+        env:
+          INPUT_SRT: ${{ github.event.inputs.input_srt_path }}
+          OUTPUT_SRT: ${{ github.event.inputs.output_srt_filename }}
+        run: |
+          python -c "
+import re
+import os
+
+def process_srt_text(text_block):
+    # Join multi-line text into a single line with \\n for placeholder
+    # and escape existing backslashes and quotes for safety if they go into a string literal like structure.
+    # For this specific placeholder, we just need to ensure newlines are literal \n.
+    single_line_text = '\\n'.join(text_block.strip().splitlines())
+    # Escape curly braces if they are not part of f-string expressions
+    single_line_text = single_line_text.replace('{', '{{').replace('}', '}}')
+    return f'---BLOCK_START---TRANSLATE_TEXT_BELOW:【{single_line_text}】END_OF_TEXT_TO_TRANSLATE. REPLACE_THIS_WHOLE_BLOCK_WITH_TRANSLATION---BLOCK_END---'
+
+def main():
+    input_file = os.environ['INPUT_SRT']
+    output_file = os.environ['OUTPUT_SRT']
+    processed_blocks = 0
+
+    try:
+        with open(input_file, 'r', encoding='utf-8') as infile:
+            content = infile.read()
+
+        # Split SRT into blocks based on double newlines (or more)
+        # A more robust parser would handle variations, but this is common.
+        # Regex to find blocks: number, timestamp, text, separated by blank lines.
+        # This regex assumes standard SRT format.
+        block_pattern = re.compile(r'(\d+)\r?\n(\d{2}:\d{2}:\d{2},\d{3} --> \d{2}:\d{2}:\d{2},\d{3})\r?\n([\s\S]*?)(?=\r?\n\r?\n\d+|\Z)', re.MULTILINE)
+
+        output_srt_content = ''
+        last_match_end = 0
+
+        for match in block_pattern.finditer(content):
+            sequence_num = match.group(1)
+            timestamp = match.group(2)
+            text_content = match.group(3).strip()
+
+            # Add any content between last match and current match (e.g. BOM, comments if any, though not standard)
+            # For a clean SRT, this should be empty or just newlines.
+            # output_srt_content += content[last_match_end:match.start()]
+
+            if text_content: # Only process if there's text
+                processed_text_line = process_srt_text(text_content)
+                output_srt_content += f'{sequence_num}\n{timestamp}\n{processed_text_line}\n\n'
+                processed_blocks += 1
+            else: # Keep blocks with no text as they are (just seq and time)
+                output_srt_content += f'{sequence_num}\n{timestamp}\n\n\n' # original had text lines then blank line
+            last_match_end = match.end()
+
+        # Add any remaining content after the last parsed block (should ideally be none or just newlines)
+        # output_srt_content += content[last_match_end:]
+        # Ensure the file ends with a newline if content was processed.
+        if not output_srt_content.endswith('\n\n') and output_srt_content:
+             # If it ends with one \n (from last block's text), add one more for block separator
+             if output_srt_content.endswith('\n'):
+                output_srt_content += '\n'
+
+
+        with open(output_file, 'w', encoding='utf-8') as outfile:
+            outfile.write(output_srt_content)
+
+        if processed_blocks > 0:
+            print(f'Successfully processed {processed_blocks} blocks from {input_file} to {output_file}')
+        else:
+            print(f'No text blocks found to process in {input_file}. Output file may be empty or incomplete.')
+
+    except FileNotFoundError:
+        print(f'Error: Input file {input_file} not found.')
+        # No exit(1) here for bash tool
+    except Exception as e:
+        print(f'An error occurred: {e}')
+        # No exit(1) here for bash tool
+
+if __name__ == '__main__':
+    main()
+"
+        shell: bash
+
+      - name: Upload processed SRT artifact (Embedded)
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-srt-embedded-${{ github.event.inputs.output_srt_filename }}
+          path: ${{ github.event.inputs.output_srt_filename }}
