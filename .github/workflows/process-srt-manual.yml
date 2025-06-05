@@ -1,0 +1,36 @@
+name: Process SRT Manually
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_srt_path:
+        description: 'Path to the input SRT file (e.g., HUAWEI.srt or subtitles/my_video.srt)'
+        required: true
+        type: string
+      output_srt_filename:
+        description: 'Desired name for the processed output SRT file (e.g., processed_HUAWEI.srt)'
+        required: true
+        type: string
+
+jobs:
+  process_and_upload:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x' # Use a recent Python 3 version
+
+      - name: Run SRT processing script
+        run: |
+          python process_srt.py --input "${{ github.event.inputs.input_srt_path }}" --output "${{ github.event.inputs.output_srt_filename }}"
+        shell: bash
+
+      - name: Upload processed SRT artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-srt-${{ github.event.inputs.output_srt_filename }} # Unique artifact name including output filename
+          path: ${{ github.event.inputs.output_srt_filename }}
