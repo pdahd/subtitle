@@ -1,0 +1,158 @@
+name: Process SRT with Customizable Placeholder
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_srt_path:
+        description: 'Path to the input SRT file (e.g., HUAWEI.srt)'
+        required: true
+        type: string
+      output_srt_filename:
+        description: 'Desired name for the processed output SRT file (e.g., processed_HUAWEI.srt)'
+        required: true
+        type: string
+      preset_placeholder_choice:
+        description: 'Choose a preset placeholder template or select "Custom" to use your own.'
+        required: false # Default will be our "Default Template" if nothing else is chosen
+        type: choice
+        default: 'Default Template' # Make "Default Template" the default choice
+        options:
+          - 'Default Template'
+          - 'Chinese Simple Template'
+          - 'Chinese Marked Template'
+          - 'Custom (use text input below)'
+      custom_placeholder_template:
+        description: 'Your custom placeholder template. Use {TEXT} to mark where original text goes. (Only used if "Custom" is selected above)'
+        required: false
+        type: string
+
+
+jobs:
+  process_and_upload_customizable:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run SRT processing (Embedded Python Script with Customizable Placeholder)
+        env:
+          INPUT_SRT: ${{ github.event.inputs.input_srt_path }}
+          OUTPUT_SRT: ${{ github.event.inputs.output_srt_filename }}
+          PRESET_CHOICE: ${{ github.event.inputs.preset_placeholder_choice }}
+          CUSTOM_TEMPLATE: ${{ github.event.inputs.custom_placeholder_template }}
+        run: |
+          python <<'EOF'
+          import re
+          import os
+          import sys
+
+          # --- Placeholder Templates ---
+          # {TEXT} will be replaced by the actual SRT text block.
+          PLACEHOLDER_TEMPLATES = {
+              "Default Template": "---BLOCK_START---TRANSLATE_TEXT_BELOW:【{TEXT}】END_OF_TEXT_TO_TRANSLATE. REPLACE_THIS_WHOLE_BLOCK_WITH_TRANSLATION---BLOCK_END---",
+              "Chinese Simple Template": "【请根据英文原文手工翻译此条：{TEXT}】",
+              "Chinese Marked Template": "翻译这段文字：【{TEXT}】"
+          }
+          # Fallback if custom is chosen but not provided, or if somehow preset is invalid
+          FALLBACK_TEMPLATE = PLACEHOLDER_TEMPLATES["Default Template"]
+
+          def get_chosen_placeholder_template():
+              preset_choice = os.environ.get('PRESET_CHOICE', 'Default Template')
+              custom_template_str = os.environ.get('CUSTOM_TEMPLATE', '')
+
+              if preset_choice == 'Custom (use text input below)':
+                  if custom_template_str and "{TEXT}" in custom_template_str:
+                      return custom_template_str
+                  else:
+                      # If custom is selected but not provided or invalid, fallback.
+                      # Or, print a warning and use fallback. For now, silent fallback.
+                      print("Warning: 'Custom' selected but no valid custom template provided. Using Default Template.")
+                      return FALLBACK_TEMPLATE
+              
+              return PLACEHOLDER_TEMPLATES.get(preset_choice, FALLBACK_TEMPLATE)
+
+          def process_srt_text(text_block, placeholder_template):
+              # Join multi-line text into a single line with literal \n for the {TEXT} replacement
+              single_line_text = '\\n'.join(text_block.strip().splitlines())
+              # Escape curly braces from the original text to prevent f-string/format errors IF {TEXT} is the only substitution
+              # If the template itself uses f-string style substitutions beyond {TEXT}, this needs more care.
+              # For simple .replace('{TEXT}', single_line_text), this is fine.
+              # However, the template itself might use f-strings, so we must be careful with its own braces.
+              # The current templates are simple strings, not f-strings for the template itself.
+              
+              # Escape braces in the single_line_text if the placeholder_template is an f-string
+              # For simple string.replace, this is not strictly necessary for single_line_text braces.
+              # It's more about the template's own braces if it were an f-string.
+              # Let's assume templates are simple strings and {TEXT} is the only special part.
+
+              return placeholder_template.replace("{TEXT}", single_line_text)
+
+          def main():
+              input_file = os.environ.get('INPUT_SRT')
+              output_file = os.environ.get('OUTPUT_SRT')
+              
+              if not input_file or not output_file:
+                  print("Error: INPUT_SRT or OUTPUT_SRT environment variables not set.", file=sys.stderr)
+                  sys.exit(1)
+
+              chosen_template = get_chosen_placeholder_template()
+              print(f"Using placeholder template: {chosen_template}") # Log the chosen template
+
+              processed_blocks = 0
+              try:
+                  with open(input_file, 'r', encoding='utf-8') as infile:
+                      content = infile.read()
+                  
+                  block_pattern = re.compile(r'(\d+)\r?\n(\d{2}:\d{2}:\d{2},\d{3} --> \d{2}:\d{2}:\d{2},\d{3})\r?\n([\s\S]*?)(?=\r?\n\r?\n\d+|\Z)', re.MULTILINE)
+                  output_srt_content = ''
+                  
+                  for match in block_pattern.finditer(content):
+                      sequence_num = match.group(1)
+                      timestamp = match.group(2)
+                      text_content = match.group(3).strip()
+                      
+                      if text_content: 
+                          processed_text_line = process_srt_text(text_content, chosen_template)
+                          output_srt_content += f'{sequence_num}\n{timestamp}\n{processed_text_line}\n\n'
+                          processed_blocks += 1
+                      else: 
+                          output_srt_content += f'{sequence_num}\n{timestamp}\n\n\n' 
+                  
+                  if output_srt_content and not output_srt_content.endswith('\n\n'):
+                      if output_srt_content.endswith('\n'):
+                          output_srt_content += '\n'
+                      else:
+                          output_srt_content += '\n\n'
+                  
+                  with open(output_file, 'w', encoding='utf-8') as outfile:
+                      outfile.write(output_srt_content)
+
+                  if processed_blocks > 0:
+                      print(f'Successfully processed {processed_blocks} blocks from {input_file} to {output_file}')
+                  elif not content.strip():
+                      print(f'Input file {input_file} is empty or contains only whitespace. Output file {output_file} created empty.')
+                  else:
+                      print(f'No text blocks found to process in {input_file}. Output file {output_file} may contain only structure or be empty.')
+
+              except FileNotFoundError:
+                  print(f"Error: Input file '{input_file}' not found.", file=sys.stderr)
+                  sys.exit(1)
+              except Exception as e:
+                  print(f"An error occurred: {e}", file=sys.stderr)
+                  sys.exit(1)
+
+          if __name__ == '__main__':
+              main()
+          EOF
+        shell: bash
+
+      - name: Upload processed SRT artifact (Customizable)
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-srt-custom-${{ github.event.inputs.output_srt_filename }}
+          path: ${{ github.event.inputs.output_srt_filename }}
