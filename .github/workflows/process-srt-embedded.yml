@@ -1,0 +1,113 @@
+name: Process SRT with Embedded Script
+
+on:
+  workflow_dispatch:
+    inputs:
+      input_srt_path:
+        description: 'Path to the input SRT file (e.g., HUAWEI.srt)'
+        required: true
+        type: string
+      output_srt_filename:
+        description: 'Desired name for the processed output SRT file (e.g., processed_embedded_HUAWEI.srt)'
+        required: true
+        type: string
+
+jobs:
+  process_and_upload_embedded:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run SRT processing (Embedded Python Script)
+        env:
+          INPUT_SRT: ${{ github.event.inputs.input_srt_path }}
+          OUTPUT_SRT: ${{ github.event.inputs.output_srt_filename }}
+        run: |
+          python <<'EOF'
+          import re
+          import os
+          import sys # For sys.exit
+
+          def process_srt_text(text_block):
+              # For the placeholder, newlines in original text should become literal '\n'
+              single_line_text = '\\n'.join(text_block.strip().splitlines())
+              # Escape curly braces from the original text to prevent f-string errors
+              single_line_text = single_line_text.replace('{', '{{').replace('}', '}}')
+              return f'---BLOCK_START---TRANSLATE_TEXT_BELOW:【{single_line_text}】END_OF_TEXT_TO_TRANSLATE. REPLACE_THIS_WHOLE_BLOCK_WITH_TRANSLATION---BLOCK_END---'
+
+          def main():
+              input_file = os.environ.get('INPUT_SRT')
+              output_file = os.environ.get('OUTPUT_SRT')
+              processed_blocks = 0
+
+              if not input_file or not output_file:
+                  print("Error: INPUT_SRT or OUTPUT_SRT environment variables not set.")
+                  sys.exit(1)
+
+              try:
+                  with open(input_file, 'r', encoding='utf-8') as infile:
+                      content = infile.read()
+                  
+                  block_pattern = re.compile(r'(\d+)\r?\n(\d{2}:\d{2}:\d{2},\d{3} --> \d{2}:\d{2}:\d{2},\d{3})\r?\n([\s\S]*?)(?=\r?\n\r?\n\d+|\Z)', re.MULTILINE)
+                  
+                  output_srt_content = ''
+                  
+                  for match in block_pattern.finditer(content):
+                      sequence_num = match.group(1)
+                      timestamp = match.group(2)
+                      text_content = match.group(3).strip()
+                      
+                      if text_content: 
+                          processed_text_line = process_srt_text(text_content)
+                          output_srt_content += f'{sequence_num}\n{timestamp}\n{processed_text_line}\n\n'
+                          processed_blocks += 1
+                      else: 
+                          output_srt_content += f'{sequence_num}\n{timestamp}\n\n\n' 
+                  
+                  # Ensure the file ends with a double newline if content was processed, mimics original structure
+                  if output_srt_content and not output_srt_content.endswith('\n\n'):
+                      if output_srt_content.endswith('\n'):
+                          output_srt_content += '\n'
+                      else:
+                          output_srt_content += '\n\n'
+                  elif not output_srt_content and content: # Input had content but nothing was processed (e.g. no text in blocks)
+                      # Attempt to reconstruct original structure if no blocks were processed but there was non-block content
+                      # This part is tricky; for now, if no blocks are processed, output might be empty or just contain non-block text.
+                      # A simple approach: if no blocks processed and input wasn't empty, maybe write a warning.
+                      pass
+
+
+                  with open(output_file, 'w', encoding='utf-8') as outfile:
+                      outfile.write(output_srt_content)
+
+                  if processed_blocks > 0:
+                      print(f'Successfully processed {processed_blocks} blocks from {input_file} to {output_file}')
+                  elif not content.strip(): # Input file was empty or whitespace
+                      print(f'Input file {input_file} is empty or contains only whitespace. Output file {output_file} created empty.')
+                  else: # Input file had content, but no processable text blocks were found
+                      print(f'No text blocks found to process in {input_file}. Output file {output_file} may contain only structure or be empty.')
+
+
+              except FileNotFoundError:
+                  print(f"Error: Input file '{input_file}' not found.")
+                  sys.exit(1)
+              except Exception as e:
+                  print(f"An error occurred: {e}")
+                  sys.exit(1)
+
+          if __name__ == '__main__':
+              main()
+          EOF
+        shell: bash
+
+      - name: Upload processed SRT artifact (Embedded)
+        uses: actions/upload-artifact@v4
+        with:
+          name: processed-srt-embedded-${{ github.event.inputs.output_srt_filename }}
+          path: ${{ github.event.inputs.output_srt_filename }}
