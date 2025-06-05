@@ -29,81 +29,81 @@ jobs:
           INPUT_SRT: ${{ github.event.inputs.input_srt_path }}
           OUTPUT_SRT: ${{ github.event.inputs.output_srt_filename }}
         run: |
-          python -c "
-import re
-import os
+          python <<'EOF'
+          import re
+          import os
+          import sys # For sys.exit
 
-def process_srt_text(text_block):
-    # Join multi-line text into a single line with \\n for placeholder
-    # and escape existing backslashes and quotes for safety if they go into a string literal like structure.
-    # For this specific placeholder, we just need to ensure newlines are literal \n.
-    single_line_text = '\\n'.join(text_block.strip().splitlines())
-    # Escape curly braces if they are not part of f-string expressions
-    single_line_text = single_line_text.replace('{', '{{').replace('}', '}}')
-    return f'---BLOCK_START---TRANSLATE_TEXT_BELOW:【{single_line_text}】END_OF_TEXT_TO_TRANSLATE. REPLACE_THIS_WHOLE_BLOCK_WITH_TRANSLATION---BLOCK_END---'
+          def process_srt_text(text_block):
+              # For the placeholder, newlines in original text should become literal '\n'
+              single_line_text = '\\n'.join(text_block.strip().splitlines())
+              # Escape curly braces from the original text to prevent f-string errors
+              single_line_text = single_line_text.replace('{', '{{').replace('}', '}}')
+              return f'---BLOCK_START---TRANSLATE_TEXT_BELOW:【{single_line_text}】END_OF_TEXT_TO_TRANSLATE. REPLACE_THIS_WHOLE_BLOCK_WITH_TRANSLATION---BLOCK_END---'
 
-def main():
-    input_file = os.environ['INPUT_SRT']
-    output_file = os.environ['OUTPUT_SRT']
-    processed_blocks = 0
+          def main():
+              input_file = os.environ.get('INPUT_SRT')
+              output_file = os.environ.get('OUTPUT_SRT')
+              processed_blocks = 0
 
-    try:
-        with open(input_file, 'r', encoding='utf-8') as infile:
-            content = infile.read()
+              if not input_file or not output_file:
+                  print("Error: INPUT_SRT or OUTPUT_SRT environment variables not set.")
+                  sys.exit(1)
 
-        # Split SRT into blocks based on double newlines (or more)
-        # A more robust parser would handle variations, but this is common.
-        # Regex to find blocks: number, timestamp, text, separated by blank lines.
-        # This regex assumes standard SRT format.
-        block_pattern = re.compile(r'(\d+)\r?\n(\d{2}:\d{2}:\d{2},\d{3} --> \d{2}:\d{2}:\d{2},\d{3})\r?\n([\s\S]*?)(?=\r?\n\r?\n\d+|\Z)', re.MULTILINE)
+              try:
+                  with open(input_file, 'r', encoding='utf-8') as infile:
+                      content = infile.read()
 
-        output_srt_content = ''
-        last_match_end = 0
+                  block_pattern = re.compile(r'(\d+)\r?\n(\d{2}:\d{2}:\d{2},\d{3} --> \d{2}:\d{2}:\d{2},\d{3})\r?\n([\s\S]*?)(?=\r?\n\r?\n\d+|\Z)', re.MULTILINE)
 
-        for match in block_pattern.finditer(content):
-            sequence_num = match.group(1)
-            timestamp = match.group(2)
-            text_content = match.group(3).strip()
+                  output_srt_content = ''
 
-            # Add any content between last match and current match (e.g. BOM, comments if any, though not standard)
-            # For a clean SRT, this should be empty or just newlines.
-            # output_srt_content += content[last_match_end:match.start()]
+                  for match in block_pattern.finditer(content):
+                      sequence_num = match.group(1)
+                      timestamp = match.group(2)
+                      text_content = match.group(3).strip()
 
-            if text_content: # Only process if there's text
-                processed_text_line = process_srt_text(text_content)
-                output_srt_content += f'{sequence_num}\n{timestamp}\n{processed_text_line}\n\n'
-                processed_blocks += 1
-            else: # Keep blocks with no text as they are (just seq and time)
-                output_srt_content += f'{sequence_num}\n{timestamp}\n\n\n' # original had text lines then blank line
-            last_match_end = match.end()
+                      if text_content:
+                          processed_text_line = process_srt_text(text_content)
+                          output_srt_content += f'{sequence_num}\n{timestamp}\n{processed_text_line}\n\n'
+                          processed_blocks += 1
+                      else:
+                          output_srt_content += f'{sequence_num}\n{timestamp}\n\n\n'
 
-        # Add any remaining content after the last parsed block (should ideally be none or just newlines)
-        # output_srt_content += content[last_match_end:]
-        # Ensure the file ends with a newline if content was processed.
-        if not output_srt_content.endswith('\n\n') and output_srt_content:
-             # If it ends with one \n (from last block's text), add one more for block separator
-             if output_srt_content.endswith('\n'):
-                output_srt_content += '\n'
+                  # Ensure the file ends with a double newline if content was processed, mimics original structure
+                  if output_srt_content and not output_srt_content.endswith('\n\n'):
+                      if output_srt_content.endswith('\n'):
+                          output_srt_content += '\n'
+                      else:
+                          output_srt_content += '\n\n'
+                  elif not output_srt_content and content: # Input had content but nothing was processed (e.g. no text in blocks)
+                      # Attempt to reconstruct original structure if no blocks were processed but there was non-block content
+                      # This part is tricky; for now, if no blocks are processed, output might be empty or just contain non-block text.
+                      # A simple approach: if no blocks processed and input wasn't empty, maybe write a warning.
+                      pass
 
 
-        with open(output_file, 'w', encoding='utf-8') as outfile:
-            outfile.write(output_srt_content)
+                  with open(output_file, 'w', encoding='utf-8') as outfile:
+                      outfile.write(output_srt_content)
 
-        if processed_blocks > 0:
-            print(f'Successfully processed {processed_blocks} blocks from {input_file} to {output_file}')
-        else:
-            print(f'No text blocks found to process in {input_file}. Output file may be empty or incomplete.')
+                  if processed_blocks > 0:
+                      print(f'Successfully processed {processed_blocks} blocks from {input_file} to {output_file}')
+                  elif not content.strip(): # Input file was empty or whitespace
+                      print(f'Input file {input_file} is empty or contains only whitespace. Output file {output_file} created empty.')
+                  else: # Input file had content, but no processable text blocks were found
+                      print(f'No text blocks found to process in {input_file}. Output file {output_file} may contain only structure or be empty.')
 
-    except FileNotFoundError:
-        print(f'Error: Input file {input_file} not found.')
-        # No exit(1) here for bash tool
-    except Exception as e:
-        print(f'An error occurred: {e}')
-        # No exit(1) here for bash tool
 
-if __name__ == '__main__':
-    main()
-"
+              except FileNotFoundError:
+                  print(f"Error: Input file '{input_file}' not found.")
+                  sys.exit(1)
+              except Exception as e:
+                  print(f"An error occurred: {e}")
+                  sys.exit(1)
+
+          if __name__ == '__main__':
+              main()
+          EOF
         shell: bash
 
       - name: Upload processed SRT artifact (Embedded)
