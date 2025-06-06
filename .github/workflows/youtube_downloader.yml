@@ -1,4 +1,4 @@
-name: YouTube Info
+name: YouTube Downloader
 on:
   workflow_dispatch:
     inputs:
@@ -20,7 +20,7 @@ on:
         type: 'string'
 
 jobs:
-  list_video_streams:
+  youtube_processing:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
@@ -34,43 +34,33 @@ jobs:
 
       - name: Verify yt-dlp version
         run: yt-dlp --version
-        
+
       - name: List available formats
         if: github.event.inputs.action_type == 'list_formats'
         run: yt-dlp --cookies cookies.txt --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -F "${{ github.event.inputs.video_url }}"
 
       - name: Download selected format(s)
         if: github.event.inputs.action_type == 'download_selected' && github.event.inputs.format_codes != ''
-        id: download_video # Give the step an id to reference its outputs
+        id: download_video
         run: |
           TIMESTAMP=$(date +%Y%m%d-%H%M%S)
-          # Construct filename pattern for yt-dlp. yt-dlp will replace %(ext)s.
-          # The actual final filename will be determined by yt-dlp based on the extension.
           FILENAME_PATTERN="${TIMESTAMP}.%(ext)s"
-
-          # For the GITHUB_OUTPUT, we need a predictable name to refer to later for upload.
-          # We'll set a base filename using the timestamp, and the extension will be known after download,
-          # or we can use a wildcard for upload if yt-dlp produces multiple files (e.g. video + audio before merge).
-          # For simplicity in GITHUB_OUTPUT for now, let's just output the timestamp part,
-          # as the extension might be unknown or could be multiple if not merged.
-          # A more robust way for upload might be to list files matching TIMESTAMP.* after yt-dlp runs.
-          # However, for a single output file as expected by -o, this FILENAME_PATTERN should produce one file.
           echo "DOWNLOAD_FILENAME_PATTERN=${FILENAME_PATTERN}" >> $GITHUB_OUTPUT
 
-          yt-dlp --cookies cookies.txt       --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"       -f "${{ github.event.inputs.format_codes }}"       "${{ github.event.inputs.video_url }}"       -o "${FILENAME_PATTERN}"
+          yt-dlp --cookies cookies.txt             --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"             -f "${{ github.event.inputs.format_codes }}"             "${{ github.event.inputs.video_url }}"             -o "${FILENAME_PATTERN}"
 
-          # After yt-dlp runs, find the actual downloaded file.
-          # This assumes yt-dlp creates a single file based on the pattern.
-          # If multiple files could be created (e.g. separate audio/video before merge if ffmpeg is missing or for some formats),
-          # this part would need to be more complex (e.g. find the largest file, or specific extension).
-          # Given ffmpeg is installed, yt-dlp should merge into one file matching the pattern's extension.
           ACTUAL_FILENAME=$(ls ${TIMESTAMP}.*)
+          if [ -z "$ACTUAL_FILENAME" ]; then
+            echo "Error: No file found matching pattern ${TIMESTAMP}.*"
+            exit 1
+          fi
+          ACTUAL_FILENAME=$(echo "$ACTUAL_FILENAME" | head -n 1)
           echo "ACTUAL_DOWNLOADED_FILE=${ACTUAL_FILENAME}" >> $GITHUB_OUTPUT
 
       - name: Upload downloaded video/audio
         if: steps.download_video.conclusion == 'success' && github.event.inputs.action_type == 'download_selected'
-        uses: actions/upload-artifact@v4 # Using v4 for latest features/fixes
+        uses: actions/upload-artifact@v4
         with:
           name: youtube-download-${{ steps.download_video.outputs.ACTUAL_DOWNLOADED_FILE }}
           path: ${{ steps.download_video.outputs.ACTUAL_DOWNLOADED_FILE }}
-          retention-days: 7 # Optional: Keep artifact for 7 days
+          retention-days: 7
