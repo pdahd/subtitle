@@ -9,12 +9,8 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install yt-dlp
-        run: |
-          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/download/2024.12.23/yt-dlp -o /usr/local/bin/yt-dlp
-          sudo chmod a+rx /usr/local/bin/yt-dlp
-
+      - name: Install/Upgrade yt-dlp using pip
+        run: pip install --upgrade yt-dlp
+          
       - name: List video streams
         run: yt-dlp --cookies cookies.txt -F "https://youtu.be/0vh_TP8Cl0k?si=yKLG4XSKcfSN4Nd0"
-
-        
