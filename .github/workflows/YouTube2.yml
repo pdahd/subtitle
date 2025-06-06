@@ -1,4 +1,4 @@
-name: YouTube Downloader # 工作流显示名称，稍作修改以便区分
+name: 油管 # 工作流显示名称，稍作修改以便区分
 on:
   workflow_dispatch:
     inputs:
