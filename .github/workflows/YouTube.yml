@@ -1,6 +1,6 @@
 name: YouTube Info
 on:
-  workflow_dispatch: # Allows manual triggering
+  workflow_dispatch:
 
 jobs:
   list_video_streams:
@@ -11,6 +11,9 @@ jobs:
 
       - name: Install/Upgrade yt-dlp using pip
         run: pip install --upgrade yt-dlp
-          
-      - name: List video streams
-        run: yt-dlp --cookies cookies.txt -F "https://youtu.be/0vh_TP8Cl0k?si=yKLG4XSKcfSN4Nd0"
+
+      - name: Verify yt-dlp version
+        run: yt-dlp --version
+        
+      - name: List video streams (without cookies)
+        run: yt-dlp -F "https://youtu.be/0vh_TP8Cl0k?si=yKLG4XSKcfSN4Nd0"
