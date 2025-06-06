@@ -16,4 +16,4 @@ jobs:
         run: yt-dlp --version
         
       - name: List video streams 
-        run: yt-dlp --verbose --cookies cookies.txt --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -F "https://youtu.be/0vh_TP8Cl0k?si=yKLG4XSKcfSN4Nd0"
+        run: yt-dlp --cookies cookies.txt -F "https://youtu.be/0vh_TP8Cl0k?si=yKLG4XSKcfSN4Nd0"
