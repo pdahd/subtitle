@@ -1,0 +1,66 @@
+name: YouTube Downloader
+on:
+  workflow_dispatch:
+    inputs:
+      video_url:
+        description: '请输入 YouTube 视频链接'
+        required: true
+        type: 'string'
+      action_type:
+        description: '请选择操作'
+        required: true
+        type: 'choice'
+        options:
+          - 'list_formats'
+          - 'download_selected'
+        default: 'list_formats'
+      format_codes:
+        description: '输入格式代码 (例如: 137, 140, 或 137+140)。仅当选择“下载指定格式”时需要。'
+        required: false
+        type: 'string'
+
+jobs:
+  youtube_processing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install/Upgrade yt-dlp using pip
+        run: pip install --upgrade --force-reinstall "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz"
+
+      - name: Verify yt-dlp version
+        run: yt-dlp --version
+
+      - name: List available formats
+        if: github.event.inputs.action_type == 'list_formats'
+        run: yt-dlp --cookies cookies.txt --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" -F "${{ github.event.inputs.video_url }}"
+
+      - name: Download selected format(s)
+        if: github.event.inputs.action_type == 'download_selected' && github.event.inputs.format_codes != ''
+        id: download_video
+        run: |
+          TIMESTAMP=$(date +%Y%m%d-%H%M%S)
+          FILENAME_PATTERN="${TIMESTAMP}.%(ext)s"
+          echo "DOWNLOAD_FILENAME_PATTERN=${FILENAME_PATTERN}" >> $GITHUB_OUTPUT
+
+          yt-dlp --cookies cookies.txt             --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36"             -f "${{ github.event.inputs.format_codes }}"             "${{ github.event.inputs.video_url }}"             -o "${FILENAME_PATTERN}"
+
+          ACTUAL_FILENAME=$(ls ${TIMESTAMP}.*)
+          if [ -z "$ACTUAL_FILENAME" ]; then
+            echo "Error: No file found matching pattern ${TIMESTAMP}.*"
+            exit 1
+          fi
+          ACTUAL_FILENAME=$(echo "$ACTUAL_FILENAME" | head -n 1)
+          echo "ACTUAL_DOWNLOADED_FILE=${ACTUAL_FILENAME}" >> $GITHUB_OUTPUT
+
+      - name: Upload downloaded video/audio
+        if: steps.download_video.conclusion == 'success' && github.event.inputs.action_type == 'download_selected'
+        uses: actions/upload-artifact@v4
+        with:
+          name: youtube-download-${{ steps.download_video.outputs.ACTUAL_DOWNLOADED_FILE }}
+          path: ${{ steps.download_video.outputs.ACTUAL_DOWNLOADED_FILE }}
+          retention-days: 7
