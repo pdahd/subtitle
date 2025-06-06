@@ -1,0 +1,19 @@
+name: YouTube Info
+on:
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  list_video_streams:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install yt-dlp
+        run: |
+          sudo curl -L https://github.com/yt-dlp/yt-dlp/releases/latest/download/yt-dlp -o /usr/local/bin/yt-dlp
+          sudo chmod a+rx /usr/local/bin/yt-dlp
+
+      - name: List video streams
+        run: yt-dlp -F "https://youtu.be/0vh_TP8Cl0k?si=yKLG4XSKcfSN4Nd0"
+        
