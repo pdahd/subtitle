@@ -15,5 +15,5 @@ jobs:
       - name: Verify yt-dlp version
         run: yt-dlp --version
         
-      - name: List video streams (without cookies)
+      - name: List video streams 
         run: yt-dlp --cookies cookies.txt -F "https://youtu.be/0vh_TP8Cl0k?si=yKLG4XSKcfSN4Nd0"
