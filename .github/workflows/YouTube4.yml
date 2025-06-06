@@ -30,7 +30,7 @@ jobs:
         run: sudo apt-get update && sudo apt-get install -y ffmpeg
 
       - name: Install/Upgrade yt-dlp using pip
-        run: pip install --upgrade --force-reinstall "https://github.com/yt-dlp/yt-dlp/archive/master.tar.gz"
+        run: pip install --upgrade --force-reinstall "git+https://github.com/yt-dlp/yt-dlp.git"
 
       - name: Verify yt-dlp version
         run: yt-dlp --version
