@@ -1,0 +1,4615 @@
+1
+00:01:11,760 --> 00:01:13,760
+---区块开始---待翻译文本:【This town ain't seen nothing yet.】翻译完请替换整个区块---区块结束---
+
+2
+00:02:30,400 --> 00:02:31,440
+---区块开始---待翻译文本:【Wow, cool video.】翻译完请替换整个区块---区块结束---
+
+3
+00:02:31,600 --> 00:02:33,920
+---区块开始---待翻译文本:【Looks like the team has been having some fun.】翻译完请替换整个区块---区块结束---
+
+4
+00:02:34,560 --> 00:02:35,360
+---区块开始---待翻译文本:【Hello, everyone.】翻译完请替换整个区块---区块结束---
+
+5
+00:02:35,520 --> 00:02:36,080
+---区块开始---待翻译文本:【Good morning.】翻译完请替换整个区块---区块结束---
+
+6
+00:02:36,320 --> 00:02:37,680
+---区块开始---待翻译文本:【Welcome to Google IO.】翻译完请替换整个区块---区块结束---
+
+7
+00:02:43,440 --> 00:02:46,000
+---区块开始---待翻译文本:【So good to see everyone here in Shoreline.】翻译完请替换整个区块---区块结束---
+
+8
+00:02:46,320 --> 00:02:50,080
+---区块开始---待翻译文本:【And hello to everyone joining virtually around the world.】翻译完请替换整个区块---区块结束---
+
+9
+00:02:50,400 --> 00:02:53,680
+---区块开始---待翻译文本:【I learned that today is the start of Gemini season.】翻译完请替换整个区块---区块结束---
+
+10
+00:02:54,000 --> 00:02:55,840
+---区块开始---待翻译文本:【Not really sure what the big deal is.】翻译完请替换整个区块---区块结束---
+
+11
+00:02:56,080 --> 00:02:59,040
+---区块开始---待翻译文本:【Every day is Gemini season here at Google.】翻译完请替换整个区块---区块结束---
+
+12
+00:03:00,240 --> 00:03:03,840
+---区块开始---待翻译文本:【Normally, you wouldn't have heard much from us in the weeks leading up to I.O.】翻译完请替换整个区块---区块结束---
+
+13
+00:03:04,480 --> 00:03:08,480
+---区块开始---待翻译文本:【That's because we'd be saving our best models for this stage.】翻译完请替换整个区块---区块结束---
+
+14
+00:03:08,800 --> 00:03:20,560
+---区块开始---待翻译文本:【But in our Gemini era, we are just as likely to ship our most intelligent model on a random Tuesday in March or a really cool breakthrough like Alpha Evolve just a week before.】翻译完请替换整个区块---区块结束---
+
+15
+00:03:21,200 --> 00:03:26,640
+---区块开始---待翻译文本:【We want to get our best models into your hands and our products ASAP.】翻译完请替换整个区块---区块结束---
+
+16
+00:03:27,120 --> 00:03:30,400
+---区块开始---待翻译文本:【And so we are shipping faster than ever.】翻译完请替换整个区块---区块结束---
+
+17
+00:03:30,720 --> 00:03:40,160
+---区块开始---待翻译文本:【We have announced over a dozen models and research breakthroughs and released over 20 major AI products and features all since the last IO.】翻译完请替换整个区块---区块结束---
+
+18
+00:03:40,960 --> 00:03:44,800
+---区块开始---待翻译文本:【I'm particularly excited about the rapid model progress.】翻译完请替换整个区块---区块结束---
+
+19
+00:03:45,120 --> 00:03:47,600
+---区块开始---待翻译文本:【You can see the step function change here.】翻译完请替换整个区块---区块结束---
+
+20
+00:03:48,080 --> 00:03:55,360
+---区块开始---待翻译文本:【ELO scores, one measure of progress, are up more than 300 points since the first generation of Gemini Pro.】翻译完请替换整个区块---区块结束---
+
+21
+00:03:55,920 --> 00:04:02,880
+---区块开始---待翻译文本:【And today, Gemini 2.5 Pro sweeps the LM Arena leaderboard in all categories.】翻译完请替换整个区块---区块结束---
+
+22
+00:04:09,600 --> 00:04:12,480
+---区块开始---待翻译文本:【It is state-of-the-art on many, many benchmarks.】翻译完请替换整个区块---区块结束---
+
+23
+00:04:12,800 --> 00:04:15,680
+---区块开始---待翻译文本:【And we have also made rapid progress in coding.】翻译完请替换整个区块---区块结束---
+
+24
+00:04:16,000 --> 00:04:25,040
+---区块开始---待翻译文本:【Our updated 2.5 Pro reached number one on WebDev Arena and now surpasses the previous version by 142 ELO points.】翻译完请替换整个区块---区块结束---
+
+25
+00:04:25,360 --> 00:04:30,000
+---区块开始---待翻译文本:【It's getting a lot of love across the top coding platforms, thanks to all of you.】翻译完请替换整个区块---区块结束---
+
+26
+00:04:30,320 --> 00:04:42,320
+---区块开始---待翻译文本:【On Cursor, the leading AI code editor, Gemini is the fastest growing model of the year, producing hundreds of thousands of lines of accepted code every single minute.】翻译完请替换整个区块---区块结束---
+
+27
+00:04:42,880 --> 00:04:47,920
+---区块开始---待翻译文本:【Now this last milestone might be the most impressive, at least in some circles.】翻译完请替换整个区块---区块结束---
+
+28
+00:04:48,240 --> 00:04:52,320
+---区块开始---待翻译文本:【A couple of weeks ago, Gemini completed Pokemon Blue.】翻译完请替换整个区块---区块结束---
+
+29
+00:04:55,840 --> 00:05:09,600
+---区块开始---待翻译文本:【It earned all eight badges, traveled the victory road, defeated the Elite Four, and the champion, bringing us one step closer to achieving API, artificial Pokemon intelligence.】翻译完请替换整个区块---区块结束---
+
+30
+00:05:14,080 --> 00:05:21,120
+---区块开始---待翻译文本:【All of this progress is enabled by our world-leading infrastructure, the foundation of our full-stack approach to AI.】翻译完请替换整个区块---区块结束---
+
+31
+00:05:21,440 --> 00:05:28,640
+---区块开始---待翻译文本:【Our seventh-generation TPU, Ironwood, is the first design to power thinking and inference at scale.】翻译完请替换整个区块---区块结束---
+
+32
+00:05:28,960 --> 00:05:38,160
+---区块开始---待翻译文本:【It delivers 10x the performance over the previous generation and packs an incredible 42.5 exaflops of compute per pod.】翻译完请替换整个区块---区块结束---
+
+33
+00:05:38,320 --> 00:05:39,280
+---区块开始---待翻译文本:【Just amazing.】翻译完请替换整个区块---区块结束---
+
+34
+00:05:39,600 --> 00:05:43,200
+---区块开始---待翻译文本:【And it's coming to Google Cloud customers later this year.】翻译完请替换整个区块---区块结束---
+
+35
+00:05:46,880 --> 00:05:53,920
+---区块开始---待翻译文本:【Our infrastructure strength down to the TPU is what helps us deliver dramatically faster models.】翻译完请替换整个区块---区块结束---
+
+36
+00:05:54,240 --> 00:06:06,960
+---区块开始---待翻译文本:【Of the top models on the Ella Marina leaderboard, Gemini holds the top three spots for highest output tokens generated per second, all while model prices are coming down significantly.】翻译完请替换整个区块---区块结束---
+
+37
+00:06:07,280 --> 00:06:10,480
+---区块开始---待翻译文本:【There's a hard trade-off between price and performance.】翻译完请替换整个区块---区块结束---
+
+38
+00:06:10,800 --> 00:06:16,640
+---区块开始---待翻译文本:【Yet over and over, we've been able to deliver the best models at the most effective price point.】翻译完请替换整个区块---区块结束---
+
+39
+00:06:17,280 --> 00:06:22,960
+---区块开始---待翻译文本:【Not only is Google leading this parade of frontier, we've fundamentally shifted the frontier itself.】翻译完请替换整个区块---区块结束---
+
+40
+00:06:23,280 --> 00:06:28,480
+---区块开始---待翻译文本:【The result, more intelligence available for everyone, everywhere.】翻译完请替换整个区块---区块结束---
+
+41
+00:06:28,800 --> 00:06:33,360
+---区块开始---待翻译文本:【And the world is responding and adopting AI faster than ever before.】翻译完请替换整个区块---区块结束---
+
+42
+00:06:33,920 --> 00:06:36,000
+---区块开始---待翻译文本:【It's one marker of progress.】翻译完请替换整个区块---区块结束---
+
+43
+00:06:36,320 --> 00:06:44,800
+---区块开始---待翻译文本:【This time last year, we were processing 9.7 trillion tokens a month across our products and APIs.】翻译完请替换整个区块---区块结束---
+
+44
+00:06:45,120 --> 00:06:49,280
+---区块开始---待翻译文本:【Now, we are processing 480 trillion monthly tokens.】翻译完请替换整个区块---区块结束---
+
+45
+00:06:49,600 --> 00:06:53,360
+---区块开始---待翻译文本:【That's about a 50x increase in just a year.】翻译完请替换整个区块---区块结束---
+
+46
+00:06:58,960 --> 00:07:03,280
+---区块开始---待翻译文本:【We're also seeing a wave of adoption across our developer AI tools.】翻译完请替换整个区块---区块结束---
+
+47
+00:07:03,600 --> 00:07:11,120
+---区块开始---待翻译文本:【Today, over 7 million developers have built with the Gemini API across both Google AI Studio and Vertex AI.】翻译完请替换整个区块---区块结束---
+
+48
+00:07:11,440 --> 00:07:13,760
+---区块开始---待翻译文本:【Over 5x growth since last I.O.】翻译完请替换整个区块---区块结束---
+
+49
+00:07:14,400 --> 00:07:20,160
+---区块开始---待翻译文本:【And Gemini usage on Vertex AI is up more than 40 times since last year.】翻译完请替换整个区块---区块结束---
+
+50
+00:07:20,720 --> 00:07:23,280
+---区块开始---待翻译文本:【AI adoption is increasing across our products.】翻译完请替换整个区块---区块结束---
+
+51
+00:07:23,600 --> 00:07:27,920
+---区块开始---待翻译文本:【The Gemini app now has over 400 million monthly active users.】翻译完请替换整个区块---区块结束---
+
+52
+00:07:28,240 --> 00:07:33,440
+---区块开始---待翻译文本:【We are seeing strong growth and engagement, particularly with 2.5 models.】翻译完请替换整个区块---区块结束---
+
+53
+00:07:33,760 --> 00:07:39,120
+---区块开始---待翻译文本:【For those using 2.5 Pro in the Gemini app, usage has gone up 45%.】翻译完请替换整个区块---区块结束---
+
+54
+00:07:39,920 --> 00:07:43,520
+---区块开始---待翻译文本:【You will hear a lot more about the Gemini app later.】翻译完请替换整个区块---区块结束---
+
+55
+00:07:43,840 --> 00:07:46,560
+---区块开始---待翻译文本:【We're also seeing incredible momentum in search.】翻译完请替换整个区块---区块结束---
+
+56
+00:07:46,880 --> 00:07:52,720
+---区块开始---待翻译文本:【Today, AI overviews have more than 1.5 billion users every month.】翻译完请替换整个区块---区块结束---
+
+57
+00:07:53,040 --> 00:08:00,560
+---区块开始---待翻译文本:【That means Google search is bringing generative AI to more people than any other product in the world.】翻译完请替换整个区块---区块结束---
+
+58
+00:08:00,880 --> 00:08:06,320
+---区块开始---待翻译文本:【And along with AI overviews, AI mode is the next big step for search.】翻译完请替换整个区块---区块结束---
+
+59
+00:08:06,640 --> 00:08:09,200
+---区块开始---待翻译文本:【You'll hear more about this later.】翻译完请替换整个区块---区块结束---
+
+60
+00:08:09,840 --> 00:08:21,680
+---区块开始---待翻译文本:【What all this progress means is that we are in a new phase of the AI platform shift, where decades of research are becoming reality for people all over the world.】翻译完请替换整个区块---区块结束---
+
+61
+00:08:22,000 --> 00:08:32,000
+---区块开始---待翻译文本:【I want to share three examples of how research is transforming our products today, Project Starline, Astra, and Mariner.】翻译完请替换整个区块---区块结束---
+
+62
+00:08:32,640 --> 00:08:37,200
+---区块开始---待翻译文本:【We debuted Project Starline, our breakthrough 3D video technology at I.O.】翻译完请替换整个区块---区块结束---
+
+63
+00:08:37,360 --> 00:08:38,400
+---区块开始---待翻译文本:【a few years back.】翻译完请替换整个区块---区块结束---
+
+64
+00:08:38,720 --> 00:08:44,480
+---区块开始---待翻译文本:【The goal was to create a feeling of being in the same room as someone, even if you were far apart.】翻译完请替换整个区块---区块结束---
+
+65
+00:08:44,800 --> 00:08:57,040
+---区块开始---待翻译文本:【We've continued to make technical advances, and today we are ready to announce our next chapter, introducing Google Beam, a new AI-first video communications platform.】翻译完请替换整个区块---区块结束---
+
+66
+00:08:57,600 --> 00:09:06,800
+---区块开始---待翻译文本:【Beam uses a new state-of-the-art video model to transform 2D video streams into a realistic 3D experience.】翻译完请替换整个区块---区块结束---
+
+67
+00:09:07,120 --> 00:09:12,560
+---区块开始---待翻译文本:【Behind the scenes, an array of six cameras captures you from different angles.】翻译完请替换整个区块---区块结束---
+
+68
+00:09:12,880 --> 00:09:26,960
+---区块开始---待翻译文本:【And with AI, we can merge these video streams together and render you on a 3D light field display with near-perfect head tracking down to the millimeter and at 60 frames per second, all in real time.】翻译完请替换整个区块---区块结束---
+
+69
+00:09:27,520 --> 00:09:33,520
+---区块开始---待翻译文本:【The result, a much more natural and deeply immersive conversational experience.】翻译完请替换整个区块---区块结束---
+
+70
+00:09:33,840 --> 00:09:36,800
+---区块开始---待翻译文本:【We are so excited to bring this technology to others.】翻译完请替换整个区块---区块结束---
+
+71
+00:09:37,120 --> 00:09:45,200
+---区块开始---待翻译文本:【In collaboration with HP, the first Google Beam devices will be available for early customers later this year.】翻译完请替换整个区块---区块结束---
+
+72
+00:09:45,920 --> 00:09:48,720
+---区块开始---待翻译文本:【HP will have a lot more to share a few weeks from now.】翻译完请替换整个区块---区块结束---
+
+73
+00:09:49,040 --> 00:09:50,400
+---区块开始---待翻译文本:【Stay tuned.】翻译完请替换整个区块---区块结束---
+
+74
+00:09:56,800 --> 00:10:07,760
+---区块开始---待翻译文本:【Over the years, we've been bringing underlying technology from Starline into Google Meet that includes real-time speech translation to help break down language barriers.】翻译完请替换整个区块---区块结束---
+
+75
+00:10:08,080 --> 00:10:15,840
+---区块开始---待翻译文本:【Here's an example of how this could be useful when booking a vacation rental in South America and you don't speak the language.】翻译完请替换整个区块---区块结束---
+
+76
+00:10:16,160 --> 00:10:17,120
+---区块开始---待翻译文本:【Let's take a look.】翻译完请替换整个区块---区块结束---
+
+77
+00:10:19,360 --> 00:10:20,320
+---区块开始---待翻译文本:【Hi, Camilla.】翻译完请替换整个区块---区块结束---
+
+78
+00:10:20,640 --> 00:10:22,480
+---区块开始---待翻译文本:【Let me turn on speech translation.】翻译完请替换整个区块---区块结束---
+
+79
+00:10:25,280 --> 00:10:26,800
+---区块开始---待翻译文本:【It's nice to finally talk to you.】翻译完请替换整个区块---区块结束---
+
+80
+00:10:27,200 --> 00:10:29,360
+---区块开始---待翻译文本:【Es bueno, hablarte finalmende.】翻译完请替换整个区块---区块结束---
+
+81
+00:10:29,600 --> 00:10:31,440
+---区块开始---待翻译文本:【No podes perad al quilar tu casa.】翻译完请替换整个区块---区块结束---
+
+82
+00:10:32,320 --> 00:10:34,560
+---区块开始---待翻译文本:【Tibasa yu er tir mucho quero que te te vanca.】翻译完请替换整个区块---区块结束---
+
+83
+00:10:34,800 --> 00:10:38,080
+---区块开始---待翻译文本:【You're gonna have a lot of fun, and I think you're gonna love visiting the city.】翻译完请替换整个区块---区块结束---
+
+84
+00:10:38,400 --> 00:10:42,160
+---区块开始---待翻译文本:【The house is in a very nice neighborhood and overlooks the mountains.】翻译完请替换整个区块---区块结束---
+
+85
+00:10:42,800 --> 00:10:44,000
+---区块开始---待翻译文本:【That sounds wonderful.】翻译完请替换整个区块---区块结束---
+
+86
+00:10:44,320 --> 00:10:46,080
+---区块开始---待翻译文本:【Is the house una maravilloso?】翻译完请替换整个区块---区块结束---
+
+87
+00:10:46,640 --> 00:10:50,480
+---区块开始---待翻译文本:【Es la casa cercana en transporte público o recomiendas al quilar uncoche.】翻译完请替换整个区块---区块结束---
+
+88
+00:10:51,040 --> 00:11:00,240
+---区块开始---待翻译文本:【Ayuna togo cerca, but there's a bus nearby, but I would recommend renting a car so you can visit the nature and enjoy it.】翻译完请替换整个区块---区块结束---
+
+89
+00:11:00,800 --> 00:11:01,840
+---区块开始---待翻译文本:【That sounds great.】翻译完请替换整个区块---区块结束---
+
+90
+00:11:02,720 --> 00:11:03,920
+---区块开始---待翻译文本:【Eso suenas jenyal.】翻译完请替换整个区块---区块结束---
+
+91
+00:11:12,160 --> 00:11:18,160
+---区块开始---待翻译文本:【You can see how well it matches the speaker's tone, patterns, and even their expressions.】翻译完请替换整个区块---区块结束---
+
+92
+00:11:18,800 --> 00:11:24,480
+---区块开始---待翻译文本:【We are even closer to having a natural and free-flowing conversation across languages.】翻译完请替换整个区块---区块结束---
+
+93
+00:11:24,800 --> 00:11:30,000
+---区块开始---待翻译文本:【And today, we are introducing this real-time speech translation directly in Google Meet.】翻译完请替换整个区块---区块结束---
+
+94
+00:11:30,560 --> 00:11:39,200
+---区块开始---待翻译文本:【English and Spanish translation is now available for subscribers with more languages rolling out in the next few weeks.】翻译完请替换整个区块---区块结束---
+
+95
+00:11:39,520 --> 00:11:43,760
+---区块开始---待翻译文本:【And real-time translation will be coming to enterprises later this year.】翻译完请替换整个区块---区块结束---
+
+96
+00:11:50,400 --> 00:11:53,280
+---区块开始---待翻译文本:【Another early research project that debuted on the I.O.】翻译完请替换整个区块---区块结束---
+
+97
+00:11:53,440 --> 00:11:54,880
+---区块开始---待翻译文本:【stage was Project Astra.】翻译完请替换整个区块---区块结束---
+
+98
+00:11:55,440 --> 00:12:02,240
+---区块开始---待翻译文本:【It explores the future capabilities of a universal AI assistant that can understand the world around you.】翻译完请替换整个区块---区块结束---
+
+99
+00:12:02,560 --> 00:12:04,640
+---区块开始---待翻译文本:【We are starting to bring it to our products.】翻译完请替换整个区块---区块结束---
+
+100
+00:12:04,960 --> 00:12:12,720
+---区块开始---待翻译文本:【Today, Gemini Live has Project Astra's camera and screen sharing capabilities so you can talk about anything you see.】翻译完请替换整个区块---区块结束---
+
+101
+00:12:13,040 --> 00:12:19,520
+---区块开始---待翻译文本:【People are using it in so many ways, whether practicing for a job interview or training for a marathon.】翻译完请替换整个区块---区块结束---
+
+102
+00:12:19,840 --> 00:12:26,240
+---区块开始---待翻译文本:【We've been appreciating the feedback from our trusted testers and some who are a little less trusted.】翻译完请替换整个区块---区块结束---
+
+103
+00:12:26,400 --> 00:12:27,440
+---区块开始---待翻译文本:【Take a look.】翻译完请替换整个区块---区块结束---
+
+104
+00:12:30,320 --> 00:12:32,400
+---区块开始---待翻译文本:【That's a pretty nice convertible.】翻译完请替换整个区块---区块结束---
+
+105
+00:12:32,720 --> 00:12:36,000
+---区块开始---待翻译文本:【I think you might have mistaken the garbage truck for a convertible.】翻译完请替换整个区块---区块结束---
+
+106
+00:12:36,240 --> 00:12:37,840
+---区块开始---待翻译文本:【Is there anything else I can help you with?】翻译完请替换整个区块---区块结束---
+
+107
+00:12:38,080 --> 00:12:40,320
+---区块开始---待翻译文本:【What's this skinny building doing in my neighborhood?】翻译完请替换整个区块---区块结束---
+
+108
+00:12:40,560 --> 00:12:43,200
+---区块开始---待翻译文本:【It's a streetlight, not a building.】翻译完请替换整个区块---区块结束---
+
+109
+00:12:43,520 --> 00:12:45,360
+---区块开始---待翻译文本:【Why are these palm trees so short?】翻译完请替换整个区块---区块结束---
+
+110
+00:12:45,440 --> 00:12:46,800
+---区块开始---待翻译文本:【I'm worried about them.】翻译完请替换整个区块---区块结束---
+
+111
+00:12:47,120 --> 00:12:48,080
+---区块开始---待翻译文本:【They're not short.】翻译完请替换整个区块---区块结束---
+
+112
+00:12:48,400 --> 00:12:50,400
+---区块开始---待翻译文本:【They're actually pretty tall.】翻译完请替换整个区块---区块结束---
+
+113
+00:12:50,720 --> 00:12:52,000
+---区块开始---待翻译文本:【Sick convertible.】翻译完请替换整个区块---区块结束---
+
+114
+00:12:52,320 --> 00:12:53,760
+---区块开始---待翻译文本:【Garbage truck again.】翻译完请替换整个区块---区块结束---
+
+115
+00:12:54,240 --> 00:12:55,360
+---区块开始---待翻译文本:【Anything else?】翻译完请替换整个区块---区块结束---
+
+116
+00:12:55,680 --> 00:12:58,640
+---区块开始---待翻译文本:【Why do people keep delivering packages to my lawn?】翻译完请替换整个区块---区块结束---
+
+117
+00:12:58,960 --> 00:13:01,760
+---区块开始---待翻译文本:【It's not a package, it's a utility box.】翻译完请替换整个区块---区块结束---
+
+118
+00:13:02,080 --> 00:13:05,360
+---区块开始---待翻译文本:【Why is this person following me wherever I walk?】翻译完请替换整个区块---区块结束---
+
+119
+00:13:05,680 --> 00:13:06,880
+---区块开始---待翻译文本:【No one's following you.】翻译完请替换整个区块---区块结束---
+
+120
+00:13:07,120 --> 00:13:09,040
+---区块开始---待翻译文本:【That's just your shadow.】翻译完请替换整个区块---区块结束---
+
+121
+00:13:17,200 --> 00:13:20,400
+---区块开始---待翻译文本:【Gemini is pretty good at telling you when you're wrong.】翻译完请替换整个区块---区块结束---
+
+122
+00:13:21,360 --> 00:13:26,640
+---区块开始---待翻译文本:【We are rolling this out to everyone on Android and iOS starting today.】翻译完请替换整个区块---区块结束---
+
+123
+00:13:34,160 --> 00:13:38,000
+---区块开始---待翻译文本:【Next, we also have our research prototype, Project Mariner.】翻译完请替换整个区块---区块结束---
+
+124
+00:13:38,480 --> 00:13:42,640
+---区块开始---待翻译文本:【It's an agent that can interact with the web and get stuff done.】翻译完请替换整个区块---区块结束---
+
+125
+00:13:43,200 --> 00:13:50,880
+---区块开始---待翻译文本:【Stepping back, we think of agents as systems that combine the intelligence of advanced AI models with access to tools.】翻译完请替换整个区块---区块结束---
+
+126
+00:13:51,120 --> 00:13:54,880
+---区块开始---待翻译文本:【They can take actions on your behalf and under your control.】翻译完请替换整个区块---区块结束---
+
+127
+00:13:55,200 --> 00:13:58,720
+---区块开始---待翻译文本:【Computer use is an important agentic capability.】翻译完请替换整个区块---区块结束---
+
+128
+00:13:59,040 --> 00:14:04,960
+---区块开始---待翻译文本:【It's what enables agents to interact with and operate browsers and other software.】翻译完请替换整个区块---区块结束---
+
+129
+00:14:05,280 --> 00:14:10,000
+---区块开始---待翻译文本:【Project Mariner was an early step forward in testing computer use capabilities.】翻译完请替换整个区块---区块结束---
+
+130
+00:14:10,320 --> 00:14:16,240
+---区块开始---待翻译文本:【We released it as an early research prototype in December, and we have made a lot of progress since.】翻译完请替换整个区块---区块结束---
+
+131
+00:14:16,560 --> 00:14:23,920
+---区块开始---待翻译文本:【First, we are introducing multitasking, and it can now oversee up to 10 simultaneous tasks.】翻译完请替换整个区块---区块结束---
+
+132
+00:14:24,240 --> 00:14:27,440
+---区块开始---待翻译文本:【Second, it's using a feature called Teach and Repeat.】翻译完请替换整个区块---区块结束---
+
+133
+00:14:27,760 --> 00:14:34,400
+---区块开始---待翻译文本:【This is where you can show it a task once, and it learns a plan for similar tasks in the future.】翻译完请替换整个区块---区块结束---
+
+134
+00:14:34,720 --> 00:14:41,360
+---区块开始---待翻译文本:【We are bringing Project Mariner's computer use capabilities to developers via the Gemini API.】翻译完请替换整个区块---区块结束---
+
+135
+00:14:41,680 --> 00:14:51,600
+---区块开始---待翻译文本:【Trusted testers like Automation Anywhere and UiPath are already starting to build with it, and it will be available more broadly this summer.】翻译完请替换整个区块---区块结束---
+
+136
+00:14:51,920 --> 00:15:02,960
+---区块开始---待翻译文本:【Computer use is part of a broader set of tools we will need to build for an agent ecosystem to flourish, like our open agent-to-agent protocol so that agents can talk to each other.】翻译完请替换整个区块---区块结束---
+
+137
+00:15:03,280 --> 00:15:10,000
+---区块开始---待翻译文本:【We launched this at CloudNext with the support of over 60 technology partners and hope to see that number grow.】翻译完请替换整个区块---区块结束---
+
+138
+00:15:10,320 --> 00:15:16,880
+---区块开始---待翻译文本:【Then there is the model context protocol introduced by Anthropic so agents can access other services.】翻译完请替换整个区块---区块结束---
+
+139
+00:15:17,200 --> 00:15:24,000
+---区块开始---待翻译文本:【And today we are excited to announce that our Gemini SDK is now compatible with MCP2s.】翻译完请替换整个区块---区块结束---
+
+140
+00:15:29,440 --> 00:15:33,600
+---区块开始---待翻译文本:【These technologies will work together to make agents even more useful.】翻译完请替换整个区块---区块结束---
+
+141
+00:15:33,920 --> 00:15:39,920
+---区块开始---待翻译文本:【And we are starting to bring agentic capabilities to Chrome, Search, and the Gemini app.】翻译完请替换整个区块---区块结束---
+
+142
+00:15:40,240 --> 00:15:43,280
+---区块开始---待翻译文本:【Let me show you what we are excited about in the Gemini app.】翻译完请替换整个区块---区块结束---
+
+143
+00:15:43,440 --> 00:15:45,440
+---区块开始---待翻译文本:【We call it agent mode.】翻译完请替换整个区块---区块结束---
+
+144
+00:15:45,760 --> 00:15:49,760
+---区块开始---待翻译文本:【Say you want to find an apartment for you and two roommates in Austin.】翻译完请替换整个区块---区块结束---
+
+145
+00:15:50,080 --> 00:15:53,040
+---区块开始---待翻译文本:【You've each got a budget of $1,200 a month.】翻译完请替换整个区块---区块结束---
+
+146
+00:15:53,360 --> 00:15:57,040
+---区块开始---待翻译文本:【You want a washer dryer or at least a laundromat nearby.】翻译完请替换整个区块---区块结束---
+
+147
+00:15:57,360 --> 00:16:01,840
+---区块开始---待翻译文本:【Normally, you'd have to spend a lot of time scrolling through endless listings.】翻译完请替换整个区块---区块结束---
+
+148
+00:16:02,160 --> 00:16:06,640
+---区块开始---待翻译文本:【Using agent mode, the Gemini app goes to work behind the scenes.】翻译完请替换整个区块---区块结束---
+
+149
+00:16:06,960 --> 00:16:16,160
+---区块开始---待翻译文本:【It finds listings from sites like Zillow that match your criteria and uses Project Mariner when needed to adjust very specific filters.】翻译完请替换整个区块---区块结束---
+
+150
+00:16:16,480 --> 00:16:24,880
+---区块开始---待翻译文本:【If there's an apartment you want to check out, Gemini uses MCP to access the listings and even schedule a tour on your behalf.】翻译完请替换整个区块---区块结束---
+
+151
+00:16:25,200 --> 00:16:34,000
+---区块开始---待翻译文本:【And it'll keep browsing for new listings for as long as you need, freeing you up to do the stuff you want to do, like plan the housewarming party.】翻译完请替换整个区块---区块结束---
+
+152
+00:16:34,320 --> 00:16:40,000
+---区块开始---待翻译文本:【It's great for companies like Zillow, bringing in new customers and improving conversion rates.】翻译完请替换整个区块---区块结束---
+
+153
+00:16:40,320 --> 00:16:46,480
+---区块开始---待翻译文本:【An experimental version of the agent mode in the Gemini app will be coming soon to subscribers.】翻译完请替换整个区块---区块结束---
+
+154
+00:16:46,800 --> 00:16:57,040
+---区块开始---待翻译文本:【This is a new and emerging area, and we are excited to explore how best to bring the benefits of agents to users and the ecosystem more broadly.】翻译完请替换整个区块---区块结束---
+
+155
+00:16:57,680 --> 00:17:04,240
+---区块开始---待翻译文本:【The best way we can bring research into reality is to make it really useful in your own reality.】翻译完请替换整个区块---区块结束---
+
+156
+00:17:04,560 --> 00:17:08,320
+---区块开始---待翻译文本:【That's where personalization will be really powerful.】翻译完请替换整个区块---区块结束---
+
+157
+00:17:08,640 --> 00:17:13,520
+---区块开始---待翻译文本:【We are working to bring this to life with something we call personal context.】翻译完请替换整个区块---区块结束---
+
+158
+00:17:13,840 --> 00:17:24,000
+---区块开始---待翻译文本:【With your permission, Gemini models can use relevant context across your Google Apps in a way that is private, transparent, and fully under your control.】翻译完请替换整个区块---区块结束---
+
+159
+00:17:24,320 --> 00:17:26,480
+---区块开始---待翻译文本:【Let me show you an example in Gmail.】翻译完请替换整个区块---区块结束---
+
+160
+00:17:27,120 --> 00:17:30,480
+---区块开始---待翻译文本:【You might be familiar with our AI-powered smart reply features.】翻译完请替换整个区块---区块结束---
+
+161
+00:17:30,640 --> 00:17:32,560
+---区块开始---待翻译文本:【It's amazing how popular they are.】翻译完请替换整个区块---区块结束---
+
+162
+00:17:32,880 --> 00:17:36,560
+---区块开始---待翻译文本:【Now imagine if those responses could sound like you.】翻译完请替换整个区块---区块结束---
+
+163
+00:17:37,200 --> 00:17:40,880
+---区块开始---待翻译文本:【That's the idea behind personalized smart replies.】翻译完请替换整个区块---区块结束---
+
+164
+00:17:41,440 --> 00:17:44,240
+---区块开始---待翻译文本:【Let's say my friend wrote to me looking for advice.】翻译完请替换整个区块---区块结束---
+
+165
+00:17:45,360 --> 00:17:50,240
+---区块开始---待翻译文本:【He's taking a road trip to Utah and he remembers, I did this trip before.】翻译完请替换整个区块---区块结束---
+
+166
+00:17:50,560 --> 00:17:54,800
+---区块开始---待翻译文本:【Now, if I'm being honest, I would probably reply something short and unhelpful.】翻译完请替换整个区块---区块结束---
+
+167
+00:17:55,120 --> 00:17:56,400
+---区块开始---待翻译文本:【Sorry, Felix.】翻译完请替换整个区块---区块结束---
+
+168
+00:17:57,040 --> 00:18:00,720
+---区块开始---待翻译文本:【But with personalized smart replies, I can be a better friend.】翻译完请替换整个区块---区块结束---
+
+169
+00:18:01,040 --> 00:18:06,000
+---区块开始---待翻译文本:【That's because Gemini can do almost all the work for me.】翻译完请替换整个区块---区块结束---
+
+170
+00:18:06,320 --> 00:18:16,160
+---区块开始---待翻译文本:【Looking up my notes in Drive, scanning past emails for reservations, and finding my itinerary in Google Docs, Trip to Zion National Park.】翻译完请替换整个区块---区块结束---
+
+171
+00:18:16,720 --> 00:18:28,880
+---区块开始---待翻译文本:【Gemini matches my typical greetings from past emails, captures my tone, style, and favorite word choices, and then it automatically generates a reply.】翻译完请替换整个区块---区块结束---
+
+172
+00:18:29,360 --> 00:18:38,000
+---区块开始---待翻译文本:【I love how it included details like keeping driving time under five hours per day, and it uses my favorite adjective, exciting.】翻译完请替换整个区块---区块结束---
+
+173
+00:18:39,280 --> 00:18:39,920
+---区块开始---待翻译文本:【Looks great.】翻译完请替换整个区块---区块结束---
+
+174
+00:18:40,400 --> 00:18:43,840
+---区块开始---待翻译文本:【Maybe you want to make a couple of changes to it and hit send.】翻译完请替换整个区块---区块结束---
+
+175
+00:18:44,320 --> 00:18:48,800
+---区块开始---待翻译文本:【This will be available in Gmail this summer for subscribers.】翻译完请替换整个区块---区块结束---
+
+176
+00:18:53,920 --> 00:19:00,960
+---区块开始---待翻译文本:【And you can imagine how helpful personal context will be across search, docs, Gemini, and more.】翻译完请替换整个区块---区块结束---
+
+177
+00:19:01,600 --> 00:19:06,560
+---区块开始---待翻译文本:【Today, I've talked about intelligence, agents, and personalization.】翻译完请替换整个区块---区块结束---
+
+178
+00:19:06,880 --> 00:19:13,520
+---区块开始---待翻译文本:【These are a few of the frontiers where we will make progress, and you will hear more examples throughout the keynote.】翻译完请替换整个区块---区块结束---
+
+179
+00:19:13,840 --> 00:19:19,520
+---区块开始---待翻译文本:【But first, I want to invite someone who can share more about the intelligence driving our future innovation.】翻译完请替换整个区块---区块结束---
+
+180
+00:19:19,840 --> 00:19:22,720
+---区块开始---待翻译文本:【Last year, I introduced him as Sir Demist.】翻译完请替换整个区块---区块结束---
+
+181
+00:19:23,280 --> 00:19:27,360
+---区块开始---待翻译文本:【This year, we can add Nobel laureate to his list of titles.】翻译完请替换整个区块---区块结束---
+
+182
+00:19:27,680 --> 00:19:28,800
+---区块开始---待翻译文本:【Come on out, Demist.】翻译完请替换整个区块---区块结束---
+
+183
+00:19:43,440 --> 00:19:44,240
+---区块开始---待翻译文本:【Hey, everyone.】翻译完请替换整个区块---区块结束---
+
+184
+00:19:44,480 --> 00:19:46,480
+---区块开始---待翻译文本:【It's really great to be back here at I.O.】翻译完请替换整个区块---区块结束---
+
+185
+00:19:47,440 --> 00:19:54,480
+---区块开始---待翻译文本:【We're living through a remarkable moment in history, where AI is making possible an amazing new future.】翻译完请替换整个区块---区块结束---
+
+186
+00:19:54,800 --> 00:19:57,840
+---区块开始---待翻译文本:【It's been a year of relentless progress for us.】翻译完请替换整个区块---区块结束---
+
+187
+00:19:58,160 --> 00:20:02,480
+---区块开始---待翻译文本:【As Sundar said, people love interacting with Gemini 2.5.】翻译完请替换整个区块---区块结束---
+
+188
+00:20:03,040 --> 00:20:07,520
+---区块开始---待翻译文本:【We've seen you vibe code with it, building games and apps in a single shot.】翻译完请替换整个区块---区块结束---
+
+189
+00:20:07,840 --> 00:20:13,920
+---区块开始---待翻译文本:【You've used its vast reasoning powers on everything from unpacking scientific papers to understanding YouTube videos.】翻译完请替换整个区块---区块结束---
+
+190
+00:20:14,240 --> 00:20:19,840
+---区块开始---待翻译文本:【And you've told us how collaborative, insightful, and genuinely helpful you found using Gemini.】翻译完请替换整个区块---区块结束---
+
+191
+00:20:20,400 --> 00:20:24,880
+---区块开始---待翻译文本:【It's so exciting for us to see the awesome things you've all been doing and building with it.】翻译完请替换整个区块---区块结束---
+
+192
+00:20:26,480 --> 00:20:32,640
+---区块开始---待翻译文本:【Gemini 2.5 Pro is our most intelligent model ever and the best foundation model in the world.】翻译完请替换整个区块---区块结束---
+
+193
+00:20:32,960 --> 00:20:40,800
+---区块开始---待翻译文本:【Just two weeks ago, we shipped a preview of an updated 2.5 Pro so you could get your hands on it and start building with it right away.】翻译完请替换整个区块---区块结束---
+
+194
+00:20:41,440 --> 00:20:49,520
+---区块开始---待翻译文本:【We've been really impressed by what you've created, from turning sketches into interactive apps to simulating entire 3D cities.】翻译完请替换整个区块---区块结束---
+
+195
+00:20:50,320 --> 00:20:55,040
+---区块开始---待翻译文本:【The new 2.5 Pro tops the popular coding leaderboard WebDev Arena.】翻译完请替换整个区块---区块结束---
+
+196
+00:20:55,600 --> 00:21:04,320
+---区块开始---待翻译文本:【And now that it incorporates LearnLM, our family of models built with educational experts, 2.5 Pro is also the leading model for learning.】翻译完请替换整个区块---区块结束---
+
+197
+00:21:04,640 --> 00:21:08,720
+---区块开始---待翻译文本:【And it's number one across all the leaderboards on LM Arena.】翻译完请替换整个区块---区块结束---
+
+198
+00:21:10,560 --> 00:21:14,240
+---区块开始---待翻译文本:【Gemini Flash is our most efficient workhorse model.】翻译完请替换整个区块---区块结束---
+
+199
+00:21:14,560 --> 00:21:19,360
+---区块开始---待翻译文本:【It's been incredibly popular with developers who love its speed and low cost.】翻译完请替换整个区块---区块结束---
+
+200
+00:21:20,000 --> 00:21:25,040
+---区块开始---待翻译文本:【Today, I'm thrilled to announce that we're releasing an updated version of 2.5 Flash.】翻译完请替换整个区块---区块结束---
+
+201
+00:21:25,360 --> 00:21:33,440
+---区块开始---待翻译文本:【The new Flash is better in nearly every dimension, improving across key benchmarks for reasoning, code, and long context.】翻译完请替换整个区块---区块结束---
+
+202
+00:21:33,760 --> 00:21:39,360
+---区块开始---待翻译文本:【In fact, it's second only to 2.5 Pro on the LM Arena leaderboard.】翻译完请替换整个区块---区块结束---
+
+203
+00:21:40,320 --> 00:21:46,000
+---区块开始---待翻译文本:【I'm excited to say that Flash will be generally available in early June, with Pro soon after.】翻译完请替换整个区块---区块结束---
+
+204
+00:21:52,720 --> 00:22:01,680
+---区块开始---待翻译文本:【We're making final adjustments based on your feedback, but you can go try out the preview now in AI Studio, Vertex AI, and Gemini App.】翻译完请替换整个区块---区块结束---
+
+205
+00:22:02,880 --> 00:22:09,760
+---区块开始---待翻译文本:【As always, we're looking to push the state-of-the-art relentlessly forward, and we're excited about our latest research advances.】翻译完请替换整个区块---区块结束---
+
+206
+00:22:10,080 --> 00:22:16,960
+---区块开始---待翻译文本:【To tell you more, I'd like to welcome Tulsi to the stage, but first, let's take a look at what you're building with Gemini today.】翻译完请替换整个区块---区块结束---
+
+207
+00:22:55,600 --> 00:23:00,400
+---区块开始---待翻译文本:【Can you make a bunch of like study circles explode out of my mouth?】翻译完请替换整个区块---区块结束---
+
+208
+00:23:01,440 --> 00:23:02,880
+---区块开始---待翻译文本:【I've updated the sketch.】翻译完请替换整个区块---区块结束---
+
+209
+00:23:10,800 --> 00:23:12,800
+---区块开始---待翻译文本:【Okay, what should we build next?】翻译完请替换整个区块---区块结束---
+
+210
+00:23:13,120 --> 00:23:15,440
+---区块开始---待翻译文本:【Okay, here's another 30 ideas for you.】翻译完请替换整个区块---区块结束---
+
+211
+00:23:34,640 --> 00:23:35,520
+---区块开始---待翻译文本:【Thanks, Demis.】翻译完请替换整个区块---区块结束---
+
+212
+00:23:36,400 --> 00:23:55,520
+---区块开始---待翻译文本:【I'm so excited to share the improvements we're creating to make it easier for developers like all of you to build with Gemini 2.5, all based on your feedback with improved capabilities, enhanced security and transparency, better cost efficiency, and more control.】翻译完请替换整个区块---区块结束---
+
+213
+00:23:56,400 --> 00:24:05,120
+---区块开始---待翻译文本:【First, in addition to the new 2.5 flash that Demis mentioned, we are also introducing new previews for text-to-speech.】翻译完请替换整个区块---区块结束---
+
+214
+00:24:05,760 --> 00:24:13,920
+---区块开始---待翻译文本:【These now have a first-of-its-kind multi-speaker support for two voices built on native audio output.】翻译完请替换整个区块---区块结束---
+
+215
+00:24:16,240 --> 00:24:19,920
+---区块开始---待翻译文本:【This means the model can converse in more expressive ways.】翻译完请替换整个区块---区块结束---
+
+216
+00:24:20,560 --> 00:24:23,440
+---区块开始---待翻译文本:【It can capture the really subtle nuances of how we speak.】翻译完请替换整个区块---区块结束---
+
+217
+00:24:25,520 --> 00:24:28,640
+---区块开始---待翻译文本:【It can even seamlessly switch to a whisper like this.】翻译完请替换整个区块---区块结束---
+
+218
+00:24:30,880 --> 00:24:36,640
+---区块开始---待翻译文本:【This works in over 24 languages, and it can easily go between languages.】翻译完请替换整个区块---区块结束---
+
+219
+00:24:38,560 --> 00:24:51,680
+---区块开始---待翻译文本:【So the model can begin speaking in English, but then switch back, all with the same voice.】翻译完请替换整个区块---区块结束---
+
+220
+00:24:52,960 --> 00:24:54,560
+---区块开始---待翻译文本:【That's pretty awesome, right?】翻译完请替换整个区块---区块结束---
+
+221
+00:25:00,960 --> 00:25:06,160
+---区块开始---待翻译文本:【You can use this text-to-speech capability starting today in the Gemini API.】翻译完请替换整个区块---区块结束---
+
+222
+00:25:07,760 --> 00:25:08,000
+---区块开始---待翻译文本:【Yeah.】翻译完请替换整个区块---区块结束---
+
+223
+00:25:11,120 --> 00:25:19,040
+---区块开始---待翻译文本:【The live API will also have a 2.5 flash preview version of native audio dialogue later today.】翻译完请替换整个区块---区块结束---
+
+224
+00:25:19,360 --> 00:25:24,640
+---区块开始---待翻译文本:【So you can directly build conversational experiences with a more natural Gemini.】翻译完请替换整个区块---区块结束---
+
+225
+00:25:24,960 --> 00:25:30,720
+---区块开始---待翻译文本:【It's even able to distinguish between the speaker and background voices, so it knows when to respond.】翻译完请替换整个区块---区块结束---
+
+226
+00:25:31,280 --> 00:25:34,080
+---区块开始---待翻译文本:【And Logan and Paige will show you more in the developer keynote.】翻译完请替换整个区块---区块结束---
+
+227
+00:25:35,840 --> 00:25:41,280
+---区块开始---待翻译文本:【Second, we've strengthened protections against security threats like indirect prompt injections.】翻译完请替换整个区块---区块结束---
+
+228
+00:25:41,600 --> 00:25:45,600
+---区块开始---待翻译文本:【So Gemini 2.5 is our most secure model yet.】翻译完请替换整个区块---区块结束---
+
+229
+00:25:47,040 --> 00:25:54,480
+---区块开始---待翻译文本:【And in both 2.5 Pro and Flash, we're including thought summaries via the Gemini API and Vertex AI.】翻译完请替换整个区块---区块结束---
+
+230
+00:25:55,360 --> 00:26:05,680
+---区块开始---待翻译文本:【Thought summaries take the model's raw thoughts and organize them into a clear format with headers, key details, and information about model actions like tool calls.】翻译完请替换整个区块---区块结束---
+
+231
+00:26:06,560 --> 00:26:16,160
+---区块开始---待翻译文本:【This gives you increased transparency for what the model is thinking, which is especially useful for high latency tasks, while also just being easy to debug and consume.】翻译完请替换整个区块---区块结束---
+
+232
+00:26:18,000 --> 00:26:19,920
+---区块开始---待翻译文本:【You also asked us for more efficiency.】翻译完请替换整个区块---区块结束---
+
+233
+00:26:20,400 --> 00:26:32,400
+---区块开始---待翻译文本:【So today's 2.5 flash is even more efficient, reducing the number of tokens the model needs to use for the same performance, resulting in 22% efficiency gains on our emails.】翻译完请替换整个区块---区块结束---
+
+234
+00:26:34,240 --> 00:26:41,600
+---区块开始---待翻译文本:【Finally, we launched 2.5 Flash with thinking budgets to give you control over cost and latency versus quality.】翻译完请替换整个区块---区块结束---
+
+235
+00:26:41,920 --> 00:26:43,760
+---区块开始---待翻译文本:【And the response was great.】翻译完请替换整个区块---区块结束---
+
+236
+00:26:44,320 --> 00:26:51,440
+---区块开始---待翻译文本:【So we're bringing thinking budgets to 2.5 Pro, which will roll out in the coming weeks along with our generally available model.】翻译完请替换整个区块---区块结束---
+
+237
+00:26:52,720 --> 00:27:00,720
+---区块开始---待翻译文本:【With thinking budgets, you can have more control over how many tokens the model uses to think before it responds, or you can simply turn it off.】翻译完请替换整个区块---区块结束---
+
+238
+00:27:02,880 --> 00:27:08,160
+---区块开始---待翻译文本:【Now, as you heard from Demis, Gemini 2.5 Pro is incredible at coding.】翻译完请替换整个区块---区块结束---
+
+239
+00:27:08,480 --> 00:27:13,280
+---区块开始---待翻译文本:【So now, let me show you how you can take any idea you have and bring it to life.】翻译完请替换整个区块---区块结束---
+
+240
+00:27:15,120 --> 00:27:21,680
+---区块开始---待翻译文本:【So if you've ever been to the American Museum of Natural History in New York City, it has a set of amazing exhibits.】翻译完请替换整个区块---区块结束---
+
+241
+00:27:22,320 --> 00:27:30,560
+---区块开始---待翻译文本:【So to bring that to you today, I got 2.5 Pro to code me a simple web app in Google AI Studio to share some photos and learn more.】翻译完请替换整个区块---区块结束---
+
+242
+00:27:31,520 --> 00:27:33,200
+---区块开始---待翻译文本:【So here's what I have so far.】翻译完请替换整个区块---区块结束---
+
+243
+00:27:34,320 --> 00:27:37,120
+---区块开始---待翻译文本:【But I want to make it more interactive.】翻译完请替换整个区块---区块结束---
+
+244
+00:27:37,440 --> 00:27:41,040
+---区块开始---待翻译文本:【And I'm still brainstorming the design, but I've got some ideas.】翻译完请替换整个区块---区块结束---
+
+245
+00:27:42,000 --> 00:27:44,160
+---区块开始---待翻译文本:【You've seen something like this before, right?】翻译完请替换整个区块---区块结束---
+
+246
+00:27:44,480 --> 00:27:48,720
+---区块开始---待翻译文本:【Someone comes to you with a brilliant idea scratched on a napkin.】翻译完请替换整个区块---区块结束---
+
+247
+00:27:49,360 --> 00:27:51,760
+---区块开始---待翻译文本:【As a PM, I'm often with someone.】翻译完请替换整个区块---区块结束---
+
+248
+00:27:53,040 --> 00:27:56,560
+---区块开始---待翻译文本:【Now, standard two-dimensional web design is one thing.】翻译完请替换整个区块---区块结束---
+
+249
+00:27:56,880 --> 00:27:58,960
+---区块开始---待翻译文本:【But I wanted to make it 3D.】翻译完请替换整个区块---区块结束---
+
+250
+00:27:59,920 --> 00:28:02,560
+---区块开始---待翻译文本:【And I learned that jumping into 3D isn't easy.】翻译完请替换整个区块---区块结束---
+
+251
+00:28:03,120 --> 00:28:05,760
+---区块开始---待翻译文本:【It requires learning about all kinds of new things.】翻译完请替换整个区块---区块结束---
+
+252
+00:28:06,240 --> 00:28:10,560
+---区块开始---待翻译文本:【Setting up a scene, camera, lighting, and more.】翻译完请替换整个区块---区块结束---
+
+253
+00:28:11,840 --> 00:28:14,720
+---区块开始---待翻译文本:【Luckily for me, 2.5 Pro can help.】翻译完请替换整个区块---区块结束---
+
+254
+00:28:15,360 --> 00:28:22,800
+---区块开始---待翻译文本:【So here, what I'm going to do is I am going to add the image I just showed you of the sphere.】翻译完请替换整个区块---区块结束---
+
+255
+00:28:25,280 --> 00:28:30,320
+---区块开始---待翻译文本:【And I'm going to add in a prompt that asks 2.5 Pro to update my code based on the image.】翻译完请替换整个区块---区块结束---
+
+256
+00:28:31,600 --> 00:28:33,600
+---区块开始---待翻译文本:【So we'll let 2.5 Pro get to work.】翻译完请替换整个区块---区块结束---
+
+257
+00:28:33,920 --> 00:28:40,400
+---区块开始---待翻译文本:【And as you can see, it's starting to think, and it's going ahead and creating a plan based on what I asked for.】翻译完请替换整个区块---区块结束---
+
+258
+00:28:40,720 --> 00:28:43,440
+---区块开始---待翻译文本:【And it'll apply it to my existing code base.】翻译完请替换整个区块---区块结束---
+
+259
+00:28:44,560 --> 00:28:54,160
+---区块开始---待翻译文本:【Because Gemini is multimodal, it can understand the abstract sphere sketch and code beautiful 3D animations, applying them to my existing app.】翻译完请替换整个区块---区块结束---
+
+260
+00:28:55,120 --> 00:28:56,560
+---区块开始---待翻译文本:【So this takes about two minutes.】翻译完请替换整个区块---区块结束---
+
+261
+00:28:56,880 --> 00:29:00,400
+---区块开始---待翻译文本:【So for the purpose of time, we're going to do this baking show style.】翻译完请替换整个区块---区块结束---
+
+262
+00:29:00,720 --> 00:29:05,440
+---区块开始---待翻译文本:【And I'm going to jump to another tab that I ran right before this keynote with the same prompts.】翻译完请替换整个区块---区块结束---
+
+263
+00:29:06,080 --> 00:29:08,480
+---区块开始---待翻译文本:【And here's what Gemini generates.】翻译完请替换整个区块---区块结束---
+
+264
+00:29:09,440 --> 00:29:10,080
+---区块开始---待翻译文本:【Whoa.】翻译完请替换整个区块---区块结束---
+
+265
+00:29:17,120 --> 00:29:23,520
+---区块开始---待翻译文本:【We went from that rough sketch directly to code, updating multiple of my files.】翻译完请替换整个区块---区块结束---
+
+266
+00:29:23,840 --> 00:29:26,560
+---区块开始---待翻译文本:【And actually, you can see it thought for 37 seconds.】翻译完请替换整个区块---区块结束---
+
+267
+00:29:26,880 --> 00:29:30,880
+---区块开始---待翻译文本:【And you can see the changes it thought through and then the files it updated.】翻译完请替换整个区块---区块结束---
+
+268
+00:29:31,840 --> 00:29:39,680
+---区块开始---待翻译文本:【We did all of this in AI Studio, so once I finished prototyping, I can simply deploy the code along with my Gemini API key.】翻译完请替换整个区块---区块结束---
+
+269
+00:29:40,960 --> 00:29:42,800
+---区块开始---待翻译文本:【So here's our final app in Chrome.】翻译完请替换整个区块---区块结束---
+
+270
+00:29:45,040 --> 00:29:47,040
+---区块开始---待翻译文本:【Look at these animations.】翻译完请替换整个区块---区块结束---
+
+271
+00:29:48,400 --> 00:29:56,160
+---区块开始---待翻译文本:【And I didn't need to have advanced knowledge of 3.js libraries or figure out the complex 3D math to build this.】翻译完请替换整个区块---区块结束---
+
+272
+00:29:56,800 --> 00:30:03,920
+---区块开始---待翻译文本:【I know it would have taken forever to do this by hand, and instead, I was able to create this just based on a sketch.】翻译完请替换整个区块---区块结束---
+
+273
+00:30:05,600 --> 00:30:08,720
+---区块开始---待翻译文本:【I can make this experience even richer with multimodality.】翻译完请替换整个区块---区块结束---
+
+274
+00:30:09,040 --> 00:30:14,880
+---区块开始---待翻译文本:【So I use 2.5 Flash to add a question to each photo, inviting you to learn a little more about it.】翻译完请替换整个区块---区块结束---
+
+275
+00:30:17,600 --> 00:30:19,120
+---区块开始---待翻译文本:【But what if it talked?】翻译完请替换整个区块---区块结束---
+
+276
+00:30:20,640 --> 00:30:22,720
+---区块开始---待翻译文本:【That's where Gemini's native audio comes in.】翻译完请替换整个区块---区块结束---
+
+277
+00:30:24,800 --> 00:30:29,760
+---区块开始---待翻译文本:【That's a pangolin, and its scales are made of keratin, just like your fingernails.】翻译完请替换整个区块---区块结束---
+
+278
+00:30:31,120 --> 00:30:31,680
+---区块开始---待翻译文本:【Wow.】翻译完请替换整个区块---区块结束---
+
+279
+00:30:32,000 --> 00:30:33,280
+---区块开始---待翻译文本:【Now we're talking.】翻译完请替换整个区块---区块结束---
+
+280
+00:30:33,920 --> 00:30:37,680
+---区块开始---待翻译文本:【You can hear how you can add expressive audio right into your apps.】翻译完请替换整个区块---区块结束---
+
+281
+00:30:38,800 --> 00:30:45,440
+---区块开始---待翻译文本:【And before I share more, I'll leave this demo with another fun layout that 2.5 Pro coded just for us.】翻译完请替换整个区块---区块结束---
+
+282
+00:30:56,000 --> 00:31:01,760
+---区块开始---待翻译文本:【We've put the starter code for anyone to build on top of this demo in Google AI Studio, so go try it out.】翻译完请替换整个区块---区块结束---
+
+283
+00:31:02,800 --> 00:31:15,440
+---区块开始---待翻译文本:【And this is just one example of how Gemini 2.5 is changing how we build and how you can leverage the incredible capabilities to integrate vision, speech, and coding into your own applications.】翻译完请替换整个区块---区块结束---
+
+284
+00:31:16,720 --> 00:31:31,280
+---区块开始---待翻译文本:【2.5 Pro is available on your favorite IDE platforms and in Google products like Android Studio, Firebase Studio, Gemini Code Assist, and our asynchronous coding agent, Jules.】翻译完请替换整个区块---区块结束---
+
+285
+00:31:38,560 --> 00:31:44,240
+---区块开始---待翻译文本:【Just submit a task, and Jules takes care of the rest, fixing bugs, making updates.】翻译完请替换整个区块---区块结束---
+
+286
+00:31:44,560 --> 00:31:47,600
+---区块开始---待翻译文本:【It integrates with GitHub and works on its own.】翻译完请替换整个区块---区块结束---
+
+287
+00:31:48,720 --> 00:31:56,000
+---区块开始---待翻译文本:【Jules can tackle complex tasks in large code bases that used to take hours, like updating an older version of Node.js.】翻译完请替换整个区块---区块结束---
+
+288
+00:31:56,320 --> 00:32:00,800
+---区块开始---待翻译文本:【It can plan the steps, modify files, and more in minutes.】翻译完请替换整个区块---区块结束---
+
+289
+00:32:01,680 --> 00:32:08,560
+---区块开始---待翻译文本:【So today, I'm delighted to announce that Jules is now in public beta, so anyone can sign up at jules.google.】翻译完请替换整个区块---区块结束---
+
+290
+00:32:15,200 --> 00:32:23,120
+---区块开始---待翻译文本:【And like Demis said, we're always innovating on new approaches to improve our models, including making them more efficient and performant.】翻译完请替换整个区块---区块结束---
+
+291
+00:32:23,760 --> 00:32:29,200
+---区块开始---待翻译文本:【We first revolutionized image and video generation by pioneering diffusion techniques.】翻译完请替换整个区块---区块结束---
+
+292
+00:32:29,520 --> 00:32:34,560
+---区块开始---待翻译文本:【A diffusion model learns to generate outputs by refining noise step by step.】翻译完请替换整个区块---区块结束---
+
+293
+00:32:35,200 --> 00:32:39,920
+---区块开始---待翻译文本:【Today, we're bringing the power of diffusion to text with our newest research model.】翻译完请替换整个区块---区块结束---
+
+294
+00:32:41,360 --> 00:32:46,240
+---区块开始---待翻译文本:【This helps it excel at tasks like editing, including in the context of math and code.】翻译完请替换整个区块---区块结束---
+
+295
+00:32:46,880 --> 00:32:54,560
+---区块开始---待翻译文本:【Because it doesn't just generate left to right, it can iterate on a solution very quickly and error correct during the generation process.】翻译完请替换整个区块---区块结束---
+
+296
+00:32:56,160 --> 00:33:05,760
+---区块开始---待翻译文本:【Gemini diffusion is a state-of-the-art experimental text diffusion model that leverages this parallel generation to achieve extremely low latency.】翻译完请替换整个区块---区块结束---
+
+297
+00:33:06,720 --> 00:33:19,280
+---区块开始---待翻译文本:【For example, the version of Gemini diffusion we're releasing today generates five times faster than even 2.0 flashlight, our fastest model so far, while matching its coding performance.】翻译完请替换整个区块---区块结束---
+
+298
+00:33:20,240 --> 00:33:21,840
+---区块开始---待翻译文本:【So take this math example.】翻译完请替换整个区块---区块结束---
+
+299
+00:33:22,160 --> 00:33:22,800
+---区块开始---待翻译文本:【Ready?】翻译完请替换整个区块---区块结束---
+
+300
+00:33:23,120 --> 00:33:23,440
+---区块开始---待翻译文本:【Go.】翻译完请替换整个区块---区块结束---
+
+301
+00:33:25,680 --> 00:33:27,280
+---区块开始---待翻译文本:【If you blinked, you missed it.】翻译完请替换整个区块---区块结束---
+
+302
+00:33:33,680 --> 00:33:36,080
+---区块开始---待翻译文本:【Now earlier, we sped things up.】翻译完请替换整个区块---区块结束---
+
+303
+00:33:36,400 --> 00:33:38,960
+---区块开始---待翻译文本:【But this time, we're going to slow it down a little bit.】翻译完请替换整个区块---区块结束---
+
+304
+00:33:44,080 --> 00:33:47,600
+---区块开始---待翻译文本:【Pretty cool to see the process of how the model gets to the answer of 39.】翻译完请替换整个区块---区块结束---
+
+305
+00:33:49,040 --> 00:33:51,840
+---区块开始---待翻译文本:【This model is currently testing with a small group.】翻译完请替换整个区块---区块结束---
+
+306
+00:33:52,480 --> 00:34:00,880
+---区块开始---待翻译文本:【And we'll continue our work on different approaches, lowering latency in all of our Gemini models, with a faster 2.5 flashlight coming soon.】翻译完请替换整个区块---区块结束---
+
+307
+00:34:02,160 --> 00:34:05,680
+---区块开始---待翻译文本:【And now, for more on the future of Gemini, back to you, Demis.】翻译完请替换整个区块---区块结束---
+
+308
+00:34:14,240 --> 00:34:15,280
+---区块开始---待翻译文本:【Thanks, Tulsi.】翻译完请替换整个区块---区块结束---
+
+309
+00:34:15,840 --> 00:34:21,040
+---区块开始---待翻译文本:【We've been busy exploring the frontiers of thinking capabilities in Gemini 2.5.】翻译完请替换整个区块---区块结束---
+
+310
+00:34:21,680 --> 00:34:27,920
+---区块开始---待翻译文本:【As we know from our experience with AlphaGo, responses improve when we give these models more time to think.】翻译完请替换整个区块---区块结束---
+
+311
+00:34:29,040 --> 00:34:35,840
+---区块开始---待翻译文本:【Today, we're making 2.5 Pro even better by introducing a new mode we're calling DeepThink.】翻译完请替换整个区块---区块结束---
+
+312
+00:34:36,800 --> 00:34:41,280
+---区块开始---待翻译文本:【It pushes model performance to its limits, delivering groundbreaking results.】翻译完请替换整个区块---区块结束---
+
+313
+00:34:41,600 --> 00:34:49,040
+---区块开始---待翻译文本:【DeepThink uses our latest cutting-edge research in thinking and reasoning, including parallel techniques.】翻译完请替换整个区块---区块结束---
+
+314
+00:34:49,360 --> 00:34:52,160
+---区块开始---待翻译文本:【So far, we've seen incredible performance.】翻译完请替换整个区块---区块结束---
+
+315
+00:34:52,480 --> 00:34:58,880
+---区块开始---待翻译文本:【It gets an impressive score on USAMO 2025, currently one of the hardest maths benchmarks.】翻译完请替换整个区块---区块结束---
+
+316
+00:34:59,200 --> 00:35:04,400
+---区块开始---待翻译文本:【It leads on Live Code Bench, a difficult benchmark for competition-level coding.】翻译完请替换整个区块---区块结束---
+
+317
+00:35:04,720 --> 00:35:13,760
+---区块开始---待翻译文本:【And since Gemini has been natively multimodal from the start, it's no surprise that it also excels on the main benchmark measuring this, MMMU.】翻译完请替换整个区块---区块结束---
+
+318
+00:35:15,280 --> 00:35:26,000
+---区块开始---待翻译文本:【Because we're defining the frontier with 2.5 Pro Deepthink, we're taking a little bit of extra time to conduct more frontier safety evaluations and get further input from safety experts.】翻译完请替换整个区块---区块结束---
+
+319
+00:35:26,320 --> 00:35:34,800
+---区块开始---待翻译文本:【As part of that, we're going to make it available to trusted testers via the Gemini API to get their feedback before making it widely available.】翻译完请替换整个区块---区块结束---
+
+320
+00:35:35,120 --> 00:35:40,240
+---区块开始---待翻译文本:【You'll hear more about our plans for 2.5 Pro Deepthink from Josh later today.】翻译完请替换整个区块---区块结束---
+
+321
+00:35:42,080 --> 00:35:47,360
+---区块开始---待翻译文本:【Over the past decade, we've laid a lot of the foundations for the modern AI era.】翻译完请替换整个区块---区块结束---
+
+322
+00:35:48,000 --> 00:36:08,880
+---区块开始---待翻译文本:【From our pioneering work inventing the Transformers architecture, which today underpins all large language models, to agent systems like AlphaGo and AlphaZero, we continue to double down on the breadth and depth of our fundamental research, to invent the next big breakthroughs that are needed for artificial general intelligence.】翻译完请替换整个区块---区块结束---
+
+323
+00:36:09,680 --> 00:36:18,560
+---区块开始---待翻译文本:【Gemini is already the best multimodal foundation model, but we're working hard to extend it to become what we call a world model.】翻译完请替换整个区块---区块结束---
+
+324
+00:36:19,120 --> 00:36:26,720
+---区块开始---待翻译文本:【That is a model that can make plans and imagine new experiences by simulating aspects of the world, just like the brain does.】翻译完请替换整个区块---区块结束---
+
+325
+00:36:27,280 --> 00:36:35,920
+---区块开始---待翻译文本:【This is something I've always been passionate about, having thought about virtual worlds since my early days, developing AI for simulation games like Theme Park.】翻译完请替换整个区块---区块结束---
+
+326
+00:36:37,120 --> 00:36:54,320
+---区块开始---待翻译文本:【We've been taking strides in this direction for a while, through our pioneering work training agents to master complex games like Go and StarCraft, to most recently, our Genie2 model, capable of generating 3D simulated environments that you can interact with just from a single image prompt.】翻译完请替换整个区块---区块结束---
+
+327
+00:36:55,920 --> 00:37:03,200
+---区块开始---待翻译文本:【You can already see these capabilities emerging in the way Gemini can use its world knowledge and reasoning to represent things in nature.】翻译完请替换整个区块---区块结束---
+
+328
+00:37:03,520 --> 00:37:12,480
+---区块开始---待翻译文本:【And in VO, our state-of-the-art video model, which has a deep understanding of intuitive physics, like how gravity, light, and materials behave.】翻译完请替换整个区块---区块结束---
+
+329
+00:37:12,800 --> 00:37:18,800
+---区块开始---待翻译文本:【It's really incredible how well VO maintains accuracy and consistency across frames.】翻译完请替换整个区块---区块结束---
+
+330
+00:37:19,120 --> 00:37:25,680
+---区块开始---待翻译文本:【It knows what to do, even when the prompts get a little creative, like this person made out of life rafts.】翻译完请替换整个区块---区块结束---
+
+331
+00:37:27,520 --> 00:37:31,600
+---区块开始---待翻译文本:【Understanding the physical environment will also be critical for robotics.】翻译完请替换整个区块---区块结束---
+
+332
+00:37:31,920 --> 00:37:36,880
+---区块开始---待翻译文本:【AI systems will need world models to operate effectively in the real world.】翻译完请替换整个区块---区块结束---
+
+333
+00:37:37,680 --> 00:37:47,600
+---区块开始---待翻译文本:【We fine-tuned a specialized model, Gemini Robotics, that teaches robots to do useful things like grasp, follow instructions, and adjust to novel tasks on the fly.】翻译完请替换整个区块---区块结束---
+
+334
+00:37:48,240 --> 00:37:52,480
+---区块开始---待翻译文本:【For those of you here today, you can play around with the robots in the AI sandbox.】翻译完请替换整个区块---区块结束---
+
+335
+00:37:59,440 --> 00:38:04,960
+---区块开始---待翻译文本:【Making Gemini a full world model is a critical step in unlocking a new kind of AI.】翻译完请替换整个区块---区块结束---
+
+336
+00:38:05,600 --> 00:38:15,280
+---区块开始---待翻译文本:【One that's helpful in your everyday life, that's intelligent and understands the context you're in, and that can plan and take action on your behalf across any device.】翻译完请替换整个区块---区块结束---
+
+337
+00:38:15,600 --> 00:38:22,320
+---区块开始---待翻译文本:【This is our ultimate vision for the Gemini app, to transform it into a universal AI assistant.】翻译完请替换整个区块---区块结束---
+
+338
+00:38:22,640 --> 00:38:29,440
+---区块开始---待翻译文本:【An AI that's personal, proactive, and powerful, and one of our key milestones on the road to AGI.】翻译完请替换整个区块---区块结束---
+
+339
+00:38:30,320 --> 00:38:38,480
+---区块开始---待翻译文本:【This starts with the capabilities we first explored last year in Project Astra, such as video understanding, screen sharing, and memory.】翻译完请替换整个区块---区块结束---
+
+340
+00:38:38,800 --> 00:38:45,760
+---区块开始---待翻译文本:【Over the past year, we've been integrating capabilities like these into Gemini Live for more people to experience today.】翻译完请替换整个区块---区块结束---
+
+341
+00:38:46,720 --> 00:38:51,920
+---区块开始---待翻译文本:【Of course, we continue to relentlessly improve and explore new innovations at the frontier.】翻译完请替换整个区块---区块结束---
+
+342
+00:38:52,240 --> 00:38:56,640
+---区块开始---待翻译文本:【For example, we've upgraded voice output to be more natural with native audio.】翻译完请替换整个区块---区块结束---
+
+343
+00:38:56,960 --> 00:39:00,000
+---区块开始---待翻译文本:【We've improved memory and added computer control.】翻译完请替换整个区块---区块结束---
+
+344
+00:39:00,240 --> 00:39:01,600
+---区块开始---待翻译文本:【Let's take a look.】翻译完请替换整个区块---区块结束---
+
+345
+00:39:02,240 --> 00:39:07,680
+---区块开始---待翻译文本:【I'm here with the latest research prototype of Project Astra, and we're going to see how it can help me fix my bike.】翻译完请替换整个区块---区块结束---
+
+346
+00:39:10,720 --> 00:39:15,200
+---区块开始---待翻译文本:【Hey, go online and look for a user's manual for a Huffy mountain bike.】翻译完请替换整个区块---区块结束---
+
+347
+00:39:16,160 --> 00:39:18,000
+---区块开始---待翻译文本:【I have found a user manual for you.】翻译完请替换整个区块---区块结束---
+
+348
+00:39:18,320 --> 00:39:19,520
+---区块开始---待翻译文本:【What would you like to know about it?】翻译完请替换整个区块---区块结束---
+
+349
+00:39:19,840 --> 00:39:20,320
+---区块开始---待翻译文本:【Okay, cool.】翻译完请替换整个区块---区块结束---
+
+350
+00:39:20,480 --> 00:39:22,880
+---区块开始---待翻译文本:【Now, scroll until you find the section about the brake.】翻译完请替换整个区块---区块结束---
+
+351
+00:39:23,520 --> 00:39:24,080
+---区块开始---待翻译文本:【Sure thing.】翻译完请替换整个区块---区块结束---
+
+352
+00:39:24,240 --> 00:39:25,680
+---区块开始---待翻译文本:【I'm looking for that page now.】翻译完请替换整个区块---区块结束---
+
+353
+00:39:26,320 --> 00:39:27,760
+---区块开始---待翻译文本:【I think I tripped it through.】翻译完请替换整个区块---区块结束---
+
+354
+00:39:28,400 --> 00:39:30,800
+---区块开始---待翻译文本:【Can you go on YouTube and find a video for how to pick that?】翻译完请替换整个区块---区块结束---
+
+355
+00:39:31,680 --> 00:39:32,160
+---区块开始---待翻译文本:【Of course.】翻译完请替换整个区块---区块结束---
+
+356
+00:39:32,320 --> 00:39:33,920
+---区块开始---待翻译文本:【I'm open to YouTube now.】翻译完请替换整个区块---区块结束---
+
+357
+00:39:38,400 --> 00:39:41,120
+---区块开始---待翻译文本:【Place a rubber band over the head of the screw on my bread.】翻译完请替换整个区块---区块结束---
+
+358
+00:39:42,160 --> 00:39:46,160
+---区块开始---待翻译文本:【Go through my emails with the bike job and find which side text net it is.】翻译完请替换整个区块---区块结束---
+
+359
+00:39:46,800 --> 00:39:47,040
+---区块开始---待翻译文本:【Sure.】翻译完请替换整个区块---区块结束---
+
+360
+00:39:47,440 --> 00:39:52,320
+---区块开始---待翻译文本:【According to the email from Bicycle Habitat, you need a 3-8 inch textnet for your sprocket.】翻译完请替换整个区块---区块结束---
+
+361
+00:39:52,560 --> 00:39:54,320
+---区块开始---待翻译文本:【I've highlighted the correct one for you.】翻译完请替换整个区块---区块结束---
+
+362
+00:39:54,960 --> 00:39:57,520
+---区块开始---待翻译文本:【It seems like I need a spare attention screw.】翻译完请替换整个区块---区块结束---
+
+363
+00:39:58,000 --> 00:40:00,400
+---区块开始---待翻译文本:【Can you call the nearest bike job and see what they have in the talk?】翻译完请替换整个区块---区块结束---
+
+364
+00:40:00,960 --> 00:40:01,200
+---区块开始---待翻译文本:【Yep.】翻译完请替换整个区块---区块结束---
+
+365
+00:40:01,520 --> 00:40:02,400
+---区块开始---待翻译文本:【Calling them now.】翻译完请替换整个区块---区块结束---
+
+366
+00:40:02,640 --> 00:40:04,320
+---区块开始---待翻译文本:【I'll get back to you with what they have in the talk.】翻译完请替换整个区块---区块结束---
+
+367
+00:40:04,880 --> 00:40:06,640
+---区块开始---待翻译文本:【I think my brake pads are wearing down.】翻译完请替换整个区块---区块结束---
+
+368
+00:40:06,880 --> 00:40:09,520
+---区块开始---待翻译文本:【Can you check the menu again and see if it talks about them anywhere?】翻译完请替换整个区块---区块结束---
+
+369
+00:40:09,920 --> 00:40:12,640
+---区块开始---待翻译文本:【According to the menu, if you look on page 24.】翻译完请替换整个区块---区块结束---
+
+370
+00:40:13,280 --> 00:40:14,000
+---区块开始---待翻译文本:【Do you want to get back?】翻译完请替换整个区块---区块结束---
+
+371
+00:40:15,280 --> 00:40:15,520
+---区块开始---待翻译文本:【Yeah.】翻译完请替换整个区块---区块结束---
+
+372
+00:40:15,760 --> 00:40:16,960
+---区块开始---待翻译文本:【Give me five minutes.】翻译完请替换整个区块---区块结束---
+
+373
+00:40:17,600 --> 00:40:19,120
+---区块开始---待翻译文本:【Can you finish what you were saying?】翻译完请替换整个区块---区块结束---
+
+374
+00:40:19,440 --> 00:40:20,400
+---区块开始---待翻译文本:【That's what I was saying.】翻译完请替换整个区块---区块结束---
+
+375
+00:40:20,800 --> 00:40:25,520
+---区块开始---待翻译文本:【If you look on page 24, section 2, you'll see how to replace the brake pads.】翻译完请替换整个区块---区块结束---
+
+376
+00:40:25,760 --> 00:40:27,600
+---区块开始---待翻译文本:【Hey, any updates on that call?】翻译完请替换整个区块---区块结束---
+
+377
+00:40:28,240 --> 00:40:28,560
+---区块开始---待翻译文本:【Yep.】翻译完请替换整个区块---区块结束---
+
+378
+00:40:28,720 --> 00:40:30,240
+---区块开始---待翻译文本:【I just got off the bike shop.】翻译完请替换整个区块---区块结束---
+
+379
+00:40:30,480 --> 00:40:32,560
+---区块开始---待翻译文本:【We can certainly have your attention through in the doc.】翻译完请替换整个区块---区块结束---
+
+380
+00:40:32,800 --> 00:40:34,480
+---区块开始---待翻译文本:【Would you like me to place a pickup order?】翻译完请替换整个区块---区块结束---
+
+381
+00:40:34,880 --> 00:40:38,240
+---区块开始---待翻译文本:【Could you show me some examples of dog baskets I can put on my bike?】翻译完请替换整个区块---区块结束---
+
+382
+00:40:38,720 --> 00:40:38,960
+---区块开始---待翻译文本:【Sure.】翻译完请替换整个区块---区块结束---
+
+383
+00:40:39,120 --> 00:40:40,000
+---区块开始---待翻译文本:【I can help you with that.】翻译完请替换整个区块---区块结束---
+
+384
+00:40:40,240 --> 00:40:41,680
+---区块开始---待翻译文本:【Just give me a moment.】翻译完请替换整个区块---区块结束---
+
+385
+00:40:42,560 --> 00:40:43,520
+---区块开始---待翻译文本:【Here are some options.】翻译完请替换整个区块---区块结束---
+
+386
+00:40:43,760 --> 00:40:45,920
+---区块开始---待翻译文本:【I think Zooka would look really great in the end.】翻译完请替换整个区块---区块结束---
+
+387
+00:40:56,480 --> 00:41:00,560
+---区块开始---待翻译文本:【A universal AI assistant will perform everyday tasks for us.】翻译完请替换整个区块---区块结束---
+
+388
+00:41:00,880 --> 00:41:09,200
+---区块开始---待翻译文本:【It will take care of mundane admin and surface delightful new recommendations, making us more productive and enriching our lives.】翻译完请替换整个区块---区块结束---
+
+389
+00:41:09,520 --> 00:41:23,600
+---区块开始---待翻译文本:【We're gathering feedback about these new capabilities now from trusted testers and working to bring them to Gemini Live, new experiences in search and the live API for developers, as well as new form factors like Android, XR, glasses.】翻译完请替换整个区块---区块结束---
+
+390
+00:41:23,920 --> 00:41:26,000
+---区块开始---待翻译文本:【You'll hear more on this later today.】翻译完请替换整个区块---区块结束---
+
+391
+00:41:27,600 --> 00:41:33,920
+---区块开始---待翻译文本:【My entire career at its core has been about using AI to advance knowledge and accelerate scientific discovery.】翻译完请替换整个区块---区块结束---
+
+392
+00:41:34,240 --> 00:41:40,160
+---区块开始---待翻译文本:【At Google DeepMind, we've been applying AI across almost every branch of science for a long time.】翻译完请替换整个区块---区块结束---
+
+393
+00:41:40,480 --> 00:41:47,680
+---区块开始---待翻译文本:【In just the past year, we've made some huge breakthroughs in a wide range of areas, from mathematics to life sciences.】翻译完请替换整个区块---区块结束---
+
+394
+00:41:48,000 --> 00:41:52,880
+---区块开始---待翻译文本:【We've built AlphaProof that can solve mass olympiad problems at the silver medal level.】翻译完请替换整个区块---区块结束---
+
+395
+00:41:53,200 --> 00:41:58,800
+---区块开始---待翻译文本:【Co-scientists that can collaborate with researchers, helping them develop and test novel hypotheses.】翻译完请替换整个区块---区块结束---
+
+396
+00:41:59,120 --> 00:42:05,920
+---区块开始---待翻译文本:【And we've just released AlphaEvolve, which can discover new scientific knowledge and speed up AI training itself.】翻译完请替换整个区块---区块结束---
+
+397
+00:42:07,200 --> 00:42:13,280
+---区块开始---待翻译文本:【In the life sciences, we've built AMI, a research system that could help clinicians with medical diagnoses.】翻译完请替换整个区块---区块结束---
+
+398
+00:42:13,600 --> 00:42:19,120
+---区块开始---待翻译文本:【AlphaFold 3, which can predict the structure and interactions of all of life's molecules.】翻译完请替换整个区块---区块结束---
+
+399
+00:42:19,440 --> 00:42:30,800
+---区块开始---待翻译文本:【And Isomorphic Labs, which builds on our AlphaFold work to revolutionize the drug discovery process with AI, and will one day help to solve many global diseases.】翻译完请替换整个区块---区块结束---
+
+400
+00:42:31,440 --> 00:42:36,800
+---区块开始---待翻译文本:【In just a few short years, AlphaFold has already had a massive impact in the scientific community.】翻译完请替换整个区块---区块结束---
+
+401
+00:42:37,120 --> 00:42:45,280
+---区块开始---待翻译文本:【It's become a standard tool for biology and medical research, with over 2.5 million researchers worldwide using it in their critical work.】翻译完请替换整个区块---区块结束---
+
+402
+00:42:45,920 --> 00:42:59,200
+---区块开始---待翻译文本:【As we continue to make progress towards AGI, I've always believed, if done safely and responsibly, it has the potential to accelerate scientific discovery and be the most beneficial technology ever invented.】翻译完请替换整个区块---区块结束---
+
+403
+00:43:06,160 --> 00:43:16,160
+---区块开始---待翻译文本:【Taking a step back, it's amazing to me that even just a few years ago, the frontier technology you're seeing today would have seemed nothing short of magic.】翻译完请替换整个区块---区块结束---
+
+404
+00:43:16,720 --> 00:43:25,600
+---区块开始---待翻译文本:【It's exciting to see these technologies powering new experiences in products like Search and Gemini, and also coming together to help people in their daily lives.】翻译完请替换整个区块---区块结束---
+
+405
+00:43:25,920 --> 00:43:37,920
+---区块开始---待翻译文本:【For example, we recently partnered with IRA, a company that assists people in the blind and low vision community, to navigate the world by connecting them via video to human visual interpreters.】翻译完请替换整个区块---区块结束---
+
+406
+00:43:38,240 --> 00:43:44,240
+---区块开始---待翻译文本:【Using Astra technology, we build a prototype to help more people have access to this type of assistance.】翻译完请替换整个区块---区块结束---
+
+407
+00:43:44,880 --> 00:43:51,920
+---区块开始---待翻译文本:【We're getting ongoing feedback from users while ARA's interpreters are actively supervising for safety and reliability.】翻译完请替换整个区块---区块结束---
+
+408
+00:43:57,920 --> 00:44:14,320
+---区块开始---待翻译文本:【With this and all our groundbreaking work, we're building AI that's more personal, proactive, and powerful, enriching our lives, advancing the pace of scientific progress, and ushering in a new golden age of discovery and wonder.】翻译完请替换整个区块---区块结束---
+
+409
+00:44:18,160 --> 00:44:25,920
+---区块开始---待翻译文本:【I remember as a child playing until it got dark outside to make sure I could still play guitar without being able to see.】翻译完请替换整个区块---区块结束---
+
+410
+00:44:27,760 --> 00:44:32,000
+---区块开始---待翻译文本:【I was diagnosed with retinitis pigmentosa when I was probably about four years old.】翻译完请替换整个区块---区块结束---
+
+411
+00:44:32,240 --> 00:44:45,680
+---区块开始---待翻译文本:【My vision is actively deteriorating, but, you know, music has been something that I can continue to do with the closing in of my visual reality.】翻译完请替换整个区块---区块结束---
+
+412
+00:44:46,240 --> 00:44:48,880
+---区块开始---待翻译文本:【I feel free when I'm playing music.】翻译完请替换整个区块---区块结束---
+
+413
+00:44:49,520 --> 00:44:55,760
+---区块开始---待翻译文本:【If Project Astra can help me be more independent, it would be, you know, the greatest thing ever.】翻译完请替换整个区块---区块结束---
+
+414
+00:44:58,960 --> 00:45:07,920
+---区块开始---待翻译文本:【Touring, for example, I love it because I get to go out and go to places I've never been before and meet new people, but it definitely is becoming more difficult.】翻译完请替换整个区块---区块结束---
+
+415
+00:45:08,240 --> 00:45:08,960
+---区块开始---待翻译文本:【Hello there!】翻译完请替换整个区块---区块结束---
+
+416
+00:45:09,280 --> 00:45:09,840
+---区块开始---待翻译文本:【Hello!】翻译完请替换整个区块---区块结束---
+
+417
+00:45:10,080 --> 00:45:15,840
+---区块开始---待翻译文本:【Can you tell me what you see in this green room while I scan around?】翻译完请替换整个区块---区块结束---
+
+418
+00:45:16,320 --> 00:45:18,800
+---区块开始---待翻译文本:【I see a sign on the wall in the direction you're facing.】翻译完请替换整个区块---区块结束---
+
+419
+00:45:19,120 --> 00:45:24,240
+---区块开始---待翻译文本:【The sign says Wi-Fi Network, the Gray Eagle, and the password is live music.】翻译完请替换整个区块---区块结束---
+
+420
+00:45:24,560 --> 00:45:25,440
+---区块开始---待翻译文本:【Thank you very much.】翻译完请替换整个区块---区块结束---
+
+421
+00:45:25,760 --> 00:45:28,160
+---区块开始---待翻译文本:【Can you help me locate a microphone stand?】翻译完请替换整个区块---区块结束---
+
+422
+00:45:28,400 --> 00:45:29,440
+---区块开始---待翻译文本:【Sure, I can help with that.】翻译完请替换整个区块---区块结束---
+
+423
+00:45:29,600 --> 00:45:31,440
+---区块开始---待翻译文本:【Do you mind if I turn on the flashlight?】翻译完请替换整个区块---区块结束---
+
+424
+00:45:31,680 --> 00:45:32,960
+---区块开始---待翻译文本:【Yes, please.】翻译完请替换整个区块---区块结束---
+
+425
+00:45:34,240 --> 00:45:40,320
+---区块开始---待翻译文本:【I see a wall with several coiled cables, and what look like mic stands towards the top right of the video.】翻译完请替换整个区块---区块结束---
+
+426
+00:45:42,560 --> 00:45:47,840
+---区块开始---待翻译文本:【The most powerful thing I can do is to get on stage, pick up my guitar, and play.】翻译完请替换整个区块---区块结束---
+
+427
+00:45:48,160 --> 00:45:54,640
+---区块开始---待翻译文本:【It helps people understand that there's more than just blind or not blind, disability and ability.】翻译完请替换整个区块---区块结束---
+
+428
+00:45:54,960 --> 00:45:59,200
+---区块开始---待翻译文本:【If Project Astra could help me along the way, I'm all for it.】翻译完请替换整个区块---区块结束---
+
+429
+00:46:00,160 --> 00:46:02,000
+---区块开始---待翻译文本:【Have a great time at your show.】翻译完请替换整个区块---区块结束---
+
+430
+00:46:10,960 --> 00:46:11,840
+---区块开始---待翻译文本:【Thanks, Demis.】翻译完请替换整个区块---区块结束---
+
+431
+00:46:12,240 --> 00:46:17,360
+---区块开始---待翻译文本:【It's amazing to see the possibilities for Project Astra to help with accessibility.】翻译完请替换整个区块---区块结束---
+
+432
+00:46:17,680 --> 00:46:28,560
+---区块开始---待翻译文本:【It's another exciting example of how AI is advancing our timeless mission to organize the world's information and make it universally accessible and useful.】翻译完请替换整个区块---区块结束---
+
+433
+00:46:28,880 --> 00:46:32,240
+---区块开始---待翻译文本:【No product embodies our mission more than Google Search.】翻译完请替换整个区块---区块结束---
+
+434
+00:46:32,560 --> 00:46:42,000
+---区块开始---待翻译文本:【It's the reason we started investing in AI decades ago and how we can deliver its benefits at the scale of human curiosity.】翻译完请替换整个区块---区块结束---
+
+435
+00:46:42,320 --> 00:46:48,960
+---区块开始---待翻译文本:【Our Gemini models are helping to make Google Search more intelligent, agentic, and personalized.】翻译完请替换整个区块---区块结束---
+
+436
+00:46:49,280 --> 00:46:53,040
+---区块开始---待翻译文本:【One great example of progress is our AI overviews.】翻译完请替换整个区块---区块结束---
+
+437
+00:46:53,360 --> 00:46:54,720
+---区块开始---待翻译文本:【Since launching at I.O.】翻译完请替换整个区块---区块结束---
+
+438
+00:46:54,960 --> 00:47:02,080
+---区块开始---待翻译文本:【last year, they have scaled up to over 1.5 billion users every month in more than 200 countries and territories.】翻译完请替换整个区块---区块结束---
+
+439
+00:47:02,400 --> 00:47:08,800
+---区块开始---待翻译文本:【As people use AI overviews, we see they are happier with their results and they search more often.】翻译完请替换整个区块---区块结束---
+
+440
+00:47:09,120 --> 00:47:18,400
+---区块开始---待翻译文本:【In our biggest markets like the US and India, AI overviews are driving over 10% growth in the types of queries that show them.】翻译完请替换整个区块---区块结束---
+
+441
+00:47:18,720 --> 00:47:23,760
+---区块开始---待翻译文本:【What's particularly exciting is that this growth increases over time.】翻译完请替换整个区块---区块结束---
+
+442
+00:47:24,080 --> 00:47:28,880
+---区块开始---待翻译文本:【It's one of the most successful launches in search in the past decade.】翻译完请替换整个区块---区块结束---
+
+443
+00:47:36,160 --> 00:47:41,360
+---区块开始---待翻译文本:【AI overviews are also one of the strongest drivers of growth for visual searches in Google Lens.】翻译完请替换整个区块---区块结束---
+
+444
+00:47:41,920 --> 00:47:49,360
+---区块开始---待翻译文本:【Lens grew 65% year over year, with more than 100 billion visual searches already this year.】翻译完请替换整个区块---区块结束---
+
+445
+00:47:49,680 --> 00:47:54,640
+---区块开始---待翻译文本:【So people are asking more queries and they're also asking more complex queries.】翻译完请替换整个区块---区块结束---
+
+446
+00:47:54,960 --> 00:48:05,200
+---区块开始---待翻译文本:【With our latest Gemini models, our AI overviews are at the quality and accuracy you've come to expect from search and are the fastest in the industry.】翻译完请替换整个区块---区块结束---
+
+447
+00:48:05,520 --> 00:48:12,240
+---区块开始---待翻译文本:【For those who want an end-to-end AI search experience, we are introducing an all-new AI mode.】翻译完请替换整个区块---区块结束---
+
+448
+00:48:12,560 --> 00:48:15,120
+---区块开始---待翻译文本:【It's a total reimagining of search.】翻译完请替换整个区块---区块结束---
+
+449
+00:48:15,440 --> 00:48:22,800
+---区块开始---待翻译文本:【With more advanced reasoning, you can ask AI mode longer and more complex queries like this.】翻译完请替换整个区块---区块结束---
+
+450
+00:48:23,360 --> 00:48:30,240
+---区块开始---待翻译文本:【In fact, users have been asking much longer queries, two to three times the length of traditional searches.】翻译完请替换整个区块---区块结束---
+
+451
+00:48:30,560 --> 00:48:33,840
+---区块开始---待翻译文本:【And you can go further with follow-up questions.】翻译完请替换整个区块---区块结束---
+
+452
+00:48:34,160 --> 00:48:38,640
+---区块开始---待翻译文本:【All of this is available today as a new tab right in search.】翻译完请替换整个区块---区块结束---
+
+453
+00:48:39,200 --> 00:48:43,200
+---区块开始---待翻译文本:【I've been using it a lot, and it's completely changed how I use search.】翻译完请替换整个区块---区块结束---
+
+454
+00:48:43,520 --> 00:48:49,200
+---区块开始---待翻译文本:【And I'm excited to share that AI mode is coming to everyone in the US starting today.】翻译完请替换整个区块---区块结束---
+
+455
+00:48:55,760 --> 00:48:59,760
+---区块开始---待翻译文本:【AI mode is where we will first bring our frontier capabilities into search.】翻译完请替换整个区块---区块结束---
+
+456
+00:49:00,240 --> 00:49:06,720
+---区块开始---待翻译文本:【And starting this week, Gemini 2.5, our most intelligent model series, is coming to search.】翻译完请替换整个区块---区块结束---
+
+457
+00:49:07,120 --> 00:49:10,080
+---区块开始---待翻译文本:【To share a whole lot more, here's less.】翻译完请替换整个区块---区块结束---
+
+458
+00:49:22,000 --> 00:49:23,200
+---区块开始---待翻译文本:【Thanks, Sundar.】翻译完请替换整个区块---区块结束---
+
+459
+00:49:23,520 --> 00:49:28,560
+---区块开始---待翻译文本:【In just one year, there's been a profound shift in how people are using search.】翻译完请替换整个区块---区块结束---
+
+460
+00:49:29,120 --> 00:49:33,680
+---区块开始---待翻译文本:【For years, people have come to Google to ask questions like this.】翻译完请替换整个区块---区块结束---
+
+461
+00:49:34,560 --> 00:49:38,400
+---区块开始---待翻译文本:【And now, they're also asking questions that look more like this.】翻译完请替换整个区块---区块结束---
+
+462
+00:49:39,280 --> 00:49:46,240
+---区块开始---待翻译文本:【They're asking longer questions, harder ones, and as you just heard from Sundar, lots more of them.】翻译完请替换整个区块---区块结束---
+
+463
+00:49:46,880 --> 00:49:58,240
+---区块开始---待翻译文本:【They're experiencing what AI-powered search can do as we bring together our Gemini model's advanced capabilities with search's unparalleled understanding of the web and the world's information.】翻译完请替换整个区块---区块结束---
+
+464
+00:49:59,200 --> 00:50:10,080
+---区块开始---待翻译文本:【Today you'll see how you can ask anything, and a more intelligent, agentic, and personalized search will take on your toughest questions and help you get stuff done.】翻译完请替换整个区块---区块结束---
+
+465
+00:50:11,120 --> 00:50:16,720
+---区块开始---待翻译文本:【This is the future of Google search, a search that goes beyond information to intelligence.】翻译完请替换整个区块---区块结束---
+
+466
+00:50:18,000 --> 00:50:21,600
+---区块开始---待翻译文本:【And you're starting to see this come to life already with AI overviews.】翻译完请替换整个区块---区块结束---
+
+467
+00:50:21,920 --> 00:50:24,080
+---区块开始---待翻译文本:【And AI Mode takes this to the next level.】翻译完请替换整个区块---区块结束---
+
+468
+00:50:25,680 --> 00:50:30,160
+---区块开始---待翻译文本:【AI Mode is search transformed with Gemini 2.5 at its core.】翻译完请替换整个区块---区块结束---
+
+469
+00:50:30,800 --> 00:50:35,200
+---区块开始---待翻译文本:【It's our most powerful AI search, able to tackle any question.】翻译完请替换整个区块---区块结束---
+
+470
+00:50:36,480 --> 00:50:41,360
+---区块开始---待翻译文本:【And as Sunder announced, we're excited to start rolling out AI Mode for everyone in the U.S.】翻译完请替换整个区块---区块结束---
+
+471
+00:50:42,000 --> 00:50:42,960
+---区块开始---待翻译文本:【starting today.】翻译完请替换整个区块---区块结束---
+
+472
+00:50:49,920 --> 00:50:53,840
+---区块开始---待翻译文本:【You'll find it as a new tab directly in search or right from your search bar.】翻译完请替换整个区块---区块结束---
+
+473
+00:50:54,880 --> 00:50:59,680
+---区块开始---待翻译文本:【AI Mode will be loaded up with all of our best AI features and capabilities.】翻译完请替换整个区块---区块结束---
+
+474
+00:51:00,640 --> 00:51:01,920
+---区块开始---待翻译文本:【But it's even more than that.】翻译完请替换整个区块---区块结束---
+
+475
+00:51:02,160 --> 00:51:04,320
+---区块开始---待翻译文本:【It's a glimpse of what's to come.】翻译完请替换整个区块---区块结束---
+
+476
+00:51:05,520 --> 00:51:12,560
+---区块开始---待翻译文本:【Over time, we'll graduate many of AI Mode's cutting-edge features and capabilities directly into the core search experience.】翻译完请替换整个区块---区块结束---
+
+477
+00:51:13,600 --> 00:51:19,680
+---区块开始---待翻译文本:【That starts today as we bring the same models that power AI mode to power AI overviews.】翻译完请替换整个区块---区块结束---
+
+478
+00:51:20,000 --> 00:51:23,920
+---区块开始---待翻译文本:【So you can bring your hardest questions right to the search box.】翻译完请替换整个区块---区块结束---
+
+479
+00:51:24,880 --> 00:51:38,960
+---区块开始---待翻译文本:【Today we'll give you a tour of AI Mode, and you'll see how it works and how it's getting even better with personal context, deeper research, complex analysis and visualization, live multimodality, and new ways to shop.】翻译完请替换整个区块---区块结束---
+
+480
+00:51:39,440 --> 00:51:42,400
+---区块开始---待翻译文本:【Now that's a lot, because AI Mode can do a lot.】翻译完请替换整个区块---区块结束---
+
+481
+00:51:42,720 --> 00:51:44,080
+---区块开始---待翻译文本:【So let's dive in.】翻译完请替换整个区块---区块结束---
+
+482
+00:51:45,280 --> 00:51:48,720
+---区块开始---待翻译文本:【First, with AI Mode, you can ask whatever's on your mind.】翻译完请替换整个区块---区块结束---
+
+483
+00:51:49,040 --> 00:51:51,840
+---区块开始---待翻译文本:【And as you can see here, search gets to work.】翻译完请替换整个区块---区块结束---
+
+484
+00:51:52,400 --> 00:52:05,200
+---区块开始---待翻译文本:【It generates your response, putting everything together for you, including links to content and creators you might not have otherwise discovered, and merchants and businesses with useful information like ratings.】翻译完请替换整个区块---区块结束---
+
+485
+00:52:05,840 --> 00:52:16,240
+---区块开始---待翻译文本:【Search uses AI to dynamically adapt the entire UI, the combination of text, images, links, even this map, just for your question.】翻译完请替换整个区块---区块结束---
+
+486
+00:52:17,120 --> 00:52:19,120
+---区块开始---待翻译文本:【And you can follow up conversationally.】翻译完请替换整个区块---区块结束---
+
+487
+00:52:20,080 --> 00:52:22,560
+---区块开始---待翻译文本:【Now AI mode isn't just giving you information.】翻译完请替换整个区块---区块结束---
+
+488
+00:52:22,880 --> 00:52:26,160
+---区块开始---待翻译文本:【It's bringing a whole new level of intelligence to search.】翻译完请替换整个区块---区块结束---
+
+489
+00:52:27,440 --> 00:52:31,600
+---区块开始---待翻译文本:【What makes this possible is something we call our query fan out technique.】翻译完请替换整个区块---区块结束---
+
+490
+00:52:32,240 --> 00:52:36,640
+---区块开始---待翻译文本:【Now under the hood, search recognizes when a question needs advanced reasoning.】翻译完请替换整个区块---区块结束---
+
+491
+00:52:37,280 --> 00:52:41,920
+---区块开始---待翻译文本:【It calls on our custom version of Gemini to break the question into different subtopics.】翻译完请替换整个区块---区块结束---
+
+492
+00:52:42,240 --> 00:52:46,480
+---区块开始---待翻译文本:【And it issues a multitude of queries simultaneously on your behalf.】翻译完请替换整个区块---区块结束---
+
+493
+00:52:46,800 --> 00:52:52,160
+---区块开始---待翻译文本:【It searches across the entire web, going way deeper than a traditional search.】翻译完请替换整个区块---区块结束---
+
+494
+00:52:52,720 --> 00:53:06,320
+---区块开始---待翻译文本:【And it taps into all of our data sets of real-time information, like the knowledge graph, the shopping graph, and in this case, local data, including insights from our maps community of over 500 million contributors.】翻译完请替换整个区块---区块结束---
+
+495
+00:53:07,360 --> 00:53:13,760
+---区块开始---待翻译文本:【Search pulls together a response and it checks its work to make sure it meets our high bar for information quality.】翻译完请替换整个区块---区块结束---
+
+496
+00:53:14,080 --> 00:53:18,560
+---区块开始---待翻译文本:【And if it detects any gaps, it issues even more searches to fill them in.】翻译完请替换整个区块---区块结束---
+
+497
+00:53:19,520 --> 00:53:23,680
+---区块开始---待翻译文本:【That means with AI mode, you get all of this from just a single search.】翻译完请替换整个区块---区块结束---
+
+498
+00:53:24,000 --> 00:53:25,280
+---区块开始---待翻译文本:【And you get it fast.】翻译完请替换整个区块---区块结束---
+
+499
+00:53:26,880 --> 00:53:30,560
+---区块开始---待翻译文本:【Now let's take a look at what's coming next to AI Mode, starting in labs.】翻译完请替换整个区块---区块结束---
+
+500
+00:53:31,840 --> 00:53:39,600
+---区块开始---待翻译文本:【Soon AI Mode will be able to make your responses even more helpful with personalized suggestions based on your past searches.】翻译完请替换整个区块---区块结束---
+
+501
+00:53:40,240 --> 00:53:43,920
+---区块开始---待翻译文本:【You can also opt in to connect other Google Apps, starting with email.】翻译完请替换整个区块---区块结束---
+
+502
+00:53:45,040 --> 00:53:50,320
+---区块开始---待翻译文本:【We call this personal context, and you'll see when AI Mode is bringing yours in to help.】翻译完请替换整个区块---区块结束---
+
+503
+00:53:51,280 --> 00:53:56,640
+---区块开始---待翻译文本:【So now, based on your recent restaurant bookings and searches, it gets that you prefer outdoor seating.】翻译完请替换整个区块---区块结束---
+
+504
+00:53:57,280 --> 00:54:03,680
+---区块开始---待翻译文本:【And since you subscribe to those gallery newsletters, it suggests some cool art exhibits to check out while you're in town.】翻译完请替换整个区块---区块结束---
+
+505
+00:54:04,320 --> 00:54:05,520
+---区块开始---待翻译文本:【But that's not all.】翻译完请替换整个区块---区块结束---
+
+506
+00:54:05,840 --> 00:54:09,040
+---区块开始---待翻译文本:【Because your flight and hotel confirmations are in your inbox.】翻译完请替换整个区块---区块结束---
+
+507
+00:54:09,360 --> 00:54:14,960
+---区块开始---待翻译文本:【You get event ideas that sync up with when you'll actually be in Nashville, with many nearby where you're staying.】翻译完请替换整个区块---区块结束---
+
+508
+00:54:16,240 --> 00:54:22,880
+---区块开始---待翻译文本:【You can see how personal context in AI mode makes search really yours, with recommendations customized just for you.】翻译完请替换整个区块---区块结束---
+
+509
+00:54:23,840 --> 00:54:25,600
+---区块开始---待翻译文本:【Now this is always under your control.】翻译完请替换整个区块---区块结束---
+
+510
+00:54:26,000 --> 00:54:28,560
+---区块开始---待翻译文本:【And you can choose to connect or disconnect at any time.】翻译完请替换整个区块---区块结束---
+
+511
+00:54:29,840 --> 00:54:32,480
+---区块开始---待翻译文本:【Personal context is coming to AI mode this summer.】翻译完请替换整个区块---区块结束---
+
+512
+00:54:40,880 --> 00:54:47,920
+---区块开始---待翻译文本:【Next, for questions when you want an even more thorough response, we're bringing deep research capabilities into AI mode.】翻译完请替换整个区块---区块结束---
+
+513
+00:54:48,720 --> 00:54:54,720
+---区块开始---待翻译文本:【You already come to search today to really unpack a topic, but this brings it to a much deeper level.】翻译完请替换整个区块---区块结束---
+
+514
+00:54:55,040 --> 00:54:57,760
+---区块开始---待翻译文本:【So much so that we're calling this deep search.】翻译完请替换整个区块---区块结束---
+
+515
+00:54:58,800 --> 00:55:03,520
+---区块开始---待翻译文本:【Deep search uses the same query fan out technique you just heard about, but multiplied.】翻译完请替换整个区块---区块结束---
+
+516
+00:55:03,840 --> 00:55:08,160
+---区块开始---待翻译文本:【It can issue dozens or even hundreds of searches on your behalf.】翻译完请替换整个区块---区块结束---
+
+517
+00:55:08,480 --> 00:55:15,680
+---区块开始---待翻译文本:【It reasons across all those disparate pieces of information to create an expert-level, fully cited report in just minutes.】翻译完请替换整个区块---区块结束---
+
+518
+00:55:16,800 --> 00:55:21,200
+---区块开始---待翻译文本:【It includes links to the web throughout, so you can easily explore and take action.】翻译完请替换整个区块---区块结束---
+
+519
+00:55:22,480 --> 00:55:28,800
+---区块开始---待翻译文本:【Now that's a core part of how we've built AI mode overall, and how we've always thought about AI and search.】翻译完请替换整个区块---区块结束---
+
+520
+00:55:29,760 --> 00:55:34,720
+---区块开始---待翻译文本:【Because we believe AI will be the most powerful engine for discovery that the web has ever seen.】翻译完请替换整个区块---区块结束---
+
+521
+00:55:35,600 --> 00:55:42,000
+---区块开始---待翻译文本:【Helping people discover even more of what the web has to offer and finding credible, hyper-relevant content.】翻译完请替换整个区块---区块结束---
+
+522
+00:55:43,280 --> 00:55:48,160
+---区块开始---待翻译文本:【You're starting to see how search is becoming more intelligent, and we've got more to show you.】翻译完请替换整个区块---区块结束---
+
+523
+00:55:48,480 --> 00:55:56,160
+---区块开始---待翻译文本:【So I'll hand it over to Raja, who will share how AI Mode is helping analyze complex data for one of his passions, sports.】翻译完请替换整个区块---区块结束---
+
+524
+00:56:06,960 --> 00:56:07,760
+---区块开始---待翻译文本:【Thanks, Louis.】翻译完请替换整个区块---区块结束---
+
+525
+00:56:08,720 --> 00:56:11,200
+---区块开始---待翻译文本:【Okay, so I'm a huge baseball fan.】翻译完请替换整个区块---区块结束---
+
+526
+00:56:11,440 --> 00:56:15,120
+---区块开始---待翻译文本:【And lately, there's been a lot of buzz about these new torpedo bats.】翻译完请替换整个区块---区块结束---
+
+527
+00:56:15,440 --> 00:56:21,920
+---区块开始---待翻译文本:【If you don't follow baseball, it's a new bat design where more of the weight of the bat is in the sweet spot.】翻译完请替换整个区块---区块结束---
+
+528
+00:56:22,240 --> 00:56:26,960
+---区块开始---待翻译文本:【As you can see, I've been digging in on whether it's making a real impact on the game.】翻译完请替换整个区块---区块结束---
+
+529
+00:56:27,280 --> 00:56:29,920
+---区块开始---待翻译文本:【And now, I'm wondering what the numbers say.】翻译完请替换整个区块---区块结束---
+
+530
+00:56:30,240 --> 00:56:39,280
+---区块开始---待翻译文本:【So I'll ask, show the batting average and on-base percentage for this season and last for notable players who currently use a torpedo bat.】翻译完请替换整个区块---区块结束---
+
+531
+00:56:39,600 --> 00:56:40,320
+---区块开始---待翻译文本:【Think about it.】翻译完请替换整个区块---区块结束---
+
+532
+00:56:40,560 --> 00:56:43,040
+---区块开始---待翻译文本:【There are so many parts to that question.】翻译完请替换整个区块---区块结束---
+
+533
+00:56:43,360 --> 00:56:50,320
+---区块开始---待翻译文本:【Search needs to understand who the notable players are, which ones are using torpedo bats, and their stats.】翻译完请替换整个区块---区块结束---
+
+534
+00:56:50,640 --> 00:56:55,200
+---区块开始---待翻译文本:【I get this helpful response, including this easy to read table.】翻译完请替换整个区块---区块结束---
+
+535
+00:56:55,760 --> 00:57:04,240
+---区块开始---待翻译文本:【And I know that this is fresh and accurate since it uses our sports data that's continuously updated down to the last strike.】翻译完请替换整个区块---区块结束---
+
+536
+00:57:04,560 --> 00:57:09,920
+---区块开始---待翻译文本:【Search even brings in important context, like that it's still early in the season.】翻译完请替换整个区块---区块结束---
+
+537
+00:57:10,480 --> 00:57:15,200
+---区块开始---待翻译文本:【I can follow up and ask, how many home runs have these players hit this season?】翻译完请替换整个区块---区块结束---
+
+538
+00:57:15,520 --> 00:57:18,400
+---区块开始---待翻译文本:【And just like that, I get this graph.】翻译完请替换整个区块---区块结束---
+
+539
+00:57:19,040 --> 00:57:26,160
+---区块开始---待翻译文本:【This goes back to what Liz mentioned about AI mode dynamically generating the right UI for each response.】翻译完请替换整个区块---区块结束---
+
+540
+00:57:26,480 --> 00:57:32,400
+---区块开始---待翻译文本:【Search figured out that the best way to present this information is a graph, and it created it.】翻译完请替换整个区块---区块结束---
+
+541
+00:57:32,720 --> 00:57:36,640
+---区块开始---待翻译文本:【It's like having my very own sports analyst write in search.】翻译完请替换整个区块---区块结束---
+
+542
+00:57:37,440 --> 00:57:44,160
+---区块开始---待翻译文本:【Complex analysis and data visualization is coming this summer for sports and financial questions.】翻译完请替换整个区块---区块结束---
+
+543
+00:57:50,400 --> 00:57:57,920
+---区块开始---待翻译文本:【Okay, so all this talk about baseball made me want to get closer to the game, like at the next game close.】翻译完请替换整个区块---区块结束---
+
+544
+00:57:58,480 --> 00:58:01,600
+---区块开始---待翻译文本:【But finding the perfect tickets can be a chore.】翻译完请替换整个区块---区块结束---
+
+545
+00:58:02,160 --> 00:58:09,360
+---区块开始---待翻译文本:【So I'm excited to share that we're bringing Project Mariner's agentic capabilities into AI mode.】翻译完请替换整个区块---区块结束---
+
+546
+00:58:09,680 --> 00:58:13,920
+---区块开始---待翻译文本:【You've already seen how AI mode is becoming more intelligent and personalized.】翻译完请替换整个区块---区块结束---
+
+547
+00:58:14,240 --> 00:58:17,600
+---区块开始---待翻译文本:【And here's where you start to see search getting more agentic.】翻译完请替换整个区块---区块结束---
+
+548
+00:58:18,080 --> 00:58:22,640
+---区块开始---待翻译文本:【Search can take work off my plate while still under my control.】翻译完请替换整个区块---区块结束---
+
+549
+00:58:22,960 --> 00:58:28,960
+---区块开始---待翻译文本:【I'll say, find two affordable tickets for this Saturday's Reds game in the lower level.】翻译完请替换整个区块---区块结束---
+
+550
+00:58:29,520 --> 00:58:41,520
+---区块开始---待翻译文本:【Search kicks off a query fan out, looking across several sites to analyze hundreds of potential ticket options, doing the tedious work of filling in forms with all the criteria I asked for.】翻译完请替换整个区块---区块结束---
+
+551
+00:58:42,080 --> 00:58:48,640
+---区块开始---待翻译文本:【And it puts it all together, reasoning across the results to analyze real-time pricing and inventory.】翻译完请替换整个区块---区块结束---
+
+552
+00:58:48,880 --> 00:58:52,960
+---区块开始---待翻译文本:【Then, right here, task complete.】翻译完请替换整个区块---区块结束---
+
+553
+00:58:53,280 --> 00:58:59,200
+---区块开始---待翻译文本:【I get great ticket options with helpful context so I can make an informed decision.】翻译完请替换整个区块---区块结束---
+
+554
+00:58:59,600 --> 00:59:03,280
+---区块开始---待翻译文本:【Looks like these seats have a good view and at a reasonable price.】翻译完请替换整个区块---区块结束---
+
+555
+00:59:03,600 --> 00:59:08,640
+---区块开始---待翻译文本:【Search helps me skip a bunch of steps, linking me right to finish checking out.】翻译完请替换整个区块---区块结束---
+
+556
+00:59:09,280 --> 00:59:10,720
+---区块开始---待翻译文本:【Tickets secured.】翻译完请替换整个区块---区块结束---
+
+557
+00:59:18,320 --> 00:59:26,640
+---区块开始---待翻译文本:【Search will help with tasks like this soon, starting with event tickets, restaurant reservations, and appointments for local services.】翻译完请替换整个区块---区块结束---
+
+558
+00:59:28,160 --> 00:59:31,440
+---区块开始---待翻译文本:【Next, let's talk about multimodality.】翻译完请替换整个区块---区块结束---
+
+559
+00:59:31,760 --> 00:59:36,480
+---区块开始---待翻译文本:【We've been blazing the trail for a multimodal search since before it was really even a thing.】翻译完请替换整个区块---区块结束---
+
+560
+00:59:36,800 --> 00:59:40,880
+---区块开始---待翻译文本:【We introduced Google Lens on this very stage back in 2017.】翻译完请替换整个区块---区块结束---
+
+561
+00:59:41,200 --> 00:59:45,680
+---区块开始---待翻译文本:【And since then, we've made it even easier to see search what you see.】翻译完请替换整个区块---区块结束---
+
+562
+00:59:46,000 --> 00:59:52,160
+---区块开始---待翻译文本:【Snap a picture with Google Lens or simply circle the search and you can get an AI overview instantly.】翻译完请替换整个区块---区块结束---
+
+563
+00:59:52,480 --> 00:59:55,760
+---区块开始---待翻译文本:【Like Sundarb mentioned, visual search is on fire.】翻译完请替换整个区块---区块结束---
+
+564
+00:59:56,080 --> 01:00:02,640
+---区块开始---待翻译文本:【And today, I'm excited to share that Lens has over 1.5 billion users every month.】翻译完请替换整个区块---区块结束---
+
+565
+01:00:08,240 --> 01:00:16,560
+---区块开始---待翻译文本:【Now, we're taking the next big leap in multimodality by bringing Project Astra's live capabilities into AI mode.】翻译完请替换整个区块---区块结束---
+
+566
+01:00:16,880 --> 01:00:22,960
+---区块开始---待翻译文本:【Think about all those questions that are so much simpler to just talk through and actually show what you mean.】翻译完请替换整个区块---区块结束---
+
+567
+01:00:23,520 --> 01:00:28,640
+---区块开始---待翻译文本:【Like a DIY home repair, a tricky school assignment, or learning a new skill.】翻译完请替换整个区块---区块结束---
+
+568
+01:00:28,960 --> 01:00:30,720
+---区块开始---待翻译文本:【We call this Search Live.】翻译完请替换整个区块---区块结束---
+
+569
+01:00:31,040 --> 01:00:39,040
+---区块开始---待翻译文本:【And now, using your camera, Search can see what you see and give you helpful information as you go back and forth in real time.】翻译完请替换整个区块---区块结束---
+
+570
+01:00:39,360 --> 01:00:42,400
+---区块开始---待翻译文本:【It's like hopping on a video call with Search.】翻译完请替换整个区块---区块结束---
+
+571
+01:00:43,040 --> 01:00:47,040
+---区块开始---待翻译文本:【I have three kids, and they ask about a million questions a minute.】翻译完请替换整个区块---区块结束---
+
+572
+01:00:47,360 --> 01:00:57,600
+---区块开始---待翻译文本:【And with summer right around the corner, the team and I decided to put Search Live to the ultimate test, helping us and our kids tackle something new.】翻译完请替换整个区块---区块结束---
+
+573
+01:00:57,920 --> 01:01:01,840
+---区块开始---待翻译文本:【We recorded at home with our families just this past weekend.】翻译完请替换整个区块---区块结束---
+
+574
+01:01:02,080 --> 01:01:03,520
+---区块开始---待翻译文本:【Let's take a look.】翻译完请替换整个区块---区块结束---
+
+575
+01:01:04,160 --> 01:01:06,800
+---区块开始---待翻译文本:【It looks like you're about to do a fun science experiment.】翻译完请替换整个区块---区块结束---
+
+576
+01:01:07,120 --> 01:01:07,440
+---区块开始---待翻译文本:【All right.】翻译完请替换整个区块---区块结束---
+
+577
+01:01:07,680 --> 01:01:08,400
+---区块开始---待翻译文本:【Ready, Anya?】翻译完请替换整个区块---区块结束---
+
+578
+01:01:08,480 --> 01:01:09,200
+---区块开始---待翻译文本:【Ready, Adi?】翻译完请替换整个区块---区块结束---
+
+579
+01:01:09,440 --> 01:01:09,600
+---区块开始---待翻译文本:【Yep.】翻译完请替换整个区块---区块结束---
+
+580
+01:01:10,000 --> 01:01:10,240
+---区块开始---待翻译文本:【Okay.】翻译完请替换整个区块---区块结束---
+
+581
+01:01:10,560 --> 01:01:12,320
+---区块开始---待翻译文本:【Are you ready for your scientific experiment?】翻译完请替换整个区块---区块结束---
+
+582
+01:01:12,560 --> 01:01:12,720
+---区块开始---待翻译文本:【Yeah.】翻译完请替换整个区块---区块结束---
+
+583
+01:01:13,360 --> 01:01:15,440
+---区块开始---待翻译文本:【Can you guess which experiment I'm trying to do?】翻译完请替换整个区块---区块结束---
+
+584
+01:01:15,680 --> 01:01:18,240
+---区块开始---待翻译文本:【I have hydrogen peroxide and dist soap and yeast.】翻译完请替换整个区块---区块结束---
+
+585
+01:01:18,480 --> 01:01:20,320
+---区块开始---待翻译文本:【You're likely going to make elephant tooth mixed.】翻译完请替换整个区块---区块结束---
+
+586
+01:01:20,480 --> 01:01:22,960
+---区块开始---待翻译文本:【How do I know which one of these strawberries is ready to eat?】翻译完请替换整个区块---区块结束---
+
+587
+01:01:23,120 --> 01:01:25,200
+---区块开始---待翻译文本:【I'm trying to get this remote to work.】翻译完请替换整个区块---区块结束---
+
+588
+01:01:25,520 --> 01:01:29,200
+---区块开始---待翻译文本:【It looks like someone is ready to get their hands dirty and plant a green bean seedling.】翻译完请替换整个区块---区块结束---
+
+589
+01:01:29,360 --> 01:01:33,040
+---区块开始---待翻译文本:【Up into about 50 pounds per square inch, but don't go over 90 psi.】翻译完请替换整个区块---区块结束---
+
+590
+01:01:33,200 --> 01:01:34,720
+---区块开始---待翻译文本:【I mixed baking soda.】翻译完请替换整个区块---区块结束---
+
+591
+01:01:34,880 --> 01:01:35,520
+---区块开始---待翻译文本:【What do I do next?】翻译完请替换整个区块---区块结束---
+
+592
+01:01:35,840 --> 01:01:38,640
+---区块开始---待翻译文本:【It looks like someone tried dipping a finger into the sense of the water.】翻译完请替换整个区块---区块结束---
+
+593
+01:01:38,880 --> 01:01:40,800
+---区块开始---待翻译文本:【What should I do to make this even more impressive?】翻译完请替换整个区块---区块结束---
+
+594
+01:01:41,200 --> 01:01:42,800
+---区块开始---待翻译文本:【Try using a different catalyst.】翻译完请替换整个区块---区块结束---
+
+595
+01:01:43,040 --> 01:01:45,280
+---区块开始---待翻译文本:【Potassium iodide is a good option.】翻译完请替换整个区块---区块结束---
+
+596
+01:01:45,920 --> 01:01:46,800
+---区块开始---待翻译文本:【Why is it doing that?】翻译完请替换整个区块---区块结束---
+
+597
+01:01:47,120 --> 01:01:49,520
+---区块开始---待翻译文本:【A ripe strawberry will also have a sweet spell.】翻译完请替换整个区块---区块结束---
+
+598
+01:01:49,680 --> 01:01:52,160
+---区块开始---待翻译文本:【The green leaves at the top should look fresh and vibrant.】翻译完请替换整个区块---区块结束---
+
+599
+01:01:52,400 --> 01:01:54,000
+---区块开始---待翻译文本:【The chemical reaction is beautiful.】翻译完请替换整个区块---区块结束---
+
+600
+01:01:54,400 --> 01:01:55,120
+---区块开始---待翻译文本:【This is awesome.】翻译完请替换整个区块---区块结束---
+
+601
+01:01:55,280 --> 01:01:56,080
+---区块开始---待翻译文本:【Thanks.】翻译完请替换整个区块---区块结束---
+
+602
+01:02:01,280 --> 01:02:01,920
+---区块开始---待翻译文本:【Oh boy.】翻译完请替换整个区块---区块结束---
+
+603
+01:02:02,160 --> 01:02:04,240
+---区块开始---待翻译文本:【How do I get strawberry stains out of a shirt?】翻译完请替换整个区块---区块结束---
+
+604
+01:02:04,720 --> 01:02:09,680
+---区块开始---待翻译文本:【Try using a mix of one tablespoon white vinegar, half a teaspoon liquid laundry detergent.】翻译完请替换整个区块---区块结束---
+
+605
+01:02:23,760 --> 01:02:30,560
+---区块开始---待翻译文本:【With AI mode, we are bringing a new level of intelligence to help you shop with Google.】翻译完请替换整个区块---区块结束---
+
+606
+01:02:30,880 --> 01:02:37,680
+---区块开始---待翻译文本:【As you heard earlier, AI mode brings in information from the web and our real-time data.】翻译完请替换整个区块---区块结束---
+
+607
+01:02:38,000 --> 01:02:55,040
+---区块开始---待翻译文本:【In this case, that means you get the visual inspiration of Google Images and the world's most comprehensive set of products and retailers from our shopping graph, which has over 50 billion product listings that get constantly updated.】翻译完请替换整个区块---区块结束---
+
+608
+01:02:55,680 --> 01:02:58,240
+---区块开始---待翻译文本:【Let me show you how this comes together.】翻译完请替换整个区块---区块结束---
+
+609
+01:02:58,560 --> 01:03:02,400
+---区块开始---待翻译文本:【So I have been on the hunt for a new rug for my living room.】翻译完请替换整个区块---区块结束---
+
+610
+01:03:02,720 --> 01:03:09,680
+---区块开始---待翻译文本:【I'll say I have a light grey couch and I'm looking for a rug to brighten the room.】翻译完请替换整个区块---区块结束---
+
+611
+01:03:10,320 --> 01:03:13,280
+---区块开始---待翻译文本:【What I need first is visual inspiration.】翻译完请替换整个区块---区块结束---
+
+612
+01:03:13,920 --> 01:03:22,560
+---区块开始---待翻译文本:【Search dynamically generates a browsable mosaic of images and some shoppable products personalized just for me.】翻译完请替换整个区块---区块结束---
+
+613
+01:03:24,080 --> 01:03:30,560
+---区块开始---待翻译文本:【I see rugs from some of my go-to brands and some more modern options since I often search for things in that style.】翻译完请替换整个区块---区块结束---
+
+614
+01:03:31,760 --> 01:03:37,840
+---区块开始---待翻译文本:【Now, these are nice, but I know most of them wouldn't survive a day in my home.】翻译完请替换整个区块---区块结束---
+
+615
+01:03:39,440 --> 01:03:47,040
+---区块开始---待翻译文本:【So I'll add, I have four active kids and they like to have friends over.】翻译完请替换整个区块---区块结束---
+
+616
+01:03:48,320 --> 01:03:51,840
+---区块开始---待翻译文本:【Search understands this involves plenty of messes.】翻译完请替换整个区块---区块结束---
+
+617
+01:03:52,400 --> 01:03:59,520
+---区块开始---待翻译文本:【It recommends a low-pile and washable rug made from durable materials along with some products that I can shop.】翻译完请替换整个区块---区块结束---
+
+618
+01:04:00,880 --> 01:04:06,320
+---区块开始---待翻译文本:【But I don't know a lot about drugs, so luckily, search points out some things to consider.】翻译完请替换整个区块---区块结束---
+
+619
+01:04:06,640 --> 01:04:15,360
+---区块开始---待翻译文本:【And with helpful follow-ups like these, taking a few days of research down to just a few minutes.】翻译完请替换整个区块---区块结束---
+
+620
+01:04:16,320 --> 01:04:23,360
+---区块开始---待翻译文本:【You can imagine how helpful this new experience in AI mode will be for all of your shopping needs.】翻译完请替换整个区块---区块结束---
+
+621
+01:04:23,680 --> 01:04:27,520
+---区块开始---待翻译文本:【Speaking of, I want a few new dresses for summer.】翻译完请替换整个区块---区块结束---
+
+622
+01:04:28,080 --> 01:04:36,720
+---区块开始---待翻译文本:【Search gave me some great options, but now I'm faced with the classic online shopping dilemma.】翻译完请替换整个区块---区块结束---
+
+623
+01:04:37,040 --> 01:04:41,200
+---区块开始---待翻译文本:【I have no clue how these styles will look on me.】翻译完请替换整个区块---区块结束---
+
+624
+01:04:42,080 --> 01:04:52,160
+---区块开始---待翻译文本:【So we are introducing a new try-on feature that will help you virtually try on clothes so you get a feel for how styles might look on you.】翻译完请替换整个区块---区块结束---
+
+625
+01:04:53,040 --> 01:04:54,480
+---区块开始---待翻译文本:【Let me show you a live demo.】翻译完请替换整个区块---区块结束---
+
+626
+01:04:56,560 --> 01:04:56,800
+---区块开始---待翻译文本:【Okay.】翻译完请替换整个区块---区块结束---
+
+627
+01:04:57,360 --> 01:05:02,800
+---区块开始---待翻译文本:【So I looked at many dresses and I really like this blue one.】翻译完请替换整个区块---区块结束---
+
+628
+01:05:03,120 --> 01:05:05,440
+---区块开始---待翻译文本:【I click on this button to try it on.】翻译完请替换整个区块---区块结束---
+
+629
+01:05:05,600 --> 01:05:10,480
+---区块开始---待翻译文本:【It asks me to upload a picture which takes me to my camera role.】翻译完请替换整个区块---区块结束---
+
+630
+01:05:10,800 --> 01:05:12,080
+---区块开始---待翻译文本:【I have many pictures here.】翻译完请替换整个区块---区块结束---
+
+631
+01:05:12,320 --> 01:05:18,800
+---区块开始---待翻译文本:【I'm going to pick one that is full length and a clear view of me and off it goes.】翻译完请替换整个区块---区块结束---
+
+632
+01:05:19,760 --> 01:05:23,600
+---区块开始---待翻译文本:【While it's processing, I'll show you what's happening behind the scenes.】翻译完请替换整个区块---区块结束---
+
+633
+01:05:24,240 --> 01:05:32,640
+---区块开始---待翻译文本:【To create a try-on experience that works at scale, we need a deep understanding of the human body and how clothing looks on it.】翻译完请替换整个区块---区块结束---
+
+634
+01:05:32,960 --> 01:05:39,440
+---区块开始---待翻译文本:【To do this, we built a custom image generation model specifically trained for fashion.】翻译完请替换整个区块---区块结束---
+
+635
+01:05:40,080 --> 01:05:41,520
+---区块开始---待翻译文本:【Wow, and it's back.】翻译完请替换整个区块---区块结束---
+
+636
+01:05:50,160 --> 01:05:54,000
+---区块开始---待翻译文本:【I have to say I love a live demo when it works.】翻译完请替换整个区块---区块结束---
+
+637
+01:05:56,560 --> 01:05:58,160
+---区块开始---待翻译文本:【Alright, more on how it works.】翻译完请替换整个区块---区块结束---
+
+638
+01:05:58,480 --> 01:06:08,960
+---区块开始---待翻译文本:【It brings in advanced 3D shape understanding, which allows us to perceive shapes and depths more accurately, helping us better visualize the human body.】翻译完请替换整个区块---区块结束---
+
+639
+01:06:09,280 --> 01:06:12,080
+---区块开始---待翻译文本:【Our try-on experience works with your photo.】翻译完请替换整个区块---区块结束---
+
+640
+01:06:12,240 --> 01:06:16,400
+---区块开始---待翻译文本:【It's not some pre-captured image or a model that doesn't look like you.】翻译完请替换整个区块---区块结束---
+
+641
+01:06:16,720 --> 01:06:27,280
+---区块开始---待翻译文本:【And then, when it comes to clothes that you are interested in, the AI model is able to show how this material will fold and stretch and drape on people.】翻译完请替换整个区块---区块结束---
+
+642
+01:06:28,240 --> 01:06:39,040
+---区块开始---待翻译文本:【This technology is the most state-of-the-art in the industry at scale and it allows us to visualize how billions of apparel products look on a wide variety of people.】翻译完请替换整个区块---区块结束---
+
+643
+01:06:39,360 --> 01:06:44,640
+---区块开始---待翻译文本:【And you can see it here, how it really gives me a feel for how this dress might look on me.】翻译完请替换整个区块---区块结束---
+
+644
+01:06:45,280 --> 01:06:47,680
+---区块开始---待翻译文本:【Alright, so I'm now set on the dress.】翻译完请替换整个区块---区块结束---
+
+645
+01:06:48,000 --> 01:06:55,120
+---区块开始---待翻译文本:【And search can help me find it at the price that I want and buy it for me with our new agentic checkout feature.】翻译完请替换整个区块---区块结束---
+
+646
+01:06:55,440 --> 01:06:58,240
+---区块开始---待翻译文本:【So let me get back here to the dress.】翻译完请替换整个区块---区块结束---
+
+647
+01:06:58,800 --> 01:07:02,480
+---区块开始---待翻译文本:【And I'm going to click this thing to track price.】翻译完请替换整个区块---区块结束---
+
+648
+01:07:03,040 --> 01:07:04,880
+---区块开始---待翻译文本:【I pick my size.】翻译完请替换整个区块---区块结束---
+
+649
+01:07:05,520 --> 01:07:07,040
+---区块开始---待翻译文本:【Then I have to set a target price.】翻译完请替换整个区块---区块结束---
+
+650
+01:07:07,280 --> 01:07:09,520
+---区块开始---待翻译文本:【I'm going to set it to about $50.】翻译完请替换整个区块---区块结束---
+
+651
+01:07:11,280 --> 01:07:13,920
+---区块开始---待翻译文本:【And tracking is happening.】翻译完请替换整个区块---区块结束---
+
+652
+01:07:14,240 --> 01:07:21,040
+---区块开始---待翻译文本:【Search will now continuously check websites where the dress is available and then let me know if the price drops.】翻译完请替换整个区块---区块结束---
+
+653
+01:07:21,280 --> 01:07:24,720
+---区块开始---待翻译文本:【So now let's switch out of our live demo mode.】翻译完请替换整个区块---区块结束---
+
+654
+01:07:25,200 --> 01:07:27,520
+---区块开始---待翻译文本:【And then I'm going to sprinkle some IO magic.】翻译完请替换整个区块---区块结束---
+
+655
+01:07:27,840 --> 01:07:30,000
+---区块开始---待翻译文本:【And let's assume the price is now dropped.】翻译完请替换整个区块---区块结束---
+
+656
+01:07:30,960 --> 01:07:35,280
+---区块开始---待翻译文本:【When that happens, I get a notification just like this.】翻译完请替换整个区块---区块结束---
+
+657
+01:07:35,840 --> 01:07:41,920
+---区块开始---待翻译文本:【And if I want to buy, my checkout agent will add the right size and color to my cart.】翻译完请替换整个区块---区块结束---
+
+658
+01:07:42,560 --> 01:07:48,960
+---区块开始---待翻译文本:【I can choose to review all my payment and shipping information or just let the agent just buy it for me.】翻译完请替换整个区块---区块结束---
+
+659
+01:07:58,400 --> 01:08:03,600
+---区块开始---待翻译文本:【With just one tap, search, securely buys it for me with Google Pay.】翻译完请替换整个区块---区块结束---
+
+660
+01:08:03,760 --> 01:08:06,800
+---区块开始---待翻译文本:【And of course, all of this happen under my guidance.】翻译完请替换整个区块---区块结束---
+
+661
+01:08:07,440 --> 01:08:10,320
+---区块开始---待翻译文本:【From inspiration to purchase.】翻译完请替换整个区块---区块结束---
+
+662
+01:08:10,960 --> 01:08:18,160
+---区块开始---待翻译文本:【Our new intelligent capabilities bring the best of shopping together with the best of AI right here in search.】翻译完请替换整个区块---区块结束---
+
+663
+01:08:18,800 --> 01:08:23,760
+---区块开始---待翻译文本:【Our new visual shopping and agentic checkout features are rolling out in the coming months.】翻译完请替换整个区块---区块结束---
+
+664
+01:08:24,080 --> 01:08:28,880
+---区块开始---待翻译文本:【And you can start trying on looks in labs beginning today.】翻译完请替换整个区块---区块结束---
+
+665
+01:08:36,240 --> 01:08:37,840
+---区块开始---待翻译文本:【And now, back to you, Liz.】翻译完请替换整个区块---区块结束---
+
+666
+01:08:45,840 --> 01:08:47,040
+---区块开始---待翻译文本:【Thanks, Vidya.】翻译完请替换整个区块---区块结束---
+
+667
+01:08:47,360 --> 01:08:59,040
+---区块开始---待翻译文本:【As Sunder mentioned, this all gets an even bigger upgrade later this week when we bring a custom version of Gemini 2.5 to both AI overviews and AI mode.】翻译完请替换整个区块---区块结束---
+
+668
+01:08:59,360 --> 01:09:08,800
+---区块开始---待翻译文本:【This is the next frontier of Google Search, where AI overviews bring the helpfulness of AI to everyone in the main search experience.】翻译完请替换整个区块---区块结束---
+
+669
+01:09:09,120 --> 01:09:18,160
+---区块开始---待翻译文本:【And as you've seen today, AI mode is a totally reimagined AI search with all our most cutting-edge AI features and capabilities.】翻译完请替换整个区块---区块结束---
+
+670
+01:09:18,480 --> 01:09:24,400
+---区块开始---待翻译文本:【We couldn't be more excited about this chapter of Google Search, where you can truly ask anything.】翻译完请替换整个区块---区块结束---
+
+671
+01:09:25,040 --> 01:09:26,880
+---区块开始---待翻译文本:【And we mean anything.】翻译完请替换整个区块---区块结束---
+
+672
+01:09:27,760 --> 01:09:36,800
+---区块开始---待翻译文本:【Your simplest and your hardest questions, your deepest research, your personalized shopping needs, your just take it off my plate tasks.】翻译完请替换整个区块---区块结束---
+
+673
+01:09:37,120 --> 01:09:39,280
+---区块开始---待翻译文本:【All you have to do is ask.】翻译完请替换整个区块---区块结束---
+
+674
+01:09:42,320 --> 01:09:43,360
+---区块开始---待翻译文本:【Now here we go.】翻译完请替换整个区块---区块结束---
+
+675
+01:09:43,680 --> 01:09:50,400
+---区块开始---待翻译文本:【I can't help it if I pop and see them watch my wage out as favor bad and sugar.】翻译完请替换整个区块---区块结束---
+
+676
+01:10:55,920 --> 01:10:59,040
+---区块开始---待翻译文本:【Baby, you LOUS every day like that.】翻译完请替换整个区块---区块结束---
+
+677
+01:10:59,760 --> 01:11:24,880
+---区块开始---待翻译文本:【If you wanna go get no disrespect for years, people have pursued building an AI assistant that doesn't just respond, but understands.】翻译完请替换整个区块---区块结束---
+
+678
+01:11:25,520 --> 01:11:28,560
+---区块开始---待翻译文本:【One that doesn't just wait, but anticipate.】翻译完请替换整个区块---区块结束---
+
+679
+01:11:28,880 --> 01:11:32,560
+---区块开始---待翻译文本:【A truly universal assistant that empowers you.】翻译完请替换整个区块---区块结束---
+
+680
+01:11:33,120 --> 01:11:39,360
+---区块开始---待翻译文本:【And today, we're taking a new step forward to that future, and we're using the Gemini app to get there.】翻译完请替换整个区块---区块结束---
+
+681
+01:11:40,000 --> 01:11:47,280
+---区块开始---待翻译文本:【Our goal is to make Gemini the most personal, proactive, and powerful AI assistant.】翻译完请替换整个区块---区块结束---
+
+682
+01:11:47,600 --> 01:11:49,920
+---区块开始---待翻译文本:【And it starts with being personal.】翻译完请替换整个区块---区块结束---
+
+683
+01:11:51,040 --> 01:11:53,760
+---区块开始---待翻译文本:【What if your AI assistant was truly yours?】翻译完请替换整个区块---区块结束---
+
+684
+01:11:54,080 --> 01:11:54,960
+---区块开始---待翻译文本:【Truly yours.】翻译完请替换整个区块---区块结束---
+
+685
+01:11:55,520 --> 01:12:00,560
+---区块开始---待翻译文本:【An assistant that learns you, your preferences, your projects, your world.】翻译完请替换整个区块---区块结束---
+
+686
+01:12:01,120 --> 01:12:03,520
+---区块开始---待翻译文本:【And you were always in the driver's seat.】翻译完请替换整个区块---区块结束---
+
+687
+01:12:03,840 --> 01:12:10,560
+---区块开始---待翻译文本:【And with your permission, you could share relevant Google information with it, making it an extension of you.】翻译完请替换整个区块---区块结束---
+
+688
+01:12:11,200 --> 01:12:13,600
+---区块开始---待翻译文本:【We call this personal context.】翻译完请替换整个区块---区块结束---
+
+689
+01:12:13,920 --> 01:12:23,920
+---区块开始---待翻译文本:【And we've already made it possible for you to connect your search history with Gemini so it can understand that you've searched for recipes in the past and craft responses like this.】翻译完请替换整个区块---区块结束---
+
+690
+01:12:24,560 --> 01:12:30,640
+---区块开始---待翻译文本:【Starting soon, you'll be able to add even more personal context from across Google to Gemini.】翻译完请替换整个区块---区块结束---
+
+691
+01:12:30,880 --> 01:12:33,440
+---区块开始---待翻译文本:【So it will be uniquely helpful.】翻译完请替换整个区块---区块结束---
+
+692
+01:12:33,760 --> 01:12:37,920
+---区块开始---待翻译文本:【You can choose to turn this on and you'll always be in control of the experience.】翻译完请替换整个区块---区块结束---
+
+693
+01:12:38,240 --> 01:12:43,760
+---区块开始---待翻译文本:【You can view and manage your information as well as connect and disconnect different Google apps.】翻译完请替换整个区块---区块结束---
+
+694
+01:12:44,080 --> 01:12:49,200
+---区块开始---待翻译文本:【This level of personalization gives you a more proactive AI assistant.】翻译完请替换整个区块---区块结束---
+
+695
+01:12:49,520 --> 01:12:51,360
+---区块开始---待翻译文本:【And this changes a lot.】翻译完请替换整个区块---区块结束---
+
+696
+01:12:51,920 --> 01:12:54,640
+---区块开始---待翻译文本:【See, today, Boast AI is reactive.】翻译完请替换整个区块---区块结束---
+
+697
+01:12:54,960 --> 01:12:57,040
+---区块开始---待翻译文本:【You ask, it answers.】翻译完请替换整个区块---区块结束---
+
+698
+01:12:57,360 --> 01:13:02,720
+---区块开始---待翻译文本:【But what if it could see what's coming and help you prepare even before you ask?】翻译完请替换整个区块---区块结束---
+
+699
+01:13:03,520 --> 01:13:04,800
+---区块开始---待翻译文本:【Imagine you're a student.】翻译完请替换整个区块---区块结束---
+
+700
+01:13:05,120 --> 01:13:06,960
+---区块开始---待翻译文本:【You've got a big physics exam looming.】翻译完请替换整个区块---区块结束---
+
+701
+01:13:07,120 --> 01:13:11,680
+---区块开始---待翻译文本:【And instead of scrambling, Gemini sees it on your calendar, a week out.】翻译完请替换整个区块---区块结束---
+
+702
+01:13:12,000 --> 01:13:13,680
+---区块开始---待翻译文本:【But it doesn't just remind you.】翻译完请替换整个区块---区块结束---
+
+703
+01:13:14,000 --> 01:13:21,760
+---区块开始---待翻译文本:【It comes with personalized quizzes crafted from your materials, notes from your professor, even photos, handwritten notes.】翻译完请替换整个区块---区块结束---
+
+704
+01:13:22,080 --> 01:13:23,440
+---区块开始---待翻译文本:【That's not just helpful.】翻译完请替换整个区块---区块结束---
+
+705
+01:13:23,760 --> 01:13:25,760
+---区块开始---待翻译文本:【It's going to feel like magic.】翻译完请替换整个区块---区块结束---
+
+706
+01:13:26,080 --> 01:13:36,880
+---区块开始---待翻译文本:【And imagine the step beyond that, where Gemini can go off and make custom explainer videos based on your interests so you can understand a topic better.】翻译完请替换整个区块---区块结束---
+
+707
+01:13:37,520 --> 01:13:40,320
+---区块开始---待翻译文本:【In this case, Gemini knows that I'm into cycling.】翻译完请替换整个区块---区块结束---
+
+708
+01:13:40,560 --> 01:13:45,440
+---区块开始---待翻译文本:【So it explains this concept of thermodynamics to me using an analogy I'll understand.】翻译完请替换整个区块---区块结束---
+
+709
+01:13:46,400 --> 01:13:48,480
+---区块开始---待翻译文本:【This is where we're headed with Gemini.】翻译完请替换整个区块---区块结束---
+
+710
+01:13:48,800 --> 01:13:54,320
+---区块开始---待翻译文本:【And it's all possible because of the powerful capabilities in the underlying model.】翻译完请替换整个区块---区块结束---
+
+711
+01:13:54,640 --> 01:13:58,480
+---区块开始---待翻译文本:【Last month, we shipped our latest 2.5 Pro model in the Gemini app.】翻译完请替换整个区块---区块结束---
+
+712
+01:13:58,720 --> 01:14:01,520
+---区块开始---待翻译文本:【And it wasn't just an upgrade, it was a leap forward.】翻译完请替换整个区块---区块结束---
+
+713
+01:14:01,840 --> 01:14:04,720
+---区块开始---待翻译文本:【People are doing extraordinary things in the app.】翻译完请替换整个区块---区块结束---
+
+714
+01:14:05,040 --> 01:14:11,120
+---区块开始---待翻译文本:【They're not just vibe coding, they're inventing entire games and making fully featured websites in minutes.】翻译完请替换整个区块---区块结束---
+
+715
+01:14:11,440 --> 01:14:14,000
+---区块开始---待翻译文本:【They're thinking things into existence.】翻译完请替换整个区块---区块结束---
+
+716
+01:14:14,320 --> 01:14:21,200
+---区块开始---待翻译文本:【And it's fun to write software for the first time or create a video with our VO model, to generate and edit images.】翻译完请替换整个区块---区块结束---
+
+717
+01:14:21,440 --> 01:14:23,440
+---区块开始---待翻译文本:【It's a new superpower for everyone.】翻译完请替换整个区块---区块结束---
+
+718
+01:14:23,760 --> 01:14:32,000
+---区块开始---待翻译文本:【And so these three Ps, personal, proactive, and powerful, these are the frontiers of AI assistance.】翻译完请替换整个区块---区块结束---
+
+719
+01:14:32,160 --> 01:14:36,640
+---区块开始---待翻译文本:【And thanks to 2.5 Pro, we're making big strides across all three.】翻译完请替换整个区块---区块结束---
+
+720
+01:14:37,520 --> 01:14:42,320
+---区块开始---待翻译文本:【So let's talk more about how all this is coming together to life in the Gemini app.】翻译完请替换整个区块---区块结束---
+
+721
+01:14:42,560 --> 01:14:44,560
+---区块开始---待翻译文本:【We're launching five things today.】翻译完请替换整个区块---区块结束---
+
+722
+01:14:44,880 --> 01:14:47,200
+---区块开始---待翻译文本:【First, let's talk about Gemini Live.】翻译完请替换整个区块---区块结束---
+
+723
+01:14:47,760 --> 01:14:52,240
+---区块开始---待翻译文本:【People are blown away by how interactive and natural the conversations are.】翻译完请替换整个区块---区块结束---
+
+724
+01:14:52,560 --> 01:14:56,640
+---区块开始---待翻译文本:【And it works in over 45 languages, more than 150 countries.】翻译完请替换整个区块---区块结束---
+
+725
+01:14:56,960 --> 01:14:59,280
+---区块开始---待翻译文本:【It's so intuitive, so engaging.】翻译完请替换整个区块---区块结束---
+
+726
+01:14:59,600 --> 01:15:04,800
+---区块开始---待翻译文本:【The conversations, in fact, are five times longer than the text conversations in the app.】翻译完请替换整个区块---区块结束---
+
+727
+01:15:05,120 --> 01:15:11,680
+---区块开始---待翻译文本:【And I can tell you from personal experience, it's great for talking through things on the drive into work in the morning.】翻译完请替换整个区块---区块结束---
+
+728
+01:15:12,000 --> 01:15:18,080
+---区块开始---待翻译文本:【Now, as Sundar mentioned, Gemini Live now includes camera and screen sharing, both of which are incredible.】翻译完请替换整个区块---区块结束---
+
+729
+01:15:18,400 --> 01:15:23,440
+---区块开始---待翻译文本:【All of it is rolling out free of charge in the Gemini app on Android and iOS today.】翻译完请替换整个区块---区块结束---
+
+730
+01:15:29,760 --> 01:15:36,960
+---区块开始---待翻译文本:【And in the coming weeks, you'll be able to connect Gemini Live to some of your favorite apps, like calendar, maps, keep, tasks.】翻译完请替换整个区块---区块结束---
+
+731
+01:15:37,280 --> 01:15:43,680
+---区块开始---待翻译文本:【So soon, you can just point your camera and ask it to add an invite to your calendar, and it'll be done.】翻译完请替换整个区块---区块结束---
+
+732
+01:15:44,000 --> 01:15:52,720
+---区块开始---待翻译文本:【Or if you need to decipher your roommate's handwriting for the shopping list, Gemini Live can turn those scribbles into a neat list in Google Keep.】翻译完请替换整个区块---区块结束---
+
+733
+01:15:53,040 --> 01:15:57,200
+---区块开始---待翻译文本:【Our Gemini Rella Live roadmap is overflowing with exciting things.】翻译完请替换整个区块---区块结束---
+
+734
+01:15:57,520 --> 01:16:01,360
+---区块开始---待翻译文本:【They're all being prototyped in Project Astra, like you saw earlier.】翻译完请替换整个区块---区块结束---
+
+735
+01:16:01,680 --> 01:16:06,480
+---区块开始---待翻译文本:【And as those ideas mature, we'll graduate them into Gemini Live for everyone.】翻译完请替换整个区块---区块结束---
+
+736
+01:16:07,360 --> 01:16:15,680
+---区块开始---待翻译文本:【And since Gemini and Android work so closely together, many of those experiences will work great on Android across the entire ecosystem.】翻译完请替换整个区块---区块结束---
+
+737
+01:16:15,920 --> 01:16:17,680
+---区块开始---待翻译文本:【So stay tuned for more.】翻译完请替换整个区块---区块结束---
+
+738
+01:16:18,320 --> 01:16:25,440
+---区块开始---待翻译文本:【All right, real-time interaction is amazing, but sometimes you need to go deep, unravel something complex.】翻译完请替换整个区块---区块结束---
+
+739
+01:16:25,760 --> 01:16:27,920
+---区块开始---待翻译文本:【This is where deep research comes in.】翻译完请替换整个区块---区块结束---
+
+740
+01:16:28,240 --> 01:16:37,200
+---区块开始---待翻译文本:【Starting today, deep research will now let you upload your own files to guide the research agent, which is one of the top requested features.】翻译完请替换整个区块---区块结束---
+
+741
+01:16:37,520 --> 01:16:41,520
+---区块开始---待翻译文本:【And soon will let you research across Google Drive and Gmail.】翻译完请替换整个区块---区块结束---
+
+742
+01:16:41,760 --> 01:16:44,640
+---区块开始---待翻译文本:【So you can easily pull in information from there too.】翻译完请替换整个区块---区块结束---
+
+743
+01:16:45,200 --> 01:16:48,240
+---区块开始---待翻译文本:【So let's say you have this incredible detailed report.】翻译完请替换整个区块---区块结束---
+
+744
+01:16:48,480 --> 01:16:52,640
+---区块开始---待翻译文本:【In this case, it's about the science of comets moving throughout space.】翻译完请替换整个区块---区块结束---
+
+745
+01:16:53,120 --> 01:17:00,160
+---区块开始---待翻译文本:【How do you get all that brilliance distilled down into something digestible, engaging, something you can share?】翻译完请替换整个区块---区块结束---
+
+746
+01:17:00,480 --> 01:17:02,160
+---区块开始---待翻译文本:【This is where Canvas comes in.】翻译完请替换整个区块---区块结束---
+
+747
+01:17:02,480 --> 01:17:05,760
+---区块开始---待翻译文本:【It's Gemini's interactive space for co-creation.】翻译完请替换整个区块---区块结束---
+
+748
+01:17:06,080 --> 01:17:19,360
+---区块开始---待翻译文本:【Canvas will now let you transform that report with one tap into all kinds of new things, like a dynamic web page, an infographic, a helpful quiz, even a custom podcast in 45 languages.】翻译完请替换整个区块---区块结束---
+
+749
+01:17:19,680 --> 01:17:27,360
+---区块开始---待翻译文本:【But if you want to go further, you can vibe code all sorts of amazing things in Canvas with as much back and forth as you want.】翻译完请替换整个区块---区块结束---
+
+750
+01:17:27,680 --> 01:17:30,400
+---区块开始---待翻译文本:【You can get exactly the experience you're looking for.】翻译完请替换整个区块---区块结束---
+
+751
+01:17:30,720 --> 01:17:40,480
+---区块开始---待翻译文本:【Check out this interactive comment simulation that one of our Googlers made just by describing what they wanted to build and collaborating with Gemini to get it just right.】翻译完请替换整个区块---区块结束---
+
+752
+01:17:41,040 --> 01:17:47,040
+---区块开始---待翻译文本:【And as you can share apps like this, others can easily jump in and view it and modify it and remix it.】翻译完请替换整个区块---区块结束---
+
+753
+01:17:47,680 --> 01:17:50,560
+---区块开始---待翻译文本:【This is the power to transform anything.】翻译完请替换整个区块---区块结束---
+
+754
+01:17:50,880 --> 01:17:53,920
+---区块开始---待翻译文本:【And it's a whole new way to use Gemini.】翻译完请替换整个区块---区块结束---
+
+755
+01:17:54,880 --> 01:17:57,840
+---区块开始---待翻译文本:【There's another new way you can use Gemini today too.】翻译完请替换整个区块---区块结束---
+
+756
+01:17:58,160 --> 01:18:00,960
+---区块开始---待翻译文本:【We're introducing Gemini in Chrome.】翻译完请替换整个区块---区块结束---
+
+757
+01:18:01,920 --> 01:18:07,360
+---区块开始---待翻译文本:【This will be your AI assistant that's there for you as you browse the web on your desktop.】翻译完请替换整个区块---区块结束---
+
+758
+01:18:07,680 --> 01:18:14,560
+---区块开始---待翻译文本:【The amazing part is that you can use this and it understands the context of the page that you're on automatically.】翻译完请替换整个区块---区块结束---
+
+759
+01:18:14,880 --> 01:18:17,760
+---区块开始---待翻译文本:【So if you have a question, it can be answered.】翻译完请替换整个区块---区块结束---
+
+760
+01:18:18,080 --> 01:18:23,440
+---区块开始---待翻译文本:【I especially love it for comparing reviews on long pages like this camping website.】翻译完请替换整个区块---区块结束---
+
+761
+01:18:23,760 --> 01:18:29,200
+---区块开始---待翻译文本:【We're starting to roll out Gemini and Chrome this week to Gemini subscribers in the US.】翻译完请替换整个区块---区块结束---
+
+762
+01:18:36,480 --> 01:18:41,520
+---区块开始---待翻译文本:【All right, we've taken some quizzes, we've talked to Gemini live, we've learned about comments and campsites.】翻译完请替换整个区块---区块结束---
+
+763
+01:18:41,840 --> 01:18:43,760
+---区块开始---待翻译文本:【Now it's time to create some things.】翻译完请替换整个区块---区块结束---
+
+764
+01:18:44,080 --> 01:18:51,440
+---区块开始---待翻译文本:【Starting today, we're bringing our latest and most capable image generation model into the Gemini app.】翻译完请替换整个区块---区块结束---
+
+765
+01:18:52,000 --> 01:18:55,920
+---区块开始---待翻译文本:【It's called Imagine 4, and it's a big leap forward.】翻译完请替换整个区块---区块结束---
+
+766
+01:19:00,320 --> 01:19:06,160
+---区块开始---待翻译文本:【The images are richer with more nuanced colors and fine-grained details.】翻译完请替换整个区块---区块结束---
+
+767
+01:19:06,480 --> 01:19:11,200
+---区块开始---待翻译文本:【The shadows in the different shots, the water droplets that come through in the photos.】翻译完请替换整个区块---区块结束---
+
+768
+01:19:11,520 --> 01:19:21,440
+---区块开始---待翻译文本:【I've spent a lot of time around these models, and I can say this model and the progression has gone from good to great to stunning.】翻译完请替换整个区块---区块结束---
+
+769
+01:19:21,760 --> 01:19:26,000
+---区块开始---待翻译文本:【And Imagine 4 is so much better at text and topography.】翻译完请替换整个区块---区块结束---
+
+770
+01:19:26,320 --> 01:19:33,120
+---区块开始---待翻译文本:【In the past, you might have created something that looked good, but adding words didn't always work just right.】翻译完请替换整个区块---区块结束---
+
+771
+01:19:33,440 --> 01:19:34,480
+---区块开始---待翻译文本:【So check this out.】翻译完请替换整个区块---区块结束---
+
+772
+01:19:34,800 --> 01:19:37,440
+---区块开始---待翻译文本:【Maybe I want to create a poster for a music festival.】翻译完请替换整个区块---区块结束---
+
+773
+01:19:37,760 --> 01:19:40,080
+---区块开始---待翻译文本:【We'll make the Chrome Dyno the big headliner.】翻译完请替换整个区块---区块结束---
+
+774
+01:19:40,320 --> 01:19:55,120
+---区块开始---待翻译文本:【Imagine 4 doesn't just get the text and spelling right, it's actually making creative choices, like using dinosaur bones in the font, or figuring out the spacing, the font size, the layout that makes it look like this great poster.】翻译完请替换整个区块---区块结束---
+
+775
+01:19:55,440 --> 01:20:00,160
+---区块开始---待翻译文本:【So the image quality is higher, the speed is faster, the text is better.】翻译完请替换整个区块---区块结束---
+
+776
+01:20:00,480 --> 01:20:05,280
+---区块开始---待翻译文本:【All of this lets you make posters, party invites, and anything else.】翻译完请替换整个区块---区块结束---
+
+777
+01:20:05,600 --> 01:20:11,360
+---区块开始---待翻译文本:【And with Gemini's native image generation, you can easily edit these images too, right in the app.】翻译完请替换整个区块---区块结束---
+
+778
+01:20:12,000 --> 01:20:16,080
+---区块开始---待翻译文本:【We've also made a super fast variant of Imagine 4.】翻译完请替换整个区块---区块结束---
+
+779
+01:20:16,400 --> 01:20:18,320
+---区块开始---待翻译文本:【We can't wait for you to get your hands on it.】翻译完请替换整个区块---区块结束---
+
+780
+01:20:18,560 --> 01:20:22,320
+---区块开始---待翻译文本:【In fact, it's 10 times faster than our previous model.】翻译完请替换整个区块---区块结束---
+
+781
+01:20:22,640 --> 01:20:25,680
+---区块开始---待翻译文本:【So you can iterate through many ideas quickly.】翻译完请替换整个区块---区块结束---
+
+782
+01:20:26,320 --> 01:20:28,480
+---区块开始---待翻译文本:【All right, I want to show you one last thing.】翻译完请替换整个区块---区块结束---
+
+783
+01:20:28,800 --> 01:20:35,440
+---区块开始---待翻译文本:【Images are incredible, but sometimes you need motion and sound to tell the whole story.】翻译完请替换整个区块---区块结束---
+
+784
+01:20:35,760 --> 01:20:42,080
+---区块开始---待翻译文本:【Last December, VO2 came out and it redefined video generation for the industry.】翻译完请替换整个区块---区块结束---
+
+785
+01:20:42,400 --> 01:20:48,400
+---区块开始---待翻译文本:【And if you saw Dennis' sizzling onions post yesterday, you know that we've been cooking something else.】翻译完请替换整个区块---区块结束---
+
+786
+01:20:48,720 --> 01:20:54,720
+---区块开始---待翻译文本:【Today, I'm excited to announce our new state-of-the-art model, VO3.】翻译完请替换整个区块---区块结束---
+
+787
+01:21:02,000 --> 01:21:06,960
+---区块开始---待翻译文本:【And like a lot of other things you've heard about from Stage Today, it's available today.】翻译完请替换整个区块---区块结束---
+
+788
+01:21:11,920 --> 01:21:14,240
+---区块开始---待翻译文本:【The visual quality is even better.】翻译完请替换整个区块---区块结束---
+
+789
+01:21:14,560 --> 01:21:17,520
+---区块开始---待翻译文本:【Its understanding of physics is stronger.】翻译完请替换整个区块---区块结束---
+
+790
+01:21:17,840 --> 01:21:19,440
+---区块开始---待翻译文本:【But here's the leap forward.】翻译完请替换整个区块---区块结束---
+
+791
+01:21:19,760 --> 01:21:23,600
+---区块开始---待翻译文本:【V03 comes with native audio generation.】翻译完请替换整个区块---区块结束---
+
+792
+01:21:27,040 --> 01:21:33,920
+---区块开始---待翻译文本:【That means that VO3 can generate sound effects, background sounds, and dialogue.】翻译完请替换整个区块---区块结束---
+
+793
+01:21:34,560 --> 01:21:37,680
+---区块开始---待翻译文本:【Now you prompt it, and your characters can speak.】翻译完请替换整个区块---区块结束---
+
+794
+01:21:38,640 --> 01:21:42,640
+---区块开始---待翻译文本:【Here's a wise old owl and a nervous young badger in the forest.】翻译完请替换整个区块---区块结束---
+
+795
+01:21:43,120 --> 01:21:43,760
+---区块开始---待翻译文本:【Take a listen.】翻译完请替换整个区块---区块结束---
+
+796
+01:21:54,080 --> 01:21:56,320
+---区块开始---待翻译文本:【They left behind a ball today.】翻译完请替换整个区块---区块结束---
+
+797
+01:21:56,640 --> 01:21:58,560
+---区块开始---待翻译文本:【It bounced higher than I can jump.】翻译完请替换整个区块---区块结束---
+
+798
+01:21:59,680 --> 01:22:01,680
+---区块开始---待翻译文本:【What manner of magic is that?】翻译完请替换整个区块---区块结束---
+
+799
+01:22:15,200 --> 01:22:16,000
+---区块开始---待翻译文本:【Pretty cool, right?】翻译完请替换整个区块---区块结束---
+
+800
+01:22:16,080 --> 01:22:20,640
+---区块开始---待翻译文本:【Villo added not just the sounds of the forest, but also the dialogue.】翻译完请替换整个区块---区块结束---
+
+801
+01:22:20,960 --> 01:22:28,720
+---区块开始---待翻译文本:【We're entering a new era of creation with combined audio and video generation that's incredibly realistic.】翻译完请替换整个区块---区块结束---
+
+802
+01:22:29,040 --> 01:22:35,600
+---区块开始---待翻译文本:【The quality is so good, it feels like you're there on the boat with this guy.】翻译完请替换整个区块---区块结束---
+
+803
+01:22:37,200 --> 01:22:41,360
+---区块开始---待翻译文本:【This ocean, it's a force, a wild, untamed mite.】翻译完请替换整个区块---区块结束---
+
+804
+01:22:41,920 --> 01:22:45,520
+---区块开始---待翻译文本:【And she commands your awe with every breaking light.】翻译完请替换整个区块---区块结束---
+
+805
+01:22:52,640 --> 01:23:06,320
+---区块开始---待翻译文本:【The photorealistic generation, the emotion, the movement of his mouth and the ocean in the background, it's incredible how fast VO continues to evolve as a powerful creative tool.】翻译完请替换整个区块---区块结束---
+
+806
+01:23:06,640 --> 01:23:12,320
+---区块开始---待翻译文本:【And we've been working closely with the film industry to imagine what's possible with VO and to get this right.】翻译完请替换整个区块---区块结束---
+
+807
+01:23:12,640 --> 01:23:15,360
+---区块开始---待翻译文本:【And you'll hear more about that in a few minutes.】翻译完请替换整个区块---区块结束---
+
+808
+01:23:15,680 --> 01:23:18,160
+---区块开始---待翻译文本:【So that's what's happening around Gemini.】翻译完请替换整个区块---区块结束---
+
+809
+01:23:18,480 --> 01:23:24,720
+---区块开始---待翻译文本:【Starting today, Gemini Live capabilities are free and rolling out across Android and iOS.】翻译完请替换整个区块---区块结束---
+
+810
+01:23:25,040 --> 01:23:29,120
+---区块开始---待翻译文本:【Deep Research and Canvas are getting their biggest updates yet.】翻译完请替换整个区块---区块结束---
+
+811
+01:23:29,440 --> 01:23:33,760
+---区块开始---待翻译文本:【There's a new agent mode coming for multi-step actions that you heard about earlier.】翻译完请替换整个区块---区块结束---
+
+812
+01:23:34,080 --> 01:23:45,120
+---区块开始---待翻译文本:【We're introducing Gemini and Chrome to help you navigate the web, and you can create stunning images and videos with sound using the new Imagine4 and VO3 models.】翻译完请替换整个区块---区块结束---
+
+813
+01:23:45,440 --> 01:23:54,800
+---区块开始---待翻译文本:【It's all coming together in the Gemini app as we work to deliver the most personal, proactive, and powerful AI assistant.】翻译完请替换整个区块---区块结束---
+
+814
+01:23:55,120 --> 01:24:01,840
+---区块开始---待翻译文本:【And now, to go into more detail about how these generative models are unlocking creative expression, here's Jason.】翻译完请替换整个区块---区块结束---
+
+815
+01:24:12,320 --> 01:24:13,600
+---区块开始---待翻译文本:【Thanks, Josh.】翻译完请替换整个区块---区块结束---
+
+816
+01:24:14,240 --> 01:24:22,080
+---区块开始---待翻译文本:【Whether you're a creator, a musician, or a filmmaker, generative media is expanding the boundaries of creativity.】翻译完请替换整个区块---区块结束---
+
+817
+01:24:22,400 --> 01:24:30,320
+---区块开始---待翻译文本:【By working closely with the artistic community since the very beginning, we continue to build technology that empowers their creative process.】翻译完请替换整个区块---区块结束---
+
+818
+01:24:30,640 --> 01:24:35,200
+---区块开始---待翻译文本:【For example, we worked with musicians to develop Music AI Sandbox.】翻译完请替换整个区块---区块结束---
+
+819
+01:24:35,440 --> 01:24:41,840
+---区块开始---待翻译文本:【It's a tool for professionals to explore the possibilities of our generative music model, Lyria, in their work.】翻译完请替换整个区块---区块结束---
+
+820
+01:24:42,400 --> 01:24:51,120
+---区块开始---待翻译文本:【Let's watch a clip starring the legendary Grammy Award-winning singer and composer Shankar Mahadevan putting Music AI Sandbox and Lyria to use.】翻译完请替换整个区块---区块结束---
+
+821
+01:24:52,400 --> 01:24:58,320
+---区块开始---待翻译文本:【I'm Shankar Mahadevan and I'm a music composer, singer, producer, and a happy man.】翻译完请替换整个区块---区块结束---
+
+822
+01:25:01,120 --> 01:25:02,640
+---区块开始---待翻译文本:【Working with Sandbox is great.】翻译完请替换整个区块---区块结束---
+
+823
+01:25:03,360 --> 01:25:07,360
+---区块开始---待翻译文本:【We inputted our requirement and it gave us a bed.】翻译完请替换整个区块---区块结束---
+
+824
+01:25:07,680 --> 01:25:10,240
+---区块开始---待翻译文本:【We used that bed and we came up with the song.】翻译完请替换整个区块---区块结束---
+
+825
+01:25:14,560 --> 01:25:17,520
+---区块开始---待翻译文本:【For a musician, it's such an inspiring tool.】翻译完请替换整个区块---区块结束---
+
+826
+01:25:17,840 --> 01:25:20,320
+---区块开始---待翻译文本:【You open a door and you see, hey, there's another room there.】翻译完请替换整个区块---区块结束---
+
+827
+01:25:20,480 --> 01:25:23,200
+---区块开始---待翻译文本:【And then you open one more door and you say, one more room there.】翻译完请替换整个区块---区块结束---
+
+828
+01:25:23,520 --> 01:25:24,720
+---区块开始---待翻译文本:【So that's what AI does.】翻译完请替换整个区块---区块结束---
+
+829
+01:25:51,280 --> 01:25:52,480
+---区块开始---待翻译文本:【Amazing.】翻译完请替换整个区块---区块结束---
+
+830
+01:25:56,320 --> 01:26:01,920
+---区块开始---待翻译文本:【We recently launched Lyria 2, which can generate high-fidelity music and professional grade audio.】翻译完请替换整个区块---区块结束---
+
+831
+01:26:02,240 --> 01:26:06,800
+---区块开始---待翻译文本:【The music is melodious, with vocals in solos and choirs.】翻译完请替换整个区块---区块结束---
+
+832
+01:26:07,120 --> 01:26:10,640
+---区块开始---待翻译文本:【As you hear, it makes expressive and rich music.】翻译完请替换整个区块---区块结束---
+
+833
+01:26:27,280 --> 01:26:32,720
+---区块开始---待翻译文本:【Lyria 2 is available today for enterprises, YouTube creators, and musicians.】翻译完请替换整个区块---区块结束---
+
+834
+01:26:33,280 --> 01:26:37,600
+---区块开始---待翻译文本:【This focus on collaboration carries over not just into what we build, but how.】翻译完请替换整个区块---区块结束---
+
+835
+01:26:38,240 --> 01:26:43,920
+---区块开始---待翻译文本:【Right now, it's not easy for people or organizations to detect AI-generated images.】翻译完请替换整个区块---区块结束---
+
+836
+01:26:44,240 --> 01:26:51,840
+---区块开始---待翻译文本:【This will become only more true as technology improves and the music, audio, images, and videos become more lifelike.】翻译完请替换整个区块---区块结束---
+
+837
+01:26:52,480 --> 01:26:55,680
+---区块开始---待翻译文本:【So, we're continuing to innovate in this space.】翻译完请替换整个区块---区块结束---
+
+838
+01:26:56,240 --> 01:27:02,160
+---区块开始---待翻译文本:【Two years ago, we pioneered SynthID, which embeds invisible watermarks into generated media.】翻译完请替换整个区块---区块结束---
+
+839
+01:27:02,480 --> 01:27:07,680
+---区块开始---待翻译文本:【To date, over 10 billion pieces of content have been watermarked.】翻译完请替换整个区块---区块结束---
+
+840
+01:27:08,000 --> 01:27:15,760
+---区块开始---待翻译文本:【We're also expanding our partnerships to ensure that more content is watermarked with SynthID and that more organizations can detect it too.】翻译完请替换整个区块---区块结束---
+
+841
+01:27:16,400 --> 01:27:20,240
+---区块开始---待翻译文本:【Finally, we're also making it easier to detect the watermark.】翻译完请替换整个区块---区块结束---
+
+842
+01:27:20,560 --> 01:27:30,160
+---区块开始---待翻译文本:【Our new SynthID detector can identify if an image, audio track, text, or video has SynthID in it, whether it's in the whole piece or even just a part.】翻译完请替换整个区块---区块结束---
+
+843
+01:27:30,960 --> 01:27:33,920
+---区块开始---待翻译文本:【We're starting to roll this out to early testers today.】翻译完请替换整个区块---区块结束---
+
+844
+01:27:40,160 --> 01:27:44,800
+---区块开始---待翻译文本:【Our collaboration efforts have also helped us explore Vio as a filmmaking tool.】翻译完请替换整个区块---区块结束---
+
+845
+01:27:45,120 --> 01:27:58,400
+---区块开始---待翻译文本:【Recently, we teamed up with Visionary Director Darren Aronowski and his new storytelling venture, Primordial Soup, to shape Vio's capabilities to meet the needs of storytellers, putting artists in the driver's seat of innovation.】翻译完请替换整个区块---区块结束---
+
+846
+01:27:58,720 --> 01:28:09,360
+---区块开始---待翻译文本:【Together, we are putting the world's best video generation model into the hands of top filmmakers to push the boundaries of technology as a tool for more creative and emotional storytelling.】翻译完请替换整个区块---区块结束---
+
+847
+01:28:09,680 --> 01:28:15,200
+---区块开始---待翻译文本:【The first of the partnership's three short films is director Eliza McNitz and Sestra.】翻译完请替换整个区块---区块结束---
+
+848
+01:28:15,600 --> 01:28:17,120
+---区块开始---待翻译文本:【Let's take a peek.】翻译完请替换整个区块---区块结束---
+
+849
+01:28:19,360 --> 01:28:24,800
+---区块开始---待翻译文本:【Film has always been this deeply human act of connecting people with each other's stories.】翻译完请替换整个区块---区块结束---
+
+850
+01:28:25,120 --> 01:28:31,520
+---区块开始---待翻译文本:【And it has the ability to rip us out of our experience and take us on another journey.】翻译完请替换整个区块---区块结束---
+
+851
+01:28:31,840 --> 01:28:34,000
+---区块开始---待翻译文本:【I don't think that ever changes.】翻译完请替换整个区块---区块结束---
+
+852
+01:28:34,320 --> 01:28:38,960
+---区块开始---待翻译文本:【This is a story that traverses the entire history of the universe.】翻译完请替换整个区块---区块结束---
+
+853
+01:28:39,280 --> 01:28:45,280
+---区块开始---待翻译文本:【But it's really about a mom and what happens when her child is born with a hole in her heart.】翻译完请替换整个区块---区块结束---
+
+854
+01:28:45,600 --> 01:28:53,360
+---区块开始---待翻译文本:【We filmed really emotional performances, but then generated video we could never capture otherwise.】翻译完请替换整个区块---区块结束---
+
+855
+01:28:54,320 --> 01:28:57,760
+---区块开始---待翻译文本:【I want the baby to be holding the mother's finger.】翻译完请替换整个区块---区块结束---
+
+856
+01:28:58,080 --> 01:28:59,600
+---区块开始---待翻译文本:【Just the bliss of the two of them.】翻译完请替换整个区块---区块结束---
+
+857
+01:28:59,760 --> 01:28:59,920
+---区块开始---待翻译文本:【Yeah.】翻译完请替换整个区块---区块结束---
+
+858
+01:29:01,600 --> 01:29:08,880
+---区块开始---待翻译文本:【Video is a generative video model, but to me, it's another lens through which I get to imagine the universe around me.】翻译完请替换整个区块---区块结束---
+
+859
+01:29:09,520 --> 01:29:18,400
+---区块开始---待翻译文本:【It's been incredibly interesting to see the strengths of these models, the limits of the models, and try to shape them to make storytelling tools.】翻译完请替换整个区块---区块结束---
+
+860
+01:29:19,600 --> 01:29:25,440
+---区块开始---待翻译文本:【To be honest, I never thought about telling the story of the day I was born, but here we are.】翻译完请替换整个区块---区块结束---
+
+861
+01:29:31,680 --> 01:29:33,040
+---区块开始---待翻译文本:【This was supposed to be a checkup.】翻译完请替换整个区块---区块结束---
+
+862
+01:29:33,200 --> 01:29:34,240
+---区块开始---待翻译文本:【Crash C-section!】翻译完请替换整个区块---区块结束---
+
+863
+01:29:35,360 --> 01:29:36,320
+---区块开始---待翻译文本:【Baby's in distress.】翻译完请替换整个区块---区块结束---
+
+864
+01:29:36,560 --> 01:29:37,280
+---区块开始---待翻译文本:【We need help here.】翻译完请替换整个区块---区块结束---
+
+865
+01:29:37,600 --> 01:29:38,160
+---区块开始---待翻译文本:【We need to go.】翻译完请替换整个区块---区块结束---
+
+866
+01:29:38,400 --> 01:29:39,600
+---区块开始---待翻译文本:【Is my baby gonna be okay?】翻译完请替换整个区块---区块结束---
+
+867
+01:29:39,760 --> 01:29:40,960
+---区块开始---待翻译文本:【We're gonna do everything we can.】翻译完请替换整个区块---区块结束---
+
+868
+01:29:41,200 --> 01:29:42,400
+---区块开始---待翻译文本:【Am I gonna be okay?】翻译完请替换整个区块---区块结束---
+
+869
+01:29:42,720 --> 01:29:45,440
+---区块开始---待翻译文本:【For every creature that came before you.】翻译完请替换整个区块---区块结束---
+
+870
+01:29:46,640 --> 01:29:51,200
+---区块开始---待翻译文本:【From every star that died, so that you could begin.】翻译完请替换整个区块---区块结束---
+
+871
+01:30:08,960 --> 01:30:10,400
+---区块开始---待翻译文本:【Incredible work.】翻译完请替换整个区块---区块结束---
+
+872
+01:30:17,280 --> 01:30:27,440
+---区块开始---待翻译文本:【Eliza combined live-action performance with video-generated video, like the microscopic worlds, the cosmic events, and herself as a newborn.】翻译完请替换整个区块---区块结束---
+
+873
+01:30:27,760 --> 01:30:37,120
+---区块开始---待翻译文本:【This approach opened up completely new storytelling possibilities, empowering Eliza to bring cinematic scale and emotion to a deeply personal story.】翻译完请替换整个区块---区块结束---
+
+874
+01:30:37,680 --> 01:30:44,000
+---区块开始---待翻译文本:【This partnership also helped shape Vio's capabilities to meet the needs of storytellers like Eliza.】翻译完请替换整个区块---区块结束---
+
+875
+01:30:44,320 --> 01:30:54,880
+---区块开始---待翻译文本:【We built new capabilities for filmmakers, so when you're making a video, it will use ingredients you give it, characters, scenes, or styles, and keep them consistent.】翻译完请替换整个区块---区块结束---
+
+876
+01:30:55,120 --> 01:31:01,520
+---区块开始---待翻译文本:【Or you can direct Vio, giving it precise camera instructions and have it shoot along a specific path.】翻译完请替换整个区块---区块结束---
+
+877
+01:31:02,080 --> 01:31:07,280
+---区块开始---待翻译文本:【These capabilities help filmmakers fluidly express their ideas with Vio.】翻译完请替换整个区块---区块结束---
+
+878
+01:31:07,920 --> 01:31:10,320
+---区块开始---待翻译文本:【We then took things one step further.】翻译完请替换整个区块---区块结束---
+
+879
+01:31:10,640 --> 01:31:13,440
+---区块开始---待翻译文本:【To tell you more, let's get Josh back out here.】翻译完请替换整个区块---区块结束---
+
+880
+01:31:20,960 --> 01:31:21,920
+---区块开始---待翻译文本:【Thanks, Jason.】翻译完请替换整个区块---区块结束---
+
+881
+01:31:22,720 --> 01:31:29,920
+---区块开始---待翻译文本:【Based on our collaboration with the creative community, we've been building a new AI filmmaking tool for creatives.】翻译完请替换整个区块---区块结束---
+
+882
+01:31:30,240 --> 01:31:34,880
+---区块开始---待翻译文本:【One that combines the best of VO, Imagine, and Gemini.】翻译完请替换整个区块---区块结束---
+
+883
+01:31:35,200 --> 01:31:39,360
+---区块开始---待翻译文本:【A tool built for creatives, by creatives.】翻译完请替换整个区块---区块结束---
+
+884
+01:31:39,680 --> 01:31:46,160
+---区块开始---待翻译文本:【It's inspired by that magical feeling you get when you get lost in the creative zone and time slows down.】翻译完请替换整个区块---区块结束---
+
+885
+01:31:46,480 --> 01:31:49,920
+---区块开始---待翻译文本:【We're calling it Flow, and it's launching today.】翻译完请替换整个区块---区块结束---
+
+886
+01:31:50,400 --> 01:31:52,320
+---区块开始---待翻译文本:【Let me show you how it works.】翻译完请替换整个区块---区块结束---
+
+887
+01:31:54,160 --> 01:31:56,240
+---区块开始---待翻译文本:【Let's drop into a project I'm working on.】翻译完请替换整个区块---区块结束---
+
+888
+01:31:56,480 --> 01:32:01,840
+---区块开始---待翻译文本:【Our hero, the grandpa, is building a flying car with help from a feathered friend.】翻译完请替换整个区块---区块结束---
+
+889
+01:32:02,160 --> 01:32:05,760
+---区块开始---待翻译文本:【These are my ingredients, the old man and his car.】翻译完请替换整个区块---区块结束---
+
+890
+01:32:06,240 --> 01:32:13,840
+---区块开始---待翻译文本:【We make it easy to upload your own images into the tool, or you can generate them on the fly using Imagine, which is built right in.】翻译完请替换整个区块---区块结束---
+
+891
+01:32:14,400 --> 01:32:19,120
+---区块开始---待翻译文本:【We can create a custom gold gear shift just by describing it.】翻译完请替换整个区块---区块结束---
+
+892
+01:32:19,440 --> 01:32:20,000
+---区块开始---待翻译文本:【There it is.】翻译完请替换整个区块---区块结束---
+
+893
+01:32:20,240 --> 01:32:21,520
+---区块开始---待翻译文本:【Pretty cool.】翻译完请替换整个区块---区块结束---
+
+894
+01:32:21,840 --> 01:32:25,840
+---区块开始---待翻译文本:【Next, you can start to assemble all of those clips together.】翻译完请替换整个区块---区块结束---
+
+895
+01:32:26,160 --> 01:32:32,080
+---区块开始---待翻译文本:【With a single prompt, you can describe what you want, including very precise camera controls.】翻译完请替换整个区块---区块结束---
+
+896
+01:32:32,400 --> 01:32:34,960
+---区块开始---待翻译文本:【Flow puts everything in place.】翻译完请替换整个区块---区块结束---
+
+897
+01:32:35,600 --> 01:32:38,000
+---区块开始---待翻译文本:【And I can keep iterating in the scene builder.】翻译完请替换整个区块---区块结束---
+
+898
+01:32:38,320 --> 01:32:40,240
+---区块开始---待翻译文本:【Now, here's where it gets really exciting.】翻译完请替换整个区块---区块结束---
+
+899
+01:32:40,560 --> 01:32:46,800
+---区块开始---待翻译文本:【If I want to capture the next shot of the scene, I can just hit the plus icon to create the next shot.】翻译完请替换整个区块---区块结束---
+
+900
+01:32:47,120 --> 01:32:52,800
+---区块开始---待翻译文本:【I can describe what I want to happen next, like adding a 10-foot tall chicken in the back seat.】翻译完请替换整个区块---区块结束---
+
+901
+01:32:53,120 --> 01:32:54,720
+---区块开始---待翻译文本:【And Flow will do the rest.】翻译完请替换整个区块---区块结束---
+
+902
+01:32:55,040 --> 01:32:59,520
+---区块开始---待翻译文本:【The character consistency, the scene consistency, it just works.】翻译完请替换整个区块---区块结束---
+
+903
+01:32:59,840 --> 01:33:03,040
+---区块开始---待翻译文本:【And if something isn't, oh, quite right, no problem.】翻译完请替换整个区块---区块结束---
+
+904
+01:33:03,520 --> 01:33:09,280
+---区块开始---待翻译文本:【You can just go back in like any other video tool and trim it up if it's not working for you.】翻译完请替换整个区块---区块结束---
+
+905
+01:33:09,600 --> 01:33:12,560
+---区块开始---待翻译文本:【But Flow works in the other direction as well.】翻译完请替换整个区块---区块结束---
+
+906
+01:33:12,880 --> 01:33:15,440
+---区块开始---待翻译文本:【It lets you extend a clip too.】翻译完请替换整个区块---区块结束---
+
+907
+01:33:16,000 --> 01:33:19,680
+---区块开始---待翻译文本:【So I can get the perfect ending that I've been working towards.】翻译完请替换整个区块---区块结束---
+
+908
+01:33:20,000 --> 01:33:23,440
+---区块开始---待翻译文本:【Once I've got all the clips I need, I can download the files.】翻译完请替换整个区块---区块结束---
+
+909
+01:33:23,760 --> 01:33:33,040
+---区块开始---待翻译文本:【I can bring them into my favorite editing software, add some music from Lyria, and now the old man finally has his flying car.】翻译完请替换整个区块---区块结束---
+
+910
+01:33:56,160 --> 01:33:56,880
+---区块开始---待翻译文本:【Pretty awesome.】翻译完请替换整个区块---区块结束---
+
+911
+01:33:57,120 --> 01:33:57,760
+---区块开始---待翻译文本:【Pretty awesome.】翻译完请替换整个区块---区块结束---
+
+912
+01:33:58,000 --> 01:34:08,480
+---区块开始---待翻译文本:【I want you to hear just a few words from a few of our AI filmmakers who we've been working with to shape flow, how they describe how it feels using it, and how they're making it even better.】翻译完请替换整个区块---区块结束---
+
+913
+01:34:08,800 --> 01:34:10,160
+---区块开始---待翻译文本:【Let's take a watch.】翻译完请替换整个区块---区块结束---
+
+914
+01:34:13,440 --> 01:34:17,680
+---区块开始---待翻译文本:【I don't know if I'm on the right path, but I'm trying to find it.】翻译完请替换整个区块---区块结束---
+
+915
+01:34:18,000 --> 01:34:23,520
+---区块开始---待翻译文本:【I'm questioning, searching, and then something shifts.】翻译完请替换整个区块---区块结束---
+
+916
+01:34:23,840 --> 01:34:25,840
+---区块开始---待翻译文本:【And I'm not trying anymore.】翻译完请替换整个区块---区块结束---
+
+917
+01:34:26,000 --> 01:34:26,960
+---区块开始---待翻译文本:【I'm just doing.】翻译完请替换整个区块---区块结束---
+
+918
+01:34:30,080 --> 01:34:35,600
+---区块开始---待翻译文本:【And all of the pieces start falling into place.】翻译完请替换整个区块---区块结束---
+
+919
+01:34:39,440 --> 01:34:42,160
+---区块开始---待翻译文本:【It all feels pretty clear in my head.】翻译完请替换整个区块---区块结束---
+
+920
+01:34:42,480 --> 01:34:46,320
+---区块开始---待翻译文本:【I see these like flashes of possibilities.】翻译完请替换整个区块---区块结束---
+
+921
+01:34:46,640 --> 01:34:49,040
+---区块开始---待翻译文本:【Almost like I'm traveling through dimensions.】翻译完请替换整个区块---区块结束---
+
+922
+01:34:49,680 --> 01:34:59,040
+---区块开始---待翻译文本:【I'm looking down at myself and my characters in these different worlds, and it's almost coming to life on their own, even though I know I'm in control of that narrative.】翻译完请替换整个区块---区块结束---
+
+923
+01:34:59,920 --> 01:35:03,920
+---区块开始---待翻译文本:【It feels like it's almost building upon itself at some point.】翻译完请替换整个区块---区块结束---
+
+924
+01:35:04,800 --> 01:35:09,840
+---区块开始---待翻译文本:【You know, you could have an infinite amount of endings to your story.】翻译完请替换整个区块---区块结束---
+
+925
+01:35:11,120 --> 01:35:15,280
+---区块开始---待翻译文本:【So the work isn't quick by brick by brick.】翻译完请替换整个区块---区块结束---
+
+926
+01:35:16,080 --> 01:35:19,760
+---区块开始---待翻译文本:【It blooms like Spatina's garden.】翻译完请替换整个区块---区块结束---
+
+927
+01:35:20,720 --> 01:35:25,040
+---区块开始---待翻译文本:【It grows naturally, fully vibrant and complete.】翻译完请替换整个区块---区块结束---
+
+928
+01:35:26,240 --> 01:35:27,840
+---区块开始---待翻译文本:【I'm not forcing it.】翻译完请替换整个区块---区块结束---
+
+929
+01:35:29,360 --> 01:35:30,960
+---区块开始---待翻译文本:【I'm just finding it.】翻译完请替换整个区块---区块结束---
+
+930
+01:35:31,520 --> 01:35:34,240
+---区块开始---待翻译文本:【And that's when I know I'm in the right place.】翻译完请替换整个区块---区块结束---
+
+931
+01:35:54,640 --> 01:35:59,600
+---区块开始---待翻译文本:【So amazing to hear those filmmakers talk about bringing their incredible visions to life.】翻译完请替换整个区块---区块结束---
+
+932
+01:35:59,920 --> 01:36:05,600
+---区块开始---待翻译文本:【And that feeling of building, of creating, that's exactly what we want to put in your hands today.】翻译完请替换整个区块---区块结束---
+
+933
+01:36:05,920 --> 01:36:11,440
+---区块开始---待翻译文本:【So I'm excited to share that we're upgrading two AI subscription plans today.】翻译完请替换整个区块---区块结束---
+
+934
+01:36:11,760 --> 01:36:16,880
+---区块开始---待翻译文本:【We will have Google AI Pro and the all-new Google AI Ultra.】翻译完请替换整个区块---区块结束---
+
+935
+01:36:17,520 --> 01:36:27,680
+---区块开始---待翻译文本:【With the Pro plan, which is going to be available globally, you'll get a full suite of AI products with higher rate limits and special features compared to the free version.】翻译完请替换整个区块---区块结束---
+
+936
+01:36:28,000 --> 01:36:34,000
+---区块开始---待翻译文本:【This includes the Pro version of the Gemini app that was formerly known as Gemini Advanced.】翻译完请替换整个区块---区块结束---
+
+937
+01:36:34,320 --> 01:36:36,320
+---区块开始---待翻译文本:【Then there's the Ultra plan.】翻译完请替换整个区块---区块结束---
+
+938
+01:36:36,640 --> 01:36:43,600
+---区块开始---待翻译文本:【It's for the trailblazers, the pioneers, those of you who want cutting-edge AI from Google.】翻译完请替换整个区块---区块结束---
+
+939
+01:36:43,840 --> 01:36:51,360
+---区块开始---待翻译文本:【The plan comes with the highest rate limits, the earliest access to new features and products from across Google.】翻译完请替换整个区块---区块结束---
+
+940
+01:36:51,680 --> 01:36:56,560
+---区块开始---待翻译文本:【It's available in the US today, and we'll be rolling it out globally soon.】翻译完请替换整个区块---区块结束---
+
+941
+01:36:56,880 --> 01:37:01,280
+---区块开始---待翻译文本:【You can think of this ultra plan as your VIP pass for Google AI.】翻译完请替换整个区块---区块结束---
+
+942
+01:37:01,920 --> 01:37:11,200
+---区块开始---待翻译文本:【So if you're an ultra subscriber, you'll get huge rate limits and access to that 2.5 Pro deep think mode in the Gemini app when it's ready.】翻译完请替换整个区块---区块结束---
+
+943
+01:37:11,520 --> 01:37:16,000
+---区块开始---待翻译文本:【You'll get access to Flow with VO3 available today.】翻译完请替换整个区块---区块结束---
+
+944
+01:37:16,640 --> 01:37:21,040
+---区块开始---待翻译文本:【And it also comes with YouTube Premium and a massive amount of storage.】翻译完请替换整个区块---区块结束---
+
+945
+01:37:21,360 --> 01:37:27,840
+---区块开始---待翻译文本:【We can't wait to see what you build, create, and discover with these new Google AI plans.】翻译完请替换整个区块---区块结束---
+
+946
+01:37:28,320 --> 01:37:36,320
+---区块开始---待翻译文本:【And now, to give you a look ahead into how AI is interacting with the physical world, please welcome up Sharam.】翻译完请替换整个区块---区块结束---
+
+947
+01:37:50,400 --> 01:37:51,440
+---区块开始---待翻译文本:【Hi, everyone.】翻译完请替换整个区块---区块结束---
+
+948
+01:37:51,760 --> 01:37:56,160
+---区块开始---待翻译文本:【There's so many exciting things happening in Android right now.】翻译完请替换整个区块---区块结束---
+
+949
+01:37:56,640 --> 01:38:00,080
+---区块开始---待翻译文本:【It's the platform where you see the future first.】翻译完请替换整个区块---区块结束---
+
+950
+01:38:00,720 --> 01:38:10,320
+---区块开始---待翻译文本:【Just last week at the Android show, we unveiled a bold new design and major updates to Android 16 and WearOS 6.】翻译完请替换整个区块---区块结束---
+
+951
+01:38:11,200 --> 01:38:15,360
+---区块开始---待翻译文本:【And of course, Android is the best place to experience AI.】翻译完请替换整个区块---区块结束---
+
+952
+01:38:15,920 --> 01:38:21,440
+---区块开始---待翻译文本:【Many of the Gemini breakthroughs you saw today are coming soon to Android.】翻译完请替换整个区块---区块结束---
+
+953
+01:38:21,760 --> 01:38:25,600
+---区块开始---待翻译文本:【You can already access Gemini instantly from the Power button.】翻译完请替换整个区块---区块结束---
+
+954
+01:38:25,920 --> 01:38:29,520
+---区块开始---待翻译文本:【It understands your context and is ready to help.】翻译完请替换整个区块---区块结束---
+
+955
+01:38:30,160 --> 01:38:32,720
+---区块开始---待翻译文本:【But Android is powering more than your phone.】翻译完请替换整个区块---区块结束---
+
+956
+01:38:33,040 --> 01:38:36,080
+---区块开始---待翻译文本:【It's an entire ecosystem of devices.】翻译完请替换整个区块---区块结束---
+
+957
+01:38:36,400 --> 01:38:44,480
+---区块开始---待翻译文本:【In the coming months, we're bringing Gemini to your watch, your car's dashboard, even your TV.】翻译完请替换整个区块---区块结束---
+
+958
+01:38:45,120 --> 01:38:51,280
+---区块开始---待翻译文本:【So wherever you are, you have a helpful AI assistant to make your life easier.】翻译完请替换整个区块---区块结束---
+
+959
+01:38:51,600 --> 01:38:58,960
+---区块开始---待翻译文本:【But what about emerging form factors that could let you experience an AI assistant in new ways?】翻译完请替换整个区块---区块结束---
+
+960
+01:38:59,280 --> 01:39:03,120
+---区块开始---待翻译文本:【That's exactly why we're building Android XR.】翻译完请替换整个区块---区块结束---
+
+961
+01:39:10,080 --> 01:39:23,520
+---区块开始---待翻译文本:【It's the first Android platform built in the Gemini era, and it supports a broad spectrum of devices for different use cases, from headsets to glasses, and everything in between.】翻译完请替换整个区块---区块结束---
+
+962
+01:39:24,240 --> 01:39:30,640
+---区块开始---待翻译文本:【We believe there's not a one-size-fits-all for XR, and you'll use different devices throughout your day.】翻译完请替换整个区块---区块结束---
+
+963
+01:39:30,960 --> 01:39:39,200
+---区块开始---待翻译文本:【For example, for watching movies, playing games, or getting work done, you'll want an immersive headset.】翻译完请替换整个区块---区块结束---
+
+964
+01:39:39,520 --> 01:39:47,360
+---区块开始---待翻译文本:【But when you're on the go, you'll want lightweight glasses that can give you timely information without reaching for your phone.】翻译完请替换整个区块---区块结束---
+
+965
+01:39:47,920 --> 01:39:55,600
+---区块开始---待翻译文本:【We built Android XR together as one team with Samsung and optimized it for Snapdragon with Qualcomm.】翻译完请替换整个区块---区块结束---
+
+966
+01:39:55,920 --> 01:40:03,120
+---区块开始---待翻译文本:【Since releasing the Android XR developer preview last year, hundreds of developers are building for the platform.】翻译完请替换整个区块---区块结束---
+
+967
+01:40:03,440 --> 01:40:08,080
+---区块开始---待翻译文本:【We're also reimagining all your favorite Google apps for XR.】翻译完请替换整个区块---区块结束---
+
+968
+01:40:08,560 --> 01:40:13,520
+---区块开始---待翻译文本:【And it's Android after all, so your mobile and tablet apps work too.】翻译完请替换整个区块---区块结束---
+
+969
+01:40:14,160 --> 01:40:22,080
+---区块开始---待翻译文本:【Now, today, I want to share how Gemini transforms the way you experience both headsets and glasses.】翻译完请替换整个区块---区块结束---
+
+970
+01:40:22,640 --> 01:40:31,200
+---区块开始---待翻译文本:【On these devices, your AI assistant understands your context and intent in richer ways to help you throughout your day.】翻译完请替换整个区块---区块结束---
+
+971
+01:40:31,680 --> 01:40:34,560
+---区块开始---待翻译文本:【Let's start with Gemini on headsets.】翻译完请替换整个区块---区块结束---
+
+972
+01:40:34,880 --> 01:40:40,560
+---区块开始---待翻译文本:【This is Samsung's Project Muhan, the first Android XR device.】翻译完请替换整个区块---区块结束---
+
+973
+01:40:46,880 --> 01:40:52,880
+---区块开始---待翻译文本:【Muhan gives you an infinite screen to explore your apps with Gemini by your side.】翻译完请替换整个区块---区块结束---
+
+974
+01:40:53,200 --> 01:41:00,880
+---区块开始---待翻译文本:【With Google Maps and XR, you can teleport anywhere in the world simply by asking Gemini to take you there.】翻译完请替换整个区块---区块结束---
+
+975
+01:41:01,360 --> 01:41:10,480
+---区块开始---待翻译文本:【You can talk with your AI assistant about anything you see and have it pull up videos and websites about what you're exploring.】翻译完请替换整个区块---区块结束---
+
+976
+01:41:11,040 --> 01:41:15,520
+---区块开始---待翻译文本:【So many of us dream about sitting front row to watch our favorite team.】翻译完请替换整个区块---区块结束---
+
+977
+01:41:15,840 --> 01:41:26,160
+---区块开始---待翻译文本:【Imagine watching them play in the MLB app as if you were right there in the stadium while chatting with Gemini about player and game stats.】翻译完请替换整个区块---区块结束---
+
+978
+01:41:26,480 --> 01:41:31,840
+---区块开始---待翻译文本:【Samsung's Project Muhan will be available for purchase later this year.】翻译完请替换整个区块---区块结束---
+
+979
+01:41:32,480 --> 01:41:35,920
+---区块开始---待翻译文本:【We can't wait for you to try it for yourselves.】翻译完请替换整个区块---区块结束---
+
+980
+01:41:36,800 --> 01:41:40,960
+---区块开始---待翻译文本:【Now, let's turn our attention to glasses.】翻译完请替换整个区块---区块结束---
+
+981
+01:41:41,520 --> 01:41:47,920
+---区块开始---待翻译文本:【As you know, we've been building glasses for over 10 years and we've never stopped.】翻译完请替换整个区块---区块结束---
+
+982
+01:41:48,240 --> 01:41:56,720
+---区块开始---待翻译文本:【Glasses with Android XR are lightweight and designed for all-day wear, even though they're packed with technology.】翻译完请替换整个区块---区块结束---
+
+983
+01:41:57,040 --> 01:42:03,120
+---区块开始---待翻译文本:【A camera and microphones give Gemini the ability to see and hear the world.】翻译完请替换整个区块---区块结束---
+
+984
+01:42:03,440 --> 01:42:07,920
+---区块开始---待翻译文本:【Speakers let you listen to the AI, play music, or take calls.】翻译完请替换整个区块---区块结束---
+
+985
+01:42:08,240 --> 01:42:14,880
+---区块开始---待翻译文本:【And an optional in-lens display privately shows you helpful information just when you need it.】翻译完请替换整个区块---区块结束---
+
+986
+01:42:15,520 --> 01:42:21,600
+---区块开始---待翻译文本:【These glasses work with your phone, giving you access to your apps while keeping your hands free.】翻译完请替换整个区块---区块结束---
+
+987
+01:42:21,920 --> 01:42:30,000
+---区块开始---待翻译文本:【All this makes glasses a natural form factor for AI, bringing the power of Gemini right to where you are.】翻译完请替换整个区块---区块结束---
+
+988
+01:42:30,640 --> 01:42:36,480
+---区块开始---待翻译文本:【So, unlike Clark Kent, you can get superpowers when you put your glasses on.】翻译完请替换整个区块---区块结束---
+
+989
+01:42:38,000 --> 01:42:43,040
+---区块开始---待翻译文本:【Okay, who's up for seeing an early demo of Android XR glasses?】翻译完请替换整个区块---区块结束---
+
+990
+01:42:47,840 --> 01:42:55,360
+---区块开始---待翻译文本:【Let's see how they work in the most hectic environment possible right now, backstage at I.O.】翻译完请替换整个区块---区块结束---
+
+991
+01:42:56,000 --> 01:43:01,680
+---区块开始---待翻译文本:【Our very own superwoman, Nishta, is back there to show us how these glasses work for real.】翻译完请替换整个区块---区块结束---
+
+992
+01:43:02,160 --> 01:43:05,440
+---区块开始---待翻译文本:【Let me send her a text now, and let's get started.】翻译完请替换整个区块---区块结束---
+
+993
+01:43:08,960 --> 01:43:10,240
+---区块开始---待翻译文本:【Hey, everyone.】翻译完请替换整个区块---区块结束---
+
+994
+01:43:10,560 --> 01:43:16,000
+---区块开始---待翻译文本:【Right now, you should be seeing exactly what I'm seeing through the lens of my Android XR glasses.】翻译完请替换整个区块---区块结束---
+
+995
+01:43:16,320 --> 01:43:20,480
+---区块开始---待翻译文本:【Like my delicious coffee over here, and that text from Shram that just came in.】翻译完请替换整个区块---区块结束---
+
+996
+01:43:20,640 --> 01:43:22,000
+---区块开始---待翻译文本:【Let's see what he said.】翻译完请替换整个区块---区块结束---
+
+997
+01:43:23,920 --> 01:43:28,800
+---区块开始---待翻译文本:【All right, it's definitely showtime, so I'm going to launch Gemini and get us going.】翻译完请替换整个区块---区块结束---
+
+998
+01:43:29,680 --> 01:43:34,720
+---区块开始---待翻译文本:【Send Sharom a text that I'm getting started, and silence my notifications, please.】翻译完请替换整个区块---区块结束---
+
+999
+01:43:36,640 --> 01:43:40,640
+---区块开始---待翻译文本:【Okay, I've sent that message to him and muted all your notifications.】翻译完请替换整个区块---区块结束---
+
+1000
+01:43:41,280 --> 01:43:42,400
+---区块开始---待翻译文本:【Perfect.】翻译完请替换整个区块---区块结束---
+
+1001
+01:43:43,360 --> 01:43:44,240
+---区块开始---待翻译文本:【Oh, hey, Mishta.】翻译完请替换整个区块---区块结束---
+
+1002
+01:43:44,320 --> 01:43:45,040
+---区块开始---待翻译文本:【Hey, Dieter.】翻译完请替换整个区块---区块结束---
+
+1003
+01:43:45,280 --> 01:43:48,800
+---区块开始---待翻译文本:【I see the lights on on your glasses, so I think it's safe to say that we're live right now.】翻译完请替换整个区块---区块结束---
+
+1004
+01:43:49,120 --> 01:43:51,040
+---区块开始---待翻译文本:【Yes, we're officially on with the I.O.】翻译完请替换整个区块---区块结束---
+
+1005
+01:43:51,200 --> 01:43:51,520
+---区块开始---待翻译文本:【crew.】翻译完请替换整个区块---区块结束---
+
+1006
+01:43:51,760 --> 01:43:52,240
+---区块开始---待翻译文本:【Hey, everybody.】翻译完请替换整个区块---区块结束---
+
+1007
+01:43:52,400 --> 01:43:53,600
+---区块开始---待翻译文本:【It is pretty great to see I.O.】翻译完请替换整个区块---区块结束---
+
+1008
+01:43:53,680 --> 01:43:54,240
+---区块开始---待翻译文本:【from this angle.】翻译完请替换整个区块---区块结束---
+
+1009
+01:43:54,400 --> 01:43:59,200
+---区块开始---待翻译文本:【Mishta, you promised me I could get my own pair of Android XR glasses if I helped out back here.】翻译完请替换整个区块---区块结束---
+
+1010
+01:43:59,440 --> 01:44:00,640
+---区块开始---待翻译文本:【So what do you say?】翻译完请替换整个区块---区块结束---
+
+1011
+01:44:00,960 --> 01:44:01,360
+---区块开始---待翻译文本:【Of course.】翻译完请替换整个区块---区块结束---
+
+1012
+01:44:01,600 --> 01:44:03,680
+---区块开始---待翻译文本:【Let's get coffee after this and I'll bring you those glasses.】翻译完请替换整个区块---区块结束---
+
+1013
+01:44:03,920 --> 01:44:04,160
+---区块开始---待翻译文本:【Awesome.】翻译完请替换整个区块---区块结束---
+
+1014
+01:44:04,240 --> 01:44:04,720
+---区块开始---待翻译文本:【We'll see you then.】翻译完请替换整个区块---区块结束---
+
+1015
+01:44:04,880 --> 01:44:05,200
+---区块开始---待翻译文本:【Good luck.】翻译完请替换整个区块---区块结束---
+
+1016
+01:44:05,440 --> 01:44:06,240
+---区块开始---待翻译文本:【Thank you.】翻译完请替换整个区块---区块结束---
+
+1017
+01:44:06,560 --> 01:44:10,080
+---区块开始---待翻译文本:【As you all can see, there's a ton going on backstage.】翻译完请替换整个区块---区块结束---
+
+1018
+01:44:10,320 --> 01:44:14,240
+---区块开始---待翻译文本:【And is that pro basketball player, Giannis, wearing our glasses?】翻译完请替换整个区块---区块结束---
+
+1019
+01:44:14,560 --> 01:44:15,520
+---区块开始---待翻译文本:【I love them.】翻译完请替换整个区块---区块结束---
+
+1020
+01:44:15,760 --> 01:44:18,480
+---区块开始---待翻译文本:【It splits up both of my hands for double high fives.】翻译完请替换整个区块---区块结束---
+
+1021
+01:44:19,120 --> 01:44:19,680
+---区块开始---待翻译文本:【Nice.】翻译完请替换整个区块---区块结束---
+
+1022
+01:44:20,560 --> 01:44:23,280
+---区块开始---待翻译文本:【Let me keep showing you guys what these glasses can do.】翻译完请替换整个区块---区块结束---
+
+1023
+01:44:23,600 --> 01:44:26,400
+---区块开始---待翻译文本:【I've been curious about this photo wall all day.】翻译完请替换整个区块---区块结束---
+
+1024
+01:44:27,040 --> 01:44:31,600
+---区块开始---待翻译文本:【Like, what band is this, and how are they connected to this place?】翻译完请替换整个区块---区块结束---
+
+1025
+01:44:46,160 --> 01:44:46,800
+---区块开始---待翻译文本:【No way.】翻译完请替换整个区块---区块结束---
+
+1026
+01:44:47,120 --> 01:44:49,920
+---区块开始---待翻译文本:【Can you show me a photo of one of their performances here?】翻译完请替换整个区块---区块结束---
+
+1027
+01:44:52,480 --> 01:44:52,880
+---区块开始---待翻译文本:【Sure.】翻译完请替换整个区块---区块结束---
+
+1028
+01:44:53,200 --> 01:44:53,680
+---区块开始---待翻译文本:【Here's one.】翻译完请替换整个区块---区块结束---
+
+1029
+01:44:53,920 --> 01:44:55,760
+---区块开始---待翻译文本:【Want me to play one of their songs?】翻译完请替换整个区块---区块结束---
+
+1030
+01:44:56,080 --> 01:44:56,720
+---区块开始---待翻译文本:【I'd love that.】翻译完请替换整个区块---区块结束---
+
+1031
+01:44:56,880 --> 01:44:59,200
+---区块开始---待翻译文本:【I can listen while I make my way to the stage.】翻译完请替换整个区块---区块结束---
+
+1032
+01:45:02,640 --> 01:45:03,120
+---区块开始---待翻译文本:【Right.】翻译完请替换整个区块---区块结束---
+
+1033
+01:45:03,360 --> 01:45:06,320
+---区块开始---待翻译文本:【Here's Under the Aurora by Counting Crows.】翻译完请替换整个区块---区块结束---
+
+1034
+01:45:07,280 --> 01:45:09,840
+---区块开始---待翻译文本:【Okay, who's ready to see these glasses?】翻译完请替换整个区块---区块结束---
+
+1035
+01:45:10,160 --> 01:45:12,000
+---区块开始---待翻译文本:【Here comes the morning lady.】翻译完请替换整个区块---区块结束---
+
+1036
+01:45:13,840 --> 01:45:14,640
+---区块开始---待翻译文本:【Welcome, Mr.】翻译完请替换整个区块---区块结束---
+
+1037
+01:45:15,120 --> 01:45:15,200
+---区块开始---待翻译文本:【Hall.】翻译完请替换整个区块---区块结束---
+
+1038
+01:45:15,520 --> 01:45:16,240
+---区块开始---待翻译文本:【Hey, everyone.】翻译完请替换整个区块---区块结束---
+
+1039
+01:45:19,200 --> 01:45:21,680
+---区块开始---待翻译文本:【Thanks for that star-studded behind-the-scenes look.】翻译完请替换整个区块---区块结束---
+
+1040
+01:45:22,000 --> 01:45:24,320
+---区块开始---待翻译文本:【By the way, do you want to book that coffee with Dita now?】翻译完请替换整个区块---区块结束---
+
+1041
+01:45:24,640 --> 01:45:29,840
+---区块开始---待翻译文本:【Yes, the crew actually gave me some awesome coffee backstage, so let me try something fun.】翻译完请替换整个区块---区块结束---
+
+1042
+01:45:30,960 --> 01:45:35,840
+---区块开始---待翻译文本:【Gemini, what was the name of the coffee shop on the cup I had earlier?】翻译完请替换整个区块---区块结束---
+
+1043
+01:45:37,760 --> 01:45:39,600
+---区块开始---待翻译文本:【Hmm, that might have been Bloom's Giving.】翻译完请替换整个区块---区块结束---
+
+1044
+01:45:39,760 --> 01:45:43,040
+---区块开始---待翻译文本:【From what I can tell, it's a vibrant coffee shop on Castro Street.】翻译完请替换整个区块---区块结束---
+
+1045
+01:45:43,360 --> 01:45:44,640
+---区块开始---待翻译文本:【Great memory.】翻译完请替换整个区块---区块结束---
+
+1046
+01:45:50,640 --> 01:45:52,880
+---区块开始---待翻译文本:【Can you show me the photos of that cafe?】翻译完请替换整个区块---区块结束---
+
+1047
+01:45:53,040 --> 01:45:54,800
+---区块开始---待翻译文本:【I want to check out the vibes.】翻译完请替换整个区块---区块结束---
+
+1048
+01:45:57,040 --> 01:45:57,680
+---区块开始---待翻译文本:【Definitely.】翻译完请替换整个区块---区块结束---
+
+1049
+01:45:57,920 --> 01:45:59,840
+---区块开始---待翻译文本:【Do these photos from maps help?】翻译完请替换整个区块---区块结束---
+
+1050
+01:46:00,400 --> 01:46:01,440
+---区块开始---待翻译文本:【Oh, I know that spot.】翻译完请替换整个区块---区块结束---
+
+1051
+01:46:01,520 --> 01:46:04,640
+---区块开始---待翻译文本:【It's a flower shop as well as a coffee shop, but it is downtown.】翻译完请替换整个区块---区块结束---
+
+1052
+01:46:04,880 --> 01:46:05,360
+---区块开始---待翻译文本:【Hmm.】翻译完请替换整个区块---区块结束---
+
+1053
+01:46:05,680 --> 01:46:05,920
+---区块开始---待翻译文本:【Okay.】翻译完请替换整个区块---区块结束---
+
+1054
+01:46:06,240 --> 01:46:08,880
+---区块开始---待翻译文本:【Gemini, show me what it would take to walk here.】翻译完请替换整个区块---区块结束---
+
+1055
+01:46:11,760 --> 01:46:13,520
+---区块开始---待翻译文本:【Getting those directions now.】翻译完请替换整个区块---区块结束---
+
+1056
+01:46:14,160 --> 01:46:16,000
+---区块开始---待翻译文本:【It'll take you about an hour.】翻译完请替换整个区块---区块结束---
+
+1057
+01:46:16,320 --> 01:46:16,640
+---区块开始---待翻译文本:【Okay.】翻译完请替换整个区块---区块结束---
+
+1058
+01:46:17,840 --> 01:46:24,720
+---区块开始---待翻译文本:【I can get some stuffs in, and these heads-up directions and a full 3D map should make it super easy.】翻译完请替换整个区块---区块结束---
+
+1059
+01:46:33,600 --> 01:46:38,720
+---区块开始---待翻译文本:【Go ahead and send Dieter an invite for that cafe and get coffee at 3 p.m.】翻译完请替换整个区块---区块结束---
+
+1060
+01:46:38,880 --> 01:46:39,120
+---区块开始---待翻译文本:【today.】翻译完请替换整个区块---区块结束---
+
+1061
+01:46:42,640 --> 01:46:44,160
+---区块开始---待翻译文本:【I'll send out that invite now.】翻译完请替换整个区块---区块结束---
+
+1062
+01:46:44,400 --> 01:46:45,680
+---区块开始---待翻译文本:【Enjoy the coffee.】翻译完请替换整个区块---区块结束---
+
+1063
+01:46:46,320 --> 01:46:59,600
+---区块开始---待翻译文本:【As you saw, Gemini helped Nishta search what she sees, remember details like the coffee cup, book an event, even navigate, all without taking her phone out of her pocket.】翻译完请替换整个区块---区块结束---
+
+1064
+01:46:59,920 --> 01:47:02,320
+---区块开始---待翻译文本:【I'm even wearing the glasses right now too.】翻译完请替换整个区块---区块结束---
+
+1065
+01:47:03,120 --> 01:47:07,920
+---区块开始---待翻译文本:【They're my personal teleprompter, and I have prescription lenses, so I can see you all.】翻译完请替换整个区块---区块结束---
+
+1066
+01:47:08,400 --> 01:47:11,040
+---区块开始---待翻译文本:【Okay, Nishta, this is a big moment for glasses.】翻译完请替换整个区块---区块结束---
+
+1067
+01:47:11,200 --> 01:47:12,080
+---区块开始---待翻译文本:【Let's capture it.】翻译完请替换整个区块---区块结束---
+
+1068
+01:47:12,400 --> 01:47:16,800
+---区块开始---待翻译文本:【Yes, get ready for a quick photo, everyone, and let's bring out our star.】翻译完请替换整个区块---区块结束---
+
+1069
+01:47:18,720 --> 01:47:19,760
+---区块开始---待翻译文本:【Here comes the winter.】翻译完请替换整个区块---区块结束---
+
+1070
+01:47:22,880 --> 01:47:23,600
+---区块开始---待翻译文本:【All right, Gemini.】翻译完请替换整个区块---区块结束---
+
+1071
+01:47:25,440 --> 01:47:26,960
+---区块开始---待翻译文本:【Take a photo for me.】翻译完请替换整个区块---区块结束---
+
+1072
+01:47:35,920 --> 01:47:39,840
+---区块开始---待翻译文本:【All right, Gemini, take a photo for me and add it to my favorites.】翻译完请替换整个区块---区块结束---
+
+1073
+01:47:47,120 --> 01:47:49,120
+---区块开始---待翻译文本:【That looks amazing.】翻译完请替换整个区块---区块结束---
+
+1074
+01:47:56,480 --> 01:47:58,480
+---区块开始---待翻译文本:【I'm completely starstruck.】翻译完请替换整个区块---区块结束---
+
+1075
+01:47:58,800 --> 01:48:00,720
+---区块开始---待翻译文本:【Okay, one last thing.】翻译完请替换整个区块---区块结束---
+
+1076
+01:48:01,040 --> 01:48:05,360
+---区块开始---待翻译文本:【Sunda showed what's possible with live chat translation earlier.】翻译完请替换整个区块---区块结束---
+
+1077
+01:48:05,680 --> 01:48:08,560
+---区块开始---待翻译文本:【Let's see what that's like on glasses.】翻译完请替换整个区块---区块结束---
+
+1078
+01:48:08,880 --> 01:48:12,720
+---区块开始---待翻译文本:【This is a very risky demo, but we're going to give it a shot.】翻译完请替换整个区块---区块结束---
+
+1079
+01:48:14,240 --> 01:48:17,920
+---区块开始---待翻译文本:【Nishta and I are going to speak to each other in our mother tongues.】翻译完请替换整个区块---区块结束---
+
+1080
+01:48:18,160 --> 01:48:19,760
+---区块开始---待翻译文本:【Nishta's going to speak Hindi.】翻译完请替换整个区块---区块结束---
+
+1081
+01:48:20,080 --> 01:48:22,960
+---区块开始---待翻译文本:【I'm going to speak Farsi very poorly.】翻译完请替换整个区块---区块结束---
+
+1082
+01:48:23,280 --> 01:48:27,120
+---区块开始---待翻译文本:【And you'll see the feed from both of our glasses back here.】翻译完请替换整个区块---区块结束---
+
+1083
+01:48:27,440 --> 01:48:29,120
+---区块开始---待翻译文本:【And so you can all follow along.】翻译完请替换整个区块---区块结束---
+
+1084
+01:48:29,440 --> 01:48:32,720
+---区块开始---待翻译文本:【We'll show an English translation in real time.】翻译完请替换整个区块---区块结束---
+
+1085
+01:48:33,040 --> 01:48:33,280
+---区块开始---待翻译文本:【Okay?】翻译完请替换整个区块---区块结束---
+
+1086
+01:48:34,160 --> 01:48:35,520
+---区块开始---待翻译文本:【Let's give it a shot.】翻译完请替换整个区块---区块结束---
+
+1087
+01:48:35,840 --> 01:48:37,120
+---区块开始---待翻译文本:【Fingers crossed.】翻译完请替换整个区块---区块结束---
+
+1088
+01:48:57,680 --> 01:48:57,760
+---区块开始---待翻译文本:【I'm going to go to the house.】翻译完请替换整个区块---区块结束---
+
+1089
+01:49:16,720 --> 01:49:18,400
+---区块开始---待翻译文本:【We said it's a risky demo.】翻译完请替换整个区块---区块结束---
+
+1090
+01:49:27,760 --> 01:49:28,880
+---区块开始---待翻译文本:【Thank you, Jonah.】翻译完请替换整个区块---区块结束---
+
+1091
+01:49:38,480 --> 01:49:42,800
+---区块开始---待翻译文本:【Thank you, Mitter, for that awesome tour of Android XR glasses.】翻译完请替换整个区块---区块结束---
+
+1092
+01:49:47,280 --> 01:49:56,240
+---区块开始---待翻译文本:【We're so excited about the possibilities when you have an incredibly helpful AI assistant by your side with these Android XR devices.】翻译完请替换整个区块---区块结束---
+
+1093
+01:49:56,560 --> 01:49:57,680
+---区块开始---待翻译文本:【But that's not all.】翻译完请替换整个区块---区块结束---
+
+1094
+01:49:58,000 --> 01:50:06,720
+---区块开始---待翻译文本:【We're taking our partnership with Samsung to the next level by extending Android XR beyond headsets to glasses.】翻译完请替换整个区块---区块结束---
+
+1095
+01:50:07,360 --> 01:50:15,760
+---区块开始---待翻译文本:【We're creating the software and reference hardware platform to enable the ecosystem to build great glasses alongside us.】翻译完请替换整个区块---区块结束---
+
+1096
+01:50:16,320 --> 01:50:25,120
+---区块开始---待翻译文本:【Our glasses prototypes are already being used by trusted testers, and you'll be able to start developing for glasses later this year.】翻译完请替换整个区块---区块结束---
+
+1097
+01:50:26,000 --> 01:50:31,680
+---区块开始---待翻译文本:【Now, we know that these need to be stylish glasses that you'll want to wear all day.】翻译完请替换整个区块---区块结束---
+
+1098
+01:50:32,160 --> 01:50:43,680
+---区块开始---待翻译文本:【That's why I'm excited to announce today that Gentle Monster and Warby Parker will be the first eyewear partners to build glasses with Android XR.】翻译完请替换整个区块---区块结束---
+
+1099
+01:50:51,680 --> 01:50:55,920
+---区块开始---待翻译文本:【We want you to be able to wear glasses that match your personal taste.】翻译完请替换整个区块---区块结束---
+
+1100
+01:50:56,240 --> 01:50:57,760
+---区块开始---待翻译文本:【This is just the start.】翻译完请替换整个区块---区块结束---
+
+1101
+01:50:58,080 --> 01:51:04,240
+---区块开始---待翻译文本:【I can't wait for you to try Android XR for yourself, and we'll have lots more to share in the months ahead.】翻译完请替换整个区块---区块结束---
+
+1102
+01:51:04,560 --> 01:51:06,080
+---区块开始---待翻译文本:【Thank you so much.】翻译完请替换整个区块---区块结束---
+
+1103
+01:51:21,280 --> 01:51:23,760
+---区块开始---待翻译文本:【Those XR glasses are amazing.】翻译完请替换整个区块---区块结束---
+
+1104
+01:51:24,080 --> 01:51:28,160
+---区块开始---待翻译文本:【Research to reality, literally right in front of our eyes.】翻译完请替换整个区块---区块结束---
+
+1105
+01:51:28,480 --> 01:51:30,800
+---区块开始---待翻译文本:【Okay, so we are nearing the end of the show.】翻译完请替换整个区块---区块结束---
+
+1106
+01:51:31,280 --> 01:51:36,960
+---区块开始---待翻译文本:【Today you've heard a lot about ELO scores, benchmarks, and state-of-the-art performance.】翻译完请替换整个区块---区块结束---
+
+1107
+01:51:37,280 --> 01:51:42,320
+---区块开始---待翻译文本:【But I know there's one metric you've all been waiting for, our AI counter.】翻译完请替换整个区块---区块结束---
+
+1108
+01:51:42,880 --> 01:51:46,080
+---区块开始---待翻译文本:【So let's take a look at one last leaderboard.】翻译完请替换整个区块---区块结束---
+
+1109
+01:51:47,280 --> 01:51:51,280
+---区块开始---待翻译文本:【Looks like, I guess, we have a new entrant.】翻译完请替换整个区块---区块结束---
+
+1110
+01:51:51,600 --> 01:51:56,080
+---区块开始---待翻译文本:【Gemini takes the lead, coming in at 95.】翻译完请替换整个区块---区块结束---
+
+1111
+01:51:57,680 --> 01:51:59,680
+---区块开始---待翻译文本:【Very exhilarating.】翻译完请替换整个区块---区块结束---
+
+1112
+01:52:02,800 --> 01:52:12,160
+---区块开始---待翻译文本:【On a more serious note, here's everything we've announced today, from new launches and product expansions to glimmers of what's to come.】翻译完请替换整个区块---区块结束---
+
+1113
+01:52:12,480 --> 01:52:16,640
+---区块开始---待翻译文本:【The opportunity with AI is truly as big as it gets.】翻译完请替换整个区块---区块结束---
+
+1114
+01:52:16,960 --> 01:52:25,680
+---区块开始---待翻译文本:【And it'll be up to this wave of developers, technology builders to make sure its benefits reach as many people as possible.】翻译完请替换整个区块---区块结束---
+
+1115
+01:52:26,000 --> 01:52:29,360
+---区块开始---待翻译文本:【I want to leave you with a few examples that inspire me.】翻译完请替换整个区块---区块结束---
+
+1116
+01:52:29,680 --> 01:52:35,760
+---区块开始---待翻译文本:【The first is top of mind for those who live here in California and so many places around the world.】翻译完请替换整个区块---区块结束---
+
+1117
+01:52:36,080 --> 01:52:39,600
+---区块开始---待翻译文本:【So many of us know someone who has been affected by wildfires.】翻译完请替换整个区块---区块结束---
+
+1118
+01:52:39,920 --> 01:52:43,840
+---区块开始---待翻译文本:【They can start suddenly and grow out of control in a matter of minutes.】翻译完请替换整个区块---区块结束---
+
+1119
+01:52:44,160 --> 01:52:47,440
+---区块开始---待翻译文本:【Speed and precision can make all the difference.】翻译完请替换整个区块---区块结束---
+
+1120
+01:52:47,760 --> 01:52:52,480
+---区块开始---待翻译文本:【Together, with an amazing group of partners, we are building something called FireSat.】翻译完请替换整个区块---区块结束---
+
+1121
+01:52:53,040 --> 01:53:01,840
+---区块开始---待翻译文本:【It's a constellation of satellites that use multispectral satellite imagery and AI, aiming to provide near-real time insights.】翻译完请替换整个区块---区块结束---
+
+1122
+01:53:02,160 --> 01:53:03,840
+---区块开始---待翻译文本:【Just look at the resolution.】翻译完请替换整个区块---区块结束---
+
+1123
+01:53:04,160 --> 01:53:10,800
+---区块开始---待翻译文本:【It can detect fires as small as 270 square feet, about the size of a one-car garage.】翻译完请替换整个区块---区块结束---
+
+1124
+01:53:11,120 --> 01:53:13,440
+---区块开始---待翻译文本:【Our first satellite is in orbit now.】翻译完请替换整个区块---区块结束---
+
+1125
+01:53:13,760 --> 01:53:23,680
+---区块开始---待翻译文本:【When fully operational, imagery will be updated with a much greater frequency, down from every 12 hours today to every 20 minutes.】翻译完请替换整个区块---区块结束---
+
+1126
+01:53:31,520 --> 01:53:35,040
+---区块开始---待翻译文本:【Speed is also of the essence in other kinds of emergencies.】翻译完请替换整个区块---区块结束---
+
+1127
+01:53:35,360 --> 01:53:43,600
+---区块开始---待翻译文本:【During Hurricane Helene, Wing, in partnership with Walmart and the Red Cross, provided relief efforts with drone deliveries.】翻译完请替换整个区块---区块结束---
+
+1128
+01:53:43,920 --> 01:53:53,040
+---区块开始---待翻译文本:【Supported by AI, we were able to deliver critical items like food and medicine to a YMCA shelter in North Carolina based on real-time needs.】翻译完请替换整个区块---区块结束---
+
+1129
+01:53:53,280 --> 01:54:00,400
+---区块开始---待翻译文本:【We can imagine how this could be helpful in disaster relief in other communities, and we are actively working to scale up.】翻译完请替换整个区块---区块结束---
+
+1130
+01:54:00,960 --> 01:54:04,800
+---区块开始---待翻译文本:【These are examples of ways AI is helping society right now.】翻译完请替换整个区块---区块结束---
+
+1131
+01:54:05,120 --> 01:54:29,360
+---区块开始---待翻译文本:【It's especially inspiring to think about the research of today that will become reality in a few short years, whether it's building the next generation of helpful robots, finding treatments for the world's deadliest diseases, advancing error-corrected quantum computers, or delivering fully autonomous vehicles that can safely bring you anywhere you want to go.】翻译完请替换整个区块---区块结束---
+
+1132
+01:54:29,680 --> 01:54:33,600
+---区块开始---待翻译文本:【All of this is very much possible within not decades, but years.】翻译完请替换整个区块---区块结束---
+
+1133
+01:54:33,920 --> 01:54:35,280
+---区块开始---待翻译文本:【It's amazing.】翻译完请替换整个区块---区块结束---
+
+1134
+01:54:35,600 --> 01:54:39,680
+---区块开始---待翻译文本:【This opportunity to improve lives is not something I take for granted.】翻译完请替换整个区块---区块结束---
+
+1135
+01:54:40,000 --> 01:54:42,640
+---区块开始---待翻译文本:【And the recent experience brought that home for me.】翻译完请替换整个区块---区块结束---
+
+1136
+01:54:42,960 --> 01:54:45,440
+---区块开始---待翻译文本:【I was in San Francisco with my parents.】翻译完请替换整个区块---区块结束---
+
+1137
+01:54:45,760 --> 01:54:50,560
+---区块开始---待翻译文本:【The first thing they wanted to do was to ride in a Waymo, like a lot of other tourists.】翻译完请替换整个区块---区块结束---
+
+1138
+01:54:50,880 --> 01:55:00,960
+---区块开始---待翻译文本:【I had taken Waymos before, but watching my father, who's in his 80s in the front seat, be totally amazed, I saw the progress in a whole new light.】翻译完请替换整个区块---区块结束---
+
+1139
+01:55:01,280 --> 01:55:08,480
+---区块开始---待翻译文本:【It was a reminder of how incredible the power of technology is to inspire, to awe, and to move us forward.】翻译完请替换整个区块---区块结束---
+
+1140
+01:55:08,800 --> 01:55:12,320
+---区块开始---待翻译文本:【And I can't wait to see what amazing things we'll build together next.】翻译完请替换整个区块---区块结束---
+
+1141
+01:55:12,800 --> 01:55:13,680
+---区块开始---待翻译文本:【Thank you.】翻译完请替换整个区块---区块结束---
+
+1142
+01:55:29,040 --> 01:55:30,880
+---区块开始---待翻译文本:【What manner of magic is that?】翻译完请替换整个区块---区块结束---
+
+1143
+01:55:31,520 --> 01:55:34,960
+---区块开始---待翻译文本:【AI mode is the biggest revolution since the search engine was invented.】翻译完请替换整个区块---区块结束---
+
+1144
+01:55:36,320 --> 01:55:37,600
+---区块开始---待翻译文本:【Exactly what you want built.】翻译完请替换整个区块---区块结束---
+
+1145
+01:55:44,560 --> 01:55:47,200
+---区块开始---待翻译文本:【Project Mariner is going to change how we use our browsers.】翻译完请替换整个区块---区块结束---
+
+1146
+01:55:47,360 --> 01:55:49,920
+---区块开始---待翻译文本:【It's an AI agent that gets things done for you.】翻译完请替换整个区块---区块结束---
+
+1147
+01:55:50,240 --> 01:55:53,200
+---区块开始---待翻译文本:【Notebook elements mind now completely transformed for you.】翻译完请替换整个区块---区块结束---
+
+1148
+01:55:56,640 --> 01:55:57,520
+---区块开始---待翻译文本:【Just your shout out.】翻译完请替换整个区块---区块结束---
+
+1149
+01:56:01,200 --> 01:56:03,840
+---区块开始---待翻译文本:【AI 2.0 changing how we fight fires.】翻译完请替换整个区块---区块结束---
+
+1150
+01:56:04,320 --> 01:56:07,360
+---区块开始---待翻译文本:【Generative media is expanding the boundaries of creativity.】翻译完请替换整个区块---区块结束---
+
+1151
+01:56:07,680 --> 01:56:09,360
+---区块开始---待翻译文本:【That was magic the first time I thought it was.】翻译完请替换整个区块---区块结束---
+
+1152
+01:56:09,520 --> 01:56:10,480
+---区块开始---待翻译文本:【This is just another tool.】翻译完请替换整个区块---区块结束---
+
+1153
+01:56:10,720 --> 01:56:11,360
+---区块开始---待翻译文本:【It's a game changer.】翻译完请替换整个区块---区块结束---
+
+1154
+01:56:11,600 --> 01:56:14,640
+---区块开始---待翻译文本:【This is just like mind-blowing to the potential to make it.】翻译完请替换整个区块---区块结束---
