@@ -1,15 +1,17 @@
-# 复杂的物理方程示例：狄拉克方程
+# 复杂的数学公式示例：微积分与根式
 
-狄拉克方程是量子力学中描述费米子（如电子）的基本相对论性波动方程。其协变形式可以写作：
-```math
-(i\hbar\gamma^\mu\partial_\mu - mc)\psi = 0
-```
+下面是一个展示了微积分（积分与导数）和多个不同类型根号的复杂数学表达式。
+请注意，此公式主要用于展示 LaTeX 的排版能力，其数学推导的严格性是次要的。
+
+$$
+\frac{d}{dx} \int_{a}^{b} \sqrt{ \frac{\alpha x^2 + \sqrt{\beta x}}{\sqrt[3]{\gamma x + \delta}} } \, dx = \sqrt{ \frac{\alpha b^2 + \sqrt{\beta b}}{\sqrt[3]{\gamma b + \delta}} } - \sqrt{ \frac{\alpha a^2 + \sqrt{\beta a}}{\sqrt[3]{\gamma a + \delta}} } \cdot \frac{1}{\sqrt{x_0}}
+$$
+
 其中：
-- $\hbar$ 是约化普朗克常数
-- $\gamma^\mu$ 是伽马矩阵
-- $\partial_\mu$ 是四维梯度算子
-- $m$ 是粒子的静止质量
-- $c$ 是光速
-- $\psi$ 是狄拉克旋量场
+- $ \frac{d}{dx} $ 表示对 x 求导数。
+- $ \int_{a}^{b} \dots \, dx $ 表示从 a 到 b 的定积分。
+- $ \sqrt{\dots} $ 表示平方根。
+- $ \sqrt[3]{\dots} $ 表示立方根。
+- $ \alpha, \beta, \gamma, \delta $ 和 $ x_0 $ 可以视为参数或常数。
 
-这个方程巧妙地结合了量子力学和狭义相对论。
+这个表达式结合了多种数学符号和结构。
