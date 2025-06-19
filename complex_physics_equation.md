@@ -8,10 +8,10 @@ $$
 $$
 
 其中：
-- $ \frac{d}{dx} $ 表示对 x 求导数。
-- $ \int_{a}^{b} \dots \, dx $ 表示从 a 到 b 的定积分。
-- $ \sqrt{\dots} $ 表示平方根。
-- $ \sqrt[3]{\dots} $ 表示立方根。
-- $ \alpha, \beta, \gamma, \delta $ 和 $ x_0 $ 可以视为参数或常数。
+- $\frac{d}{dx}$ 表示对 x 求导数。
+- $\int_{a}^{b} \dots \, dx$ 表示从 a 到 b 的定积分。
+- $\sqrt{\dots}$ 表示平方根。
+- $\sqrt[3]{\dots}$ 表示立方根。
+- $\alpha, \beta, \gamma, \delta$ 和 $x_0$ 可以视为参数或常数。
 
 这个表达式结合了多种数学符号和结构。
