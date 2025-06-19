@@ -2,7 +2,7 @@
 
 狄拉克方程是量子力学中描述费米子（如电子）的基本相对论性波动方程。其协变形式可以写作：
 
-$$(i\hbar\gamma^\mu\partial_\mu - mc)\psi = 0$$
+$(i\hbar\gamma^\mu\partial_\mu - mc)\psi = 0$
 
 其中：
 - $\hbar$ 是约化普朗克常数
